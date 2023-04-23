@@ -27,7 +27,8 @@ const CaseStudy = ({ title, content, logo, link, logoH, logoW }) => {
 
         setLimitedContent(newContent);
 
-    }) 
+        // eslint-disable-next-line
+    }, [])
 
     return (
         <>
@@ -41,7 +42,7 @@ const CaseStudy = ({ title, content, logo, link, logoH, logoW }) => {
                         flexDirection: "column",
                         justifyContent: 'space-between',
                         gap: 2,
-                        height: '50vh',
+                        height: '55vh',
                         // width: {xs: '70vw', md: '100%'}
                     }}
                 >

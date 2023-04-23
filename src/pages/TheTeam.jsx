@@ -73,7 +73,7 @@ const TheTeam = () => {
                     src={`${process.env.PUBLIC_URL + "/images/team/a1.jpeg"}`}
                     alt=""
                     width="200px"
-                    height="300px"
+                    height="250px"
                     style={{ borderRadius: "10px" }}
                   />
                 </Box>
@@ -93,7 +93,7 @@ const TheTeam = () => {
                     src={`${process.env.PUBLIC_URL + "/images/team/b1.jpeg"}`}
                     alt=""
                     width="200px"
-                    height="300px"
+                    height="250px"
                     style={{ borderRadius: "10px" }}
                   />
                 </Box>
@@ -113,7 +113,7 @@ const TheTeam = () => {
                     src={`${process.env.PUBLIC_URL + "/images/team/c1.jpeg"}`}
                     alt=""
                     width="200px"
-                    height="300px"
+                    height="250px"
                     style={{ borderRadius: "10px" }}
                   />
                 </Box>
@@ -133,7 +133,7 @@ const TheTeam = () => {
                     src={`${process.env.PUBLIC_URL + "/images/team/d1.jpeg"}`}
                     alt=""
                     width="200px"
-                    height="300px"
+                    height="250px"
                     style={{ borderRadius: "10px" }}
                   />
                 </Box>
@@ -153,7 +153,7 @@ const TheTeam = () => {
                     src={`${process.env.PUBLIC_URL + "/images/team/e1.jpeg"}`}
                     alt=""
                     width="200px"
-                    height="300px"
+                    height="250px"
                     style={{ borderRadius: "10px" }}
                   />
                 </Box>
@@ -180,7 +180,7 @@ const TheTeam = () => {
                     src={`${process.env.PUBLIC_URL + "/images/team/f1.jpeg"}`}
                     alt=""
                     width="200px"
-                    height="300px"
+                    height="250px"
                     style={{ borderRadius: "10px" }}
                   />
                 </Box>
@@ -200,7 +200,7 @@ const TheTeam = () => {
                     src={`${process.env.PUBLIC_URL + "/images/team/g1.jpeg"}`}
                     alt=""
                     width="200px"
-                    height="300px"
+                    height="250px"
                     style={{ borderRadius: "10px" }}
                   />
                 </Box>
@@ -220,7 +220,7 @@ const TheTeam = () => {
                     src={`${process.env.PUBLIC_URL + "/images/team/h1.jpeg"}`}
                     alt=""
                     width="200px"
-                    height="300px"
+                    height="250px"
                     style={{ borderRadius: "10px" }}
                   />
                 </Box>
@@ -237,10 +237,10 @@ const TheTeam = () => {
               >
                 <Box sx={{ maxHeight: "400px", maxWidth: "200px" }}>
                   <img
-                    src={`${process.env.PUBLIC_URL + "/images/team/i.jpeg"}`}
+                    src={`${process.env.PUBLIC_URL + "/images/team/i1.jpeg"}`}
                     alt=""
                     width="200px"
-                    height="300px"
+                    height="250px"
                     style={{ borderRadius: "10px" }}
                   />
                 </Box>
@@ -257,10 +257,10 @@ const TheTeam = () => {
               >
                 <Box sx={{ maxHeight: "400px", maxWidth: "200px" }}>
                   <img
-                    src={`${process.env.PUBLIC_URL + "/images/team/j.jpeg"}`}
+                    src={`${process.env.PUBLIC_URL + "/images/team/j1.jpeg"}`}
                     alt=""
                     width="200px"
-                    height="300px"
+                    height="250px"
                     style={{ borderRadius: "10px" }}
                   />
                 </Box>
@@ -301,7 +301,7 @@ const TheTeam = () => {
               alignItems="center"
               sx={{ flexDirection: { xs: "column", sm: "row" } }}
             >
-              <Box width="200px" height="300px">
+              <Box width="200px" height="250px">
                 <img
                   src={`${process.env.PUBLIC_URL + "/assets/home-background-image.jpg"}`}
                   alt=""

@@ -2,12 +2,12 @@ import { Route, Routes } from "react-router-dom";
 import BackgroundVideo from "./components/BackgroundVideo";
 import Navbar from "./components/Navbar";
 
-import WhoWeAre from "./pages/WhoWeAre";
-import Home from "./pages/Home";
-import WhatWeDo from "./pages/WhatWeDo";
+import WhoWeAre1 from "./pages/WhoWeAre1";
+import Home1 from "./pages/Home1";
+import WhatWeDo1 from "./pages/WhatWeDo1";
 import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
-import TheTeam from "./pages/TheTeam";
+import TheTeam from "./pages/OurTeam/TheTeam";
 import Careers from "./pages/Careers";
 
 import CaseStudy from "./pages/CaseStudies/Index";
@@ -34,10 +34,10 @@ function App() {
       <BackgroundVideo />
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home1 />} />
 
-        <Route path="/what-we-do" element={<WhatWeDo />} />
-        <Route path="/who-we-are" element={<WhoWeAre />} />
+        <Route path="/what-we-do" element={<WhatWeDo1 />} />
+        <Route path="/who-we-are" element={<WhoWeAre1 />} />
 
         <Route path="/our-work" element={<OurWork />} />
 

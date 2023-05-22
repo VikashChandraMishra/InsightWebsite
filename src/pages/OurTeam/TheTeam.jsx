@@ -68,8 +68,8 @@ const TheTeam = () => {
                 <Grid item xs={6} sm={4} md={2.4}>
                   <Box
                     sx={{
-                      width: { xs: "150px", sm: "200px" },
-                      height: { xs: "200px", sm: "250px" },
+                      width: { xs: "100px", sm: "150px" },
+                      height: { xs: "100px", sm: "150px" },
                       margin: "auto",
                     }}
                     onClick={() => handleOpen(item.id)}
@@ -79,7 +79,7 @@ const TheTeam = () => {
                       alt=""
                       width="100%"
                       height="100%"
-                      style={{ borderRadius: "10px" }}
+                      style={{ borderRadius: "50%" }}
                     />
                   </Box>
                   <Box display="flex" flexDirection="column">
@@ -130,7 +130,7 @@ const TheTeam = () => {
                 <Box
                   sx={{
                     width: { xs: "150px", sm: "200px" },
-                    height: { xs: "200px", sm: "250px" },
+                    height: { xs: "150px", sm: "200px" },
                     marginTop: { xs: "20px", sm: "0px" },
                   }}
                 >

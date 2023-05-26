@@ -7,7 +7,7 @@ const WhoWeAre = () => {
       <Box
         display="flex"
         sx={{
-          p: "20px 100px",
+          p: { xs: "30px 50px", md: "80px 150px" },
           display: "flex",
           flexDirection: { xs: "column", md: "row" },
 
@@ -19,17 +19,18 @@ const WhoWeAre = () => {
           <Typography
             variant="h1"
             sx={{
-              fontWeight: "900",
+              fontWeight: "800",
               color: "#363435",
-              fontSize: { xs: "40px", md: "90px" },
+              fontSize: { xs: "40px", md: "100px" },
             }}
           >
             Who Are We
           </Typography>
           <Box display="flex" flexDirection="column" gap={2}>
             <Typography
-              variant="h4"
-              // sx={{ textAlign: { xs: "center", sm: "start", md: "start" } }}
+              variant="p"
+              sx={{ fontSize: '24px' }}
+            // sx={{ textAlign: { xs: "center", sm: "start", md: "start" } }}
             >
               Experts in Integrated Communication
             </Typography>
@@ -37,6 +38,7 @@ const WhoWeAre = () => {
               variant="p"
               sx={{
                 width: { xs: "100%", sm: "50%" },
+                fontSize: '14px'
                 // textAlign: { xs: "center", sm: "start", md: "start" }
               }}
             >
@@ -51,6 +53,7 @@ const WhoWeAre = () => {
               variant="p"
               sx={{
                 width: { xs: "100%", sm: "50%" },
+                fontSize: '14px'
                 // textAlign: { xs: "center", sm: "start", md: "start" },
               }}
             >
@@ -61,14 +64,23 @@ const WhoWeAre = () => {
             </Typography>
             <Box sx={{ margin: { xs: "auto", sm: "0" } }}>
               {" "}
-              <Button
-                variant="contained"
+              <Box
                 sx={{
                   backgroundColor: "#2F5325",
+                  width: "150px",
+                  borderRadius: "5px",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  marginLeft: { xs: "none", md: "900px" },
+                  marginTop: "20px",
+                  cursor: "pointer",
                 }}
               >
-                Know more
-              </Button>
+                <Typography variant="h6" sx={{ color: "white" }}>
+                  Let's connect
+                </Typography>
+              </Box>
             </Box>
           </Box>
         </Box>

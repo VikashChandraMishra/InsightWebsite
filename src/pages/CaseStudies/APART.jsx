@@ -123,15 +123,15 @@ const CaseStudy2 = () => {
           </Typography>
         </Box>
       </Box>
-      <Box sx={{ p: { xs: "10px", sm: "20px 100px" } }}>
+      <Box sx={{ p: { xs: "10px", sm: "20px 100px" }, width: '1500px' }}>
         <Grid container spacing={3}>
           <Grid item xs={12} sm={6} md={6}>
-            <img src={img2} alt="" width="100%" height="250px" />
+            <img src={img2} alt="" width="100%" height="400px" />
           </Grid>
         </Grid>
         <Grid container spacing={3}>
           <Grid item xs={12} sm={6} md={6}>
-            <img src={img1} alt="" width="100%" height="250px" />
+            <img src={img1} alt="" width="100%" height="400px" />
           </Grid>
         </Grid>
       </Box>

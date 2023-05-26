@@ -3,6 +3,7 @@ import React from "react";
 import WhatWeDo from "./WhatWeDo";
 import WhoWeAre from "./WhoWeAre";
 import Footer from "../components/Footer";
+import "../styles/css/switzer.css"
 
 const Home = () => {
   return (
@@ -21,7 +22,7 @@ const Home = () => {
           variant="h1"
           sx={{
             fontWeight: "900",
-            fontFamily: "'Switzer', sans-serif",
+            fontFamily: "Switzer-Variable",
             color: "#363435",
             fontSize: { xs: "40px", md: "90px" },
             textAlign: { xs: "center", sm: "start", md: "start" },
@@ -33,16 +34,17 @@ const Home = () => {
           <Typography
             variant="h4"
             sx={{
-              fontFamily: "'Switzer', sans-serif",
+              fontFamily: 'cursive',
               textAlign: { xs: "center", sm: "start", md: "start" }
             }}
           >
             Creating effective and inclusive communication
           </Typography>
+
           <Typography
             variant="p"
             sx={{
-              fontFamily: "'Switzer', sans-serif",
+              fontFamily: "'Switzer-VariableItalic', sans-serif",
               textAlign: { xs: "center", sm: "start", md: "start" },
               fontSize: '14px'
             }}

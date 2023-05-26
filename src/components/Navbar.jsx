@@ -17,10 +17,10 @@ const Navbar = () => {
   };
   return (
     <div>
-      <Box sx={{ p: { xs: "20px 50px", md: "20px 100px" } }}>
+      <Box sx={{ p: { xs: "20px 50px", md: "20px 150px" } }}>
         <Box display="flex" justifyContent="space-between" alignItems="center">
           <Link to="/">
-            <img src={Logo} alt="" width="130px" height="60px" />
+            <img src={Logo} alt="" width="90px" height="40px" />
           </Link>
 
           <motion.div
@@ -36,7 +36,11 @@ const Navbar = () => {
               zIndex: 999,
             }}
           >
-            <MenuIcon />
+            <MenuIcon
+              sx={{
+                marginRight: { xs: '20px', md: '120px' }
+              }}
+            />
           </motion.div>
           {isOpen && <Menu onClose={handleMenuClose} />}
         </Box>

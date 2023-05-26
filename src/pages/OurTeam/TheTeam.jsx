@@ -79,7 +79,7 @@ const TheTeam = () => {
                       alt=""
                       width="100%"
                       height="100%"
-                      style={{ borderRadius: "50%" }}
+                      style={{ borderRadius: "10%" }}
                     />
                   </Box>
                   <Box display="flex" flexDirection="column">

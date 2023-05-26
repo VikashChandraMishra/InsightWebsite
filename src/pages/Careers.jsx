@@ -17,7 +17,7 @@ const Careers = () => {
         }}
       >
         <Box marginTop="20px" display="flex" flexDirection="column" gap={2}>
-          <Typography variant="h3" sx={{ fontWeight: "bold" }}>
+          <Typography variant="h1" sx={{ fontWeight: "bold" }}>
             Careers
           </Typography>
           <Typography variant="h5">Be part of the team. Join us.</Typography>
@@ -28,7 +28,7 @@ const Careers = () => {
             media, data and technology. Come, be part of a team that strives to
             do meaningful work and leave a profound impact on communities.
           </Typography>
-          <Typography variant="h3" sx={{ fontWeight: "bold" }}>
+          <Typography variant="h4" sx={{ fontWeight: "bold" }}>
             Vacancies
           </Typography>
         </Box>
@@ -41,7 +41,9 @@ const Careers = () => {
               justifyContent="space-between"
               alignItems="center"
             >
-              <Typography variant="p">Senior Visualizer</Typography>
+              <Typography variant="h5" sx={{ fontWeight: "bold" }}>
+                Senior Visualizer
+              </Typography>
               <KeyboardArrowDownIcon onClick={() => handleOpen(true)} />
             </Box>
             <Divider />
@@ -121,7 +123,9 @@ const Careers = () => {
               justifyContent="space-between"
               alignItems="center"
             >
-              <Typography variant="p">Experience Designer</Typography>
+              <Typography variant="h5" sx={{ fontWeight: "bold" }}>
+                Experience Designer
+              </Typography>
               <KeyboardArrowDownIcon />
             </Box>
             <Divider />
@@ -132,7 +136,9 @@ const Careers = () => {
               justifyContent="space-between"
               alignItems="center"
             >
-              <Typography variant="p">Content Writer</Typography>
+              <Typography variant="h5" sx={{ fontWeight: "bold" }}>
+                Content Writer
+              </Typography>
               <KeyboardArrowDownIcon />
             </Box>
             <Divider />

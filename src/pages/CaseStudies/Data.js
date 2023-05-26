@@ -1,5 +1,4 @@
-export const caseStudies = [
-    {
+export const caseStudies = [{
         title: 'Assam Cancer Care Foundation (ACCF)',
         content: "The Government of Assam and the Tata Trusts set forth on their joint initiative of establishing a comprehensive cancer care network in the State. And that needed to be amplified in an exhibition that was a starting point for the Prime Minister's visit to the inauguration event.",
         logo: '../assets/ACCF.png',
@@ -35,8 +34,8 @@ export const caseStudies = [
         title: 'Bajaj Auto',
         content: "Our objective for the client was to drive sales, improve the conversion rate & increase the digital presence of 104 dealers across Northeast India.",
         logo: '../assets/bajaj.png',
-        logoH: '80px',
-        logoW: '80px',
+        logoH: '70px',
+        logoW: '60px',
         link: "/bajaj-auto"
     },
     {

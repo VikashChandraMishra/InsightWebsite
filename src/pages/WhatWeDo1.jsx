@@ -37,7 +37,7 @@ const WhatWeDo = () => {
         </Typography>
       </Box>
       <Grid container spacing={3} sx={{ p: { xs: 2, sm: "20px 100px" } }}>
-        <Grid item md={2} sm={3} xs={4}>
+        <Grid item md={2.4} sm={3} xs={4}>
           <Box
             display="flex"
             justifyContent="center"
@@ -50,20 +50,22 @@ const WhatWeDo = () => {
                 width: { xs: "80px", sm: "120px", md: "150px" },
                 height: { xs: "80px", sm: "120px", md: "150px" },
                 borderRadius: "50%",
-                backgroundColor: "darkgreen",
+                backgroundColor: "#2F5325",
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
               }}
             >
-              <img src={icon1} alt="" width="50%" height="50%" />
+              <Box sx={{ height: { md: "60px" }, width: { md: "70px" } }}>
+                <img src={icon1} alt="" width="100%" height="100%" />
+              </Box>
             </Box>
             <Typography variant="p" sx={{ textAlign: "center" }}>
               Communication Consultancy
             </Typography>
           </Box>
         </Grid>
-        <Grid item md={2} sm={3} xs={4}>
+        <Grid item md={2.4} sm={3} xs={4}>
           <Box
             display="flex"
             justifyContent="center"
@@ -76,20 +78,22 @@ const WhatWeDo = () => {
                 width: { xs: "80px", sm: "120px", md: "150px" },
                 height: { xs: "80px", sm: "120px", md: "150px" },
                 borderRadius: "50%",
-                backgroundColor: "darkgreen",
+                backgroundColor: "#2F5325",
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
               }}
             >
-              <img src={icon2} alt="" width="50%" height="50%" />
+              <Box sx={{ height: { md: "70px" }, width: { md: "60px" } }}>
+                <img src={icon2} alt="" width="100%" height="100%" />
+              </Box>
             </Box>
             <Typography variant="p" sx={{ textAlign: "center" }}>
               Brand Strategy Development
             </Typography>
           </Box>
         </Grid>
-        <Grid item md={2} sm={3} xs={4}>
+        <Grid item md={2.4} sm={3} xs={4}>
           <Box
             display="flex"
             justifyContent="center"
@@ -102,20 +106,22 @@ const WhatWeDo = () => {
                 width: { xs: "80px", sm: "120px", md: "150px" },
                 height: { xs: "80px", sm: "120px", md: "150px" },
                 borderRadius: "50%",
-                backgroundColor: "darkgreen",
+                backgroundColor: "#2F5325",
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
               }}
             >
-              <img src={icon3} alt="" width="50%" height="50%" />
+              <Box sx={{ height: { md: "80px" }, width: { md: "60px" } }}>
+                <img src={icon3} alt="" width="100%" height="100%" />
+              </Box>
             </Box>
             <Typography variant="p" sx={{ textAlign: "center" }}>
               Content & Design Services
             </Typography>
           </Box>
         </Grid>
-        <Grid item md={2} sm={3} xs={4}>
+        <Grid item md={2.4} sm={3} xs={4}>
           <Box
             display="flex"
             justifyContent="center"
@@ -128,20 +134,22 @@ const WhatWeDo = () => {
                 width: { xs: "80px", sm: "120px", md: "150px" },
                 height: { xs: "80px", sm: "120px", md: "150px" },
                 borderRadius: "50%",
-                backgroundColor: "darkgreen",
+                backgroundColor: "#2F5325",
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
               }}
             >
-              <img src={icon4} alt="" width="50%" height="50%" />
+              <Box sx={{ height: { md: "45px" }, width: { md: "80px" } }}>
+                <img src={icon4} alt="" width="100%" height="100%" />
+              </Box>
             </Box>
             <Typography variant="p" sx={{ textAlign: "center" }}>
               Audio Visual Production
             </Typography>
           </Box>
         </Grid>
-        <Grid item md={2} sm={3} xs={4}>
+        <Grid item md={2.4} sm={3} xs={4}>
           <Box
             display="flex"
             justifyContent="center"
@@ -154,7 +162,7 @@ const WhatWeDo = () => {
                 width: { xs: "80px", sm: "120px", md: "150px" },
                 height: { xs: "80px", sm: "120px", md: "150px" },
                 borderRadius: "50%",
-                backgroundColor: "darkgreen",
+                backgroundColor: "#2F5325",
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
@@ -167,7 +175,7 @@ const WhatWeDo = () => {
             </Typography>
           </Box>
         </Grid>
-        <Grid item md={2} sm={3} xs={4}>
+        <Grid item md={2.4} sm={3} xs={4}>
           <Box
             display="flex"
             justifyContent="center"
@@ -180,20 +188,22 @@ const WhatWeDo = () => {
                 width: { xs: "80px", sm: "120px", md: "150px" },
                 height: { xs: "80px", sm: "120px", md: "150px" },
                 borderRadius: "50%",
-                backgroundColor: "darkgreen",
+                backgroundColor: "#2F5325",
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
               }}
             >
-              <img src={icon6} alt="" width="50%" height="50%" />
+              <Box sx={{ height: { md: "80px" }, width: { md: "65px" } }}>
+                <img src={icon6} alt="" width="100%" height="100%" />
+              </Box>
             </Box>
             <Typography variant="p" sx={{ textAlign: "  enter" }}>
               Social Media Marketing
             </Typography>
           </Box>
         </Grid>
-        <Grid item md={2} sm={3} xs={4}>
+        <Grid item md={2.4} sm={3} xs={4}>
           <Box
             display="flex"
             justifyContent="center"
@@ -206,7 +216,7 @@ const WhatWeDo = () => {
                 width: { xs: "80px", sm: "120px", md: "150px" },
                 height: { xs: "80px", sm: "120px", md: "150px" },
                 borderRadius: "50%",
-                backgroundColor: "darkgreen",
+                backgroundColor: "#2F5325",
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
@@ -219,7 +229,7 @@ const WhatWeDo = () => {
             </Typography>
           </Box>
         </Grid>
-        <Grid item md={2} sm={3} xs={4}>
+        <Grid item md={2.4} sm={3} xs={4}>
           <Box
             display="flex"
             justifyContent="center"
@@ -232,7 +242,7 @@ const WhatWeDo = () => {
                 width: { xs: "80px", sm: "120px", md: "150px" },
                 height: { xs: "80px", sm: "120px", md: "150px" },
                 borderRadius: "50%",
-                backgroundColor: "darkgreen",
+                backgroundColor: "#2F5325",
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
@@ -245,7 +255,7 @@ const WhatWeDo = () => {
             </Typography>
           </Box>
         </Grid>
-        <Grid item md={2} sm={3} xs={4}>
+        <Grid item md={2.4} sm={3} xs={4}>
           <Box
             display="flex"
             justifyContent="center"
@@ -258,7 +268,7 @@ const WhatWeDo = () => {
                 width: { xs: "80px", sm: "120px", md: "150px" },
                 height: { xs: "80px", sm: "120px", md: "150px" },
                 borderRadius: "50%",
-                backgroundColor: "darkgreen",
+                backgroundColor: "#2F5325",
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
@@ -272,6 +282,23 @@ const WhatWeDo = () => {
           </Box>
         </Grid>
       </Grid>
+      <Box
+        sx={{
+          backgroundColor: "#2F5325",
+          width: "150px",
+          borderRadius: "10px",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          marginLeft: { xs: "none", md: "1050px" },
+          marginTop: "50px",
+          cursor: "pointer",
+        }}
+      >
+        <Typography variant="h6" sx={{ color: "white" }}>
+          Let's connect
+        </Typography>
+      </Box>
     </>
   );
 };

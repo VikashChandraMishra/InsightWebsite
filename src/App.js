@@ -27,42 +27,54 @@ import BrahmaputraBoard from "./pages/CaseStudies/BrahmaputraBoard";
 
 
 import OurWork from "./pages/OurWork/Index";
+import { createTheme, ThemeProvider } from '@mui/material';
+
+
+const theme = createTheme({
+  typography: {
+    // fontFamily: 'Chilanka, cursive'
+    fontFamily: 'Switzer-Thin'
+  }
+});
 
 function App() {
   return (
     <div className="App">
-      <BackgroundVideo />
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home1 />} />
+      <ThemeProvider theme={theme}>
 
-        <Route path="/what-we-do" element={<WhatWeDo1 />} />
-        <Route path="/who-we-are" element={<WhoWeAre1 />} />
+        <BackgroundVideo />
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home1 />} />
 
-        <Route path="/our-work" element={<OurWork />} />
+          <Route path="/what-we-do" element={<WhatWeDo1 />} />
+          <Route path="/who-we-are" element={<WhoWeAre1 />} />
+
+          <Route path="/our-work" element={<OurWork />} />
 
 
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/team" element={<TheTeam />} />
-        <Route path="/careers" element={<Careers />} />
-        <Route path="/case-studies" element={<CaseStudy />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/team" element={<TheTeam />} />
+          <Route path="/careers" element={<Careers />} />
+          <Route path="/case-studies" element={<CaseStudy />} />
 
-        <Route path="/assam-cancer-care-foundation" element={<AssamCancerCareFoundation />} />
-        <Route path="/dept-of-agri" element={<DepartmentOfAgriculture />} />
-        <Route path="/jjm" element={<JalJeevanMissionMeghalaya />} />
-        <Route path="/apart" element={<APART />} />
+          <Route path="/assam-cancer-care-foundation" element={<AssamCancerCareFoundation />} />
+          <Route path="/dept-of-agri" element={<DepartmentOfAgriculture />} />
+          <Route path="/jjm" element={<JalJeevanMissionMeghalaya />} />
+          <Route path="/apart" element={<APART />} />
 
-        <Route path="/bajaj-auto" element={<BajajAuto />} />
-        <Route path="/cci" element={<CompetitionCommissionOfIndia />} />
-        <Route path="/pernod-ricard" element={<PernodRicard />} />
-        <Route path="/nhm" element={<NationalHealthMission />} />
+          <Route path="/bajaj-auto" element={<BajajAuto />} />
+          <Route path="/cci" element={<CompetitionCommissionOfIndia />} />
+          <Route path="/pernod-ricard" element={<PernodRicard />} />
+          <Route path="/nhm" element={<NationalHealthMission />} />
 
-        <Route path="/unicef" element={<UNICEF />} />
-        <Route path="/brahmaputra-board" element={<BrahmaputraBoard />} />
+          <Route path="/unicef" element={<UNICEF />} />
+          <Route path="/brahmaputra-board" element={<BrahmaputraBoard />} />
 
-      </Routes>
-      <Footer />
+        </Routes>
+        <Footer />
 
+      </ThemeProvider>
     </div>
   );
 }

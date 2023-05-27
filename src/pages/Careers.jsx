@@ -12,21 +12,42 @@ const Careers = () => {
     <div>
       <Box
         sx={{
-          width: { xs: "100%", sm: "60%" },
-          p: { xs: "10px", sm: "20px 100px" },
+          width: { xs: "90%", sm: "85%" },
+          p: { xs: "10px 20px", sm: "20px 100px" },
         }}
       >
         <Box marginTop="20px" display="flex" flexDirection="column" gap={2}>
-          <Typography variant="h1" sx={{ fontWeight: "bold" }}>
+          <Typography variant="h1" sx={{ 
+            fontWeight: "bold",
+            fontFamily: "Switzer-Variable",
+            fontSize: {xs:"50px", md: "100px"}
+            }}>
             Careers
           </Typography>
-          <Typography variant="h5">Be part of the team. Join us.</Typography>
+          <Typography variant="p"
+          sx={{
+            fontSize: "1.5rem"
+          }}
+          >Be part of the team. Join us.</Typography>
 
-          <Typography variant="p">
-            Atlnsight, we help clients navigate, progress and thrive in a world
+          <Typography variant="p"
+          sx={{
+            fontStyle: "italic",
+            // fontWeight: "600",
+            fontSize: "0.8rem",
+            width: {xs: "100%", md: "50%"}
+          }}
+          >
+            Are you a creative visionary looking for a place in the dynamic world of advertising? Join oInsight Brandcom and embark on an exciting journey that will elevate your career to new heights!
+
+            We are seeking individuals with a passion for storytelling, design, and strategy to join our talented team of professionals. With a proven track record of creating groundbreaking campaigns for our clients, we provide the perfect platform for you to showcase your skills and make an impact in the industry.
+
+            Don't miss this opportunity to collaborate with like-minded individuals, work on challenging projects, and be at the forefront of cutting-edge advertising techniques. To take the first step towards an extraordinary career, simply fill out our Google form and join us today!
+
+            {/* Atlnsight, we help clients navigate, progress and thrive in a world
             of change. We help champion meaningful progress through creative,
             media, data and technology. Come, be part of a team that strives to
-            do meaningful work and leave a profound impact on communities.
+            do meaningful work and leave a profound impact on communities. */}
           </Typography>
           <Typography variant="h4" sx={{ fontWeight: "bold" }}>
             Vacancies

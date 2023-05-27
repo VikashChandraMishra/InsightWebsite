@@ -9,7 +9,6 @@ import icon6 from "../assets/icon6.png";
 import icon7 from "../assets/icon7.png";
 import icon8 from "../assets/icon8.png";
 import icon9 from "../assets/icon9.png";
-import Footer from "../components/Footer";
 
 const WhatWeDo = () => {
   return (
@@ -31,6 +30,7 @@ const WhatWeDo = () => {
             fontWeight: "900",
             color: "#363435",
             fontSize: { xs: "40px", md: "90px" },
+            fontFamily: 'Switzer-Variable'
           }}
         >
           What We Do

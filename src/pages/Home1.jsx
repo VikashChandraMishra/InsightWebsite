@@ -82,7 +82,7 @@ const Home = () => {
           <Box
             sx={{
               backgroundColor: "#2F5325",
-              width: "10vw",
+              width: "120px",
               borderRadius: "5px",
               display: "flex",
               justifyContent: "center",

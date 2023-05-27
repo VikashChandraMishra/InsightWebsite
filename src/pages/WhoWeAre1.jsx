@@ -7,7 +7,7 @@ const WhoWeAre = () => {
       <Box
         display="flex"
         sx={{
-          p: { xs: "30px 50px", md: "80px 150px" },
+          p: { xs: "30px 50px", md: "10vh 12vw" },
           display: "flex",
           flexDirection: { xs: "column", md: "row" },
 
@@ -22,6 +22,7 @@ const WhoWeAre = () => {
               fontWeight: "800",
               color: "#363435",
               fontSize: { xs: "40px", md: "100px" },
+              fontFamily: "Switzer-Variable"
             }}
           >
             Who Are We
@@ -29,7 +30,7 @@ const WhoWeAre = () => {
           <Box display="flex" flexDirection="column" gap={2}>
             <Typography
               variant="p"
-              sx={{ fontSize: '24px' }}
+              sx={{ fontSize: '1.5rem' }}
             // sx={{ textAlign: { xs: "center", sm: "start", md: "start" } }}
             >
               Experts in Integrated Communication
@@ -37,8 +38,8 @@ const WhoWeAre = () => {
             <Typography
               variant="p"
               sx={{
-                width: { xs: "100%", sm: "50%" },
-                fontSize: '14px'
+                width: { xs: "100%", sm: "100%", md: "50%" },
+                fontSize: '0.8rem'
                 // textAlign: { xs: "center", sm: "start", md: "start" }
               }}
             >
@@ -52,8 +53,8 @@ const WhoWeAre = () => {
             <Typography
               variant="p"
               sx={{
-                width: { xs: "100%", sm: "50%" },
-                fontSize: '14px'
+                width: { xs: "100%", sm: "100%", md: "50%" },
+                fontSize: '0.8rem'
                 // textAlign: { xs: "center", sm: "start", md: "start" },
               }}
             >
@@ -72,7 +73,7 @@ const WhoWeAre = () => {
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
-                  marginLeft: { xs: "none", md: "900px" },
+                  marginLeft: { xs: "none", md: "65vw" },
                   marginTop: "20px",
                   cursor: "pointer",
                 }}

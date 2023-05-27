@@ -13,19 +13,33 @@ const Contact = () => {
           alignItems: "center",
         }}
       >
-        <Box display="flex" flexDirection="column" gap={5}>
+        <Box display="flex"
+          sx={{
+            alignItems: { xs: "center" }
+          }}
+          flexDirection="column" gap={5}>
           <Typography
             variant="h1"
             sx={{
               fontWeight: "bold",
               color: "#363435",
-              fontSize: { xs: "40px", md: "120px" },
+              fontSize: { xs: "60px", md: "120px" },
+              fontFamily: 'Switzer-Variable'
             }}
           >
-            Contact us
+            Contact Us
           </Typography>
-          <Box display="flex" flexDirection="column" gap={2}>
-            <Typography variant="h4">For Projects and Collboration</Typography>
+          <Box display="flex" flexDirection="column"
+            sx={{
+              alignItems: { xs: "center" }
+            }}
+            gap={2}>
+            <Typography
+              variant="p"
+              sx={{
+                fontSize: {xs: "1.5rem", md:"2rem"}
+              }}
+            >For projects and collaboration</Typography>
             <Box
               display="flex"
               gap={5}
@@ -35,12 +49,16 @@ const Contact = () => {
                 <Typography variant="p">Email us at</Typography>
                 <Box
                   sx={{
+                    width: { xs: "280px", sm: "200px", md: "200px" },
                     backgroundColor: "#2F5325",
-                    borderRadius: "10px",
+                    borderRadius: "8px",
                     p: 1,
                   }}
                 >
-                  <Typography variant="p" sx={{ color: "white" }}>
+                  <Typography variant="p" sx={{
+                    color: "white",
+                    fontSize: '0.8rem'
+                  }}>
                     info@insightbrandcom.com
                   </Typography>
                 </Box>
@@ -49,12 +67,16 @@ const Contact = () => {
                 <Typography variant="p">Call us at</Typography>
                 <Box
                   sx={{
+                    width: { xs: "280px", sm: "200px", md: "200px" },
                     backgroundColor: "#2F5325",
-                    borderRadius: "10px",
+                    borderRadius: "8px",
                     p: 1,
                   }}
                 >
-                  <Typography variant="p" sx={{ color: "white" }}>
+                  <Typography variant="p" sx={{
+                    color: "white",
+                    fontSize: '0.8rem'
+                  }}>
                     +91 361 2522 444
                   </Typography>
                 </Box>

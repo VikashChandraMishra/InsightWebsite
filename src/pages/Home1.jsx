@@ -6,21 +6,24 @@ const Home = () => {
     <div id="home">
       <Box
         sx={{
-          p: "20px 100px",
+          marginTop: "5vh",
+          marginLeft: "15vw",
+          marginRight: "15vw",
           display: "flex",
           flexDirection: { xs: "column", md: "row" },
           alignItems: "center",
           gap: { xs: 5, sm: 10 },
-          marginTop: "100px",
+          // marginTop: "20vh",
         }}
       >
         <Typography
           variant="h1"
           sx={{
             fontWeight: "900",
-            marginBottom: { xs: "0px", md: "100px" },
+            marginBottom: { xs: "0px", md: "10vh" },
             color: "#363435",
             fontSize: { xs: "40px", md: "90px" },
+            fontFamily: "Switzer-Variable"
             // textAlign: { xs: "center", sm: "start", md: "start" },
           }}
         >
@@ -30,16 +33,25 @@ const Home = () => {
           display="flex"
           flexDirection="column"
           gap={2}
-          sx={{ width: { md: "400px" } }}
+          sx={{ 
+            width: { md: "27.5vw" },
+            marginTop: {xs: "0vh", md: "15vh"}
+          }}
         >
-          <Typography variant="h4">
+          <Typography 
+          variant="p"
+          sx={{
+            fontSize: '1.5rem',
+            width: {md: '20vw'}
+          }}
+          >
             Creating effective and inclusive communication
           </Typography>
           <Typography
             variant="p"
             sx={{
               // textAlign: { xs: "center", sm: "start", md: "start" },
-              fontSize: "14px",
+              fontSize: "0.7rem",
             }}
           >
             Connecting the dots is crucial in today's complex and rapidly
@@ -54,7 +66,7 @@ const Home = () => {
             variant="p"
             sx={{
               // textAlign: { xs: "center", sm: "start", md: "start" },
-              fontSize: "14px",
+              fontSize: "0.7rem",
             }}
           >
             At Insight Brandcom, that's our philosophy. We work with brands on
@@ -70,17 +82,22 @@ const Home = () => {
           <Box
             sx={{
               backgroundColor: "#2F5325",
-              width: "150px",
-              borderRadius: "10px",
+              width: "10vw",
+              borderRadius: "5px",
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              marginLeft: { xs: "none", md: "250px" },
-              marginTop: "50px",
+              marginLeft: { xs: "none", md: "15vw" },
+              marginTop: "10vh",
               cursor: "pointer",
             }}
           >
-            <Typography variant="h6" sx={{ color: "white" }}>
+            <Typography variant="p" sx={{ 
+              color: "whitesmoke",
+              fontFamily: 'Switzer-Thin',
+              p: "0.1rem",
+              fontSize: '1.2rem'
+              }}>
               Know more
             </Typography>
           </Box>

@@ -32,7 +32,6 @@ const Careers = () => {
 
           <Typography variant="p"
           sx={{
-            fontStyle: "italic",
             // fontWeight: "600",
             fontSize: "0.8rem",
             width: {xs: "100%", md: "50%"}

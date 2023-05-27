@@ -40,11 +40,6 @@ const Footer = () => {
           </Box>
           <Box sx={{ width: { xs: "100%", md: "40%" } }}>
             <Typography variant="p" sx={{ color: "white", fontSize: "13px" }}>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Mollitia, maxime! Praesentium dolore sequi perferendis culpa,
-              aperiam, vero et tenetur similique quo harum obcaecati sunt error!
-              Sapiente perferendis natus ex possimus nisi quia reiciendis
-              debitis commodi inventore itaque. Cumque, cupiditate tempore?
             </Typography>
           </Box>
         </Box>

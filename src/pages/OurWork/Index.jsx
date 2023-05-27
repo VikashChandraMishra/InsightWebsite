@@ -48,19 +48,26 @@ const OurWork = () => {
   };
   return (
     <>
-      <Box sx={{ padding: "20px 50px" }}>
+      <Box sx={{
+        padding: {md: "20px 150px"}
+      }}>
         <Typography
           variant="h1"
           sx={{
             fontWeight: "bold",
             color: "#363435",
             fontSize: { xs: "40px", md: "90px" },
+            fontFamily: "Switzer-Variable"
           }}
         >
           Our Work{" "}
         </Typography>
 
-        <Typography variant="h6">
+        <Typography variant="p"
+          sx={{
+            fontSize: "1.5rem"
+          }}
+        >
           We create brand experiences the clients love
         </Typography>
 
@@ -77,7 +84,7 @@ const OurWork = () => {
                   gap: 2,
                   p: 2,
                   marginTop: "20px",
-                  height: "30vh",
+                  height: "20vh",
                 }}
               >
                 <img
@@ -87,7 +94,8 @@ const OurWork = () => {
                   height={item.logoH}
                 />
 
-                <Typography variant="body1">{item.name}</Typography>
+                <Typography variant="p"
+                >{item.name}</Typography>
 
                 <Button
                   variant="contained"
@@ -211,7 +219,7 @@ const OurWork = () => {
                 Jal Jeevan Misson in Meghalaya
               </Typography>
             </Box>
-            <CloseIcon onClick={handleClose}/>
+            <CloseIcon onClick={handleClose} />
           </Box>
           <Box p={2} margin="auto" width="600px" marginBottom="100px">
             <Slider {...settings}>

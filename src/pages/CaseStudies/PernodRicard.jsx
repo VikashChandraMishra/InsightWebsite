@@ -13,20 +13,43 @@ const CaseStudy9 = () => {
       <Box
         sx={{
           width: { xs: "100%", sm: "60%" },
-          p: { xs: "10px", sm: "20px 100px" },
+          p: { xs: "10px", sm: "20px 150px" },
+          marginTop: "100px"
         }}
       >
-        <img src={Logo} alt="" />
-        <Box marginTop="20px" display="flex" flexDirection="column" gap={2}>
-          <Typography variant="h3" sx={{ fontWeight: "bold" }}>
+        <img src={Logo} width="230px" alt="" />
+        <Box marginTop="20px"
+          display="flex"
+          flexDirection="column"
+          gap={2}
+          sx={{
+            width: { md: "40vw" }
+          }}>
+          <Typography variant="h4" sx={{ fontWeight: "900", fontFamily: "Switzer-Variable", color: "#363435" }}>
             Campaign 1
           </Typography>
-          <Typography variant="h5">
+          <Typography
+            variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "1.4rem",
+              fontWeight: "300"
+            }}>
             Influencer Campaign for Blenders Pride Shantanu & Nikhil Limited
             Edition Pack
           </Typography>
-          <Typography variant="h4">Challenges</Typography>
-          <Typography variant="p">
+          <Typography 
+            variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "1.7rem",
+              fontWeight: "300"
+            }}>Challenges</Typography>
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}>
             Our responsibilities involved promoting and selling the latest
             limited-edition pack of Blenders Pride Whisky. We aim to create
             awareness of this exclusive product among whisky connoisseurs and
@@ -38,8 +61,18 @@ const CaseStudy9 = () => {
             deserves, thereby increasing its visibility and sales in the market.
           </Typography>
 
-          <Typography variant="h4">The Journey</Typography>
-          <Typography variant="p">
+          <Typography variant="h4"
+            sx={{
+              color: "#363435",
+              fontSize: "1.7rem",
+              fontFamily: "Switzer-Variable",
+              fontWeight: "300"
+            }}>The Journey</Typography>
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}>
             We executed a weeklong Instagram-led campaign in collaboration with
             ten select influencers who created various forms of content,
             including videos, posts, reels, and images. These influencers were
@@ -55,8 +88,18 @@ const CaseStudy9 = () => {
             the product.
           </Typography>
 
-          <Typography variant="h4">Impact</Typography>
-          <Typography variant="p">
+          <Typography variant="h4"
+            sx={{
+              color: "#363435",
+              fontSize: "1.7rem",
+              fontFamily: "Switzer-Variable",
+              fontWeight: "300"
+            }}>Impact</Typography>
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}>
             We successfully reached out to over 40,00,000 new audience members,
             achieving an average engagement rate of 10%. The campaign was able
             to reach a staggering 40,00,000 audience members, increasing the
@@ -68,14 +111,29 @@ const CaseStudy9 = () => {
             successful in reaching a large number of potential customers,
             increasing brand awareness, and boosting sales.
           </Typography>
-          <Typography variant="h3" sx={{ fontWeight: "bold" }}>
+          <Typography  variant="h4" sx={{ fontWeight: "900", fontFamily: "Switzer-Variable", color: "#363435" }}>
             Campaign 2
           </Typography>
-          <Typography variant="h5">
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "1.4rem",
+              fontWeight: "300"
+            }}>
             Imperial Blue Product and New Packaging Launch
           </Typography>
-          <Typography variant="h4">Challenges</Typography>
-          <Typography variant="p">
+          <Typography variant="h4"
+            sx={{
+              color: "#363435",
+              fontSize: "1.7rem",
+              fontFamily: "Switzer-Variable",
+              fontWeight: "300"
+            }}>Challenges</Typography>
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}>
             We aimed to drive sales and promote the integration of the latest
             product packaging in the market. The primary objective is to create
             awareness of this innovative packaging among whisky connoisseurs and
@@ -87,8 +145,18 @@ const CaseStudy9 = () => {
             increased sales and revenue.
           </Typography>
 
-          <Typography variant="h4">The Journey</Typography>
-          <Typography variant="p">
+          <Typography variant="h4"
+            sx={{
+              color: "#363435",
+              fontSize: "1.7rem",
+              fontFamily: "Switzer-Variable",
+              fontWeight: "300"
+            }}>The Journey</Typography>
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}>
             Our marketing strategy involved a range of different tactics,
             including selfie campaigns, an interactive microsite, SMS
             integration, and the distribution of Amazon gift vouchers for daily
@@ -103,8 +171,18 @@ const CaseStudy9 = () => {
             attract attention, and ultimately drive sales.
           </Typography>
 
-          <Typography variant="h4">Impact</Typography>
-          <Typography variant="p">
+          <Typography variant="h4"
+            sx={{
+              color: "#363435",
+              fontSize: "1.7rem",
+              fontFamily: "Switzer-Variable",
+              fontWeight: "300"
+            }}>Impact</Typography>
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}>
             The influencer campaign successfully reached over 20,00,000 people,
             generating significant exposure and increasing brand awareness.
             Additionally, the campaign attracted over 3000 participants,

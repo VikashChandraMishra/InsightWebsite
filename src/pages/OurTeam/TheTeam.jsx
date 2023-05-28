@@ -36,7 +36,8 @@ const TheTeam = () => {
     <div>
       <Box
         sx={{
-          padding: { xs: 2, sm: "20px 10vw" },
+          paddingLeft: {xs: "7vw", md: "10vw"},
+          marginTop: "120px",
         }}
       >
         <Box display="flex" flexDirection="column" gap={5}>
@@ -46,14 +47,14 @@ const TheTeam = () => {
               fontWeight: "bold",
               color: "#363435",
               fontFamily: "Switzer-Variable",
-              fontSize: { xs: "40px", md: "7rem" },
+              fontSize: { xs: "4rem", md: "7rem" },
             }}
           >
             The Team
           </Typography>
           <Box display="flex" flexDirection="column">
             <Typography variant="p">
-              "Great things in buimess are not done by one person they're done
+              "Great things in business are not done by one person they're done
               by a team or people"
             </Typography>
             <Typography variant="p" sx={{ fontWeight: "bold" }}>
@@ -62,21 +63,25 @@ const TheTeam = () => {
           </Box>
         </Box>
 
-        <Grid container spacing={3} sx={{ marginTop: "20px" }}>
+        <Grid
+          container
+          spacing={3}
+          sx={{ marginTop: "20px", width: { xs: "100%", md: "70%" } }}
+        >
           {data.map((item) => {
             return (
               <>
-                <Grid item xs={6} sm={4} md={2.4}>
+                <Grid item xs={6} sm={4} md={4}>
                   <Box
                     sx={{
-                      width: { xs: "100px", sm: "150px" },
-                      height: { xs: "100px", sm: "150px" },
+                      width: { xs: "150px", sm: "180px", md: "230px" },
+                      height: { xs: "200px", sm: "200px", md: "250px" },
                       margin: "auto",
                     }}
                     onClick={() => handleOpen(item.id)}
                   >
                     <img
-                      src={`images/team/${item.image}`}
+                      src={`images/team members/${item.image}`}
                       alt=""
                       width="100%"
                       height="100%"
@@ -136,7 +141,7 @@ const TheTeam = () => {
                   }}
                 >
                   <img
-                    src={`images/team/${teamMember.image}`}
+                    src={`images/team members/${teamMember.image}`}
                     alt=""
                     width="100%"
                     height="100%"

@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Button, Grid, Typography, Divider } from "@mui/material";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 const Careers = () => {
   const [open, setOpen] = useState(false);
 
@@ -56,6 +57,24 @@ const Careers = () => {
             media, data and technology. Come, be part of a team that strives to
             do meaningful work and leave a profound impact on communities. */}
           </Typography>
+
+          <Link to="/apply">
+
+            <Button
+              variant="contained"
+              sx={{
+                backgroundColor: "#2F5325",
+                borderRadius: "8px",
+                paddingTop: "2px",
+                paddingBottom: "2px",
+                color: "whitesmoke"
+              }}
+            >
+              Apply Now
+            </Button>
+
+          </Link>
+
           <Typography variant="p" sx={{
             fontWeight: "bold",
             fontSize: "2rem",

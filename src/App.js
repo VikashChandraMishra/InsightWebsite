@@ -28,6 +28,7 @@ import BrahmaputraBoard from "./pages/CaseStudies/BrahmaputraBoard";
 
 import OurWork from "./pages/OurWork/Index";
 import { createTheme, ThemeProvider } from '@mui/material';
+import CareerApplication from "./pages/Forms/CareerApplication";
 
 
 const theme = createTheme({
@@ -70,6 +71,8 @@ function App() {
 
           <Route path="/unicef" element={<UNICEF />} />
           <Route path="/brahmaputra-board" element={<BrahmaputraBoard />} />
+
+          <Route path="/apply" element={<CareerApplication />} />
 
         </Routes>
         <Footer />

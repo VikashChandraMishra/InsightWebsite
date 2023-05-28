@@ -49,14 +49,15 @@ const OurWork = () => {
   return (
     <>
       <Box sx={{
-        padding: { md: "20px 150px" }
+        padding: { md: "20px 150px" },
+        marginTop: "20px"
       }}>
         <Typography
           variant="h1"
           sx={{
             fontWeight: "bold",
             color: "#363435",
-            fontSize: { xs: "40px", md: "90px" },
+            fontSize: { xs: "40px", md: "7rem" },
             fontFamily: "Switzer-Variable"
           }}
         >
@@ -65,7 +66,8 @@ const OurWork = () => {
 
         <Typography variant="p"
           sx={{
-            fontSize: "1.5rem"
+            fontSize: "1.5rem",
+            color: "#363435",
           }}
         >
           We create brand experiences the clients love
@@ -78,14 +80,17 @@ const OurWork = () => {
                 elevation={5}
                 key={item.id}
                 sx={{
+                  zIndex: 1,
                   display: "flex",
                   flexDirection: "column",
                   flexShrink: 0,
-                  justifyContent: "space-between",
+                  justifyContent: "flex-start",
                   gap: 2,
                   p: 2,
                   marginTop: "20px",
-                  height: "20vh",
+                  height: "25vh",
+                  borderBottomLeftRadius: "15px",
+                  borderBottomRightRadius: "15px"
                 }}
               >
                 <img
@@ -98,19 +103,26 @@ const OurWork = () => {
                 <Typography variant="p"
                   sx={{
                     fontSize: "0.8rem",
-                    marginTop: `${item.labelMarginTop}`
+                    // marginTop: `${item.labelMarginTop}`
                   }}
                 >{item.name}</Typography>
 
-                <Button
-                  variant="contained"
-                  sx={{ backgroundColor: "#2F5325" }}
-                  fullWidth
-                  onClick={handleOpen}
-                >
-                  View More
-                </Button>
               </Paper>
+              <Box
+                sx={{
+                  backgroundColor: "#2F5325",
+                  borderBottomLeftRadius: "10px",
+                  borderBottomRightRadius: "10px",
+                  p: 0.3,
+                  marginTop: "-15px",
+                  zIndex: -1
+                }}
+              >
+                <Typography variant="p" sx={{ color: "white" }}>
+                  View more
+                </Typography>
+              </Box>
+
             </Grid>
           ))}
         </Grid>

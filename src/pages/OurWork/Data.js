@@ -4,7 +4,7 @@ export const data = [
         logo: "NHM.png",
         logoH: '70px',
         logoW: '70px',
-        labelMarginTop: '5px',
+        // labelMarginTop: '5px',
         name: "National Health Mission",
     },
     {
@@ -12,7 +12,7 @@ export const data = [
         logo: "apollo.png",
         logoH: '70pxpx',
         logoW: '65px',
-        labelMarginTop: '5px',
+        // labelMarginTop: '5px',
         name: "Apollo",
     },
     {

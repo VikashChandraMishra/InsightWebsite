@@ -14,16 +14,34 @@ const CaseStudy3 = () => {
       <Box
         sx={{
           width: { xs: "100%", sm: "60%" },
-          p: { xs: "10px", sm: "20px 100px" },
+          p: { xs: "10px", sm: "20px 150px" },
+          marginTop: "100px"
         }}
       >
-        <img src={Logo} alt="" />
-        <Box marginTop="20px" display="flex" flexDirection="column" gap={2}>
-          <Typography variant="h3" sx={{ fontWeight: "bold" }}>
+        <img src={Logo} width="70px" alt="" />
+        <Box
+          marginTop="20px"
+          display="flex"
+          flexDirection="column"
+          gap={2}
+          sx={{
+            width: { md: "40vw" }
+          }}>
+          <Typography variant="h4" sx={{ fontWeight: "900", fontFamily: "Switzer-Variable", color: "#363435" }}>
             Bajaj Auto
           </Typography>
-          <Typography variant="h4">Challenges</Typography>
-          <Typography variant="p">
+          <Typography
+            variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "1.7rem",
+              fontWeight: "300"
+            }}>Challenges</Typography>
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}>
             In today's competitive market, it is crucial to maximize return on
             investment (ROI), even with small dealer-level budgets. Proper
             audience segmentation is necessary when dealing with more than one
@@ -35,8 +53,17 @@ const CaseStudy3 = () => {
             effectively. Addressing these issues can help businesses stay ahead
             of the competition and achieve their goals.
           </Typography>
-          <Typography variant="h4">The Journey</Typography>
-          <Typography variant="p">
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "1.7rem",
+              fontWeight: "300"
+            }}>The Journey</Typography>
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}>
             To effectively market their latest vehicles and offers, a company
             implemented several strategies. Targeted posts were created to
             showcase the features and specifications of the vehicles, with a
@@ -49,8 +76,17 @@ const CaseStudy3 = () => {
             management process. By utilizing these strategies, the company was
             able to effectively market their vehicles and boost sales.
           </Typography>
-          <Typography variant="h4">Impact</Typography>
-          <Typography variant="p">
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "1.7rem",
+              fontWeight: "300"
+            }}>Impact</Typography>
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}>
             Over the course of a 15+ month campaign, a company was able to
             generate an average of 11,000+ leads per month at an effective cost
             per acquisition (CPA). The campaign proved successful, resulting in

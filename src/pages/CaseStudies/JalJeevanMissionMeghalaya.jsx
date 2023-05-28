@@ -20,15 +20,36 @@ const CaseStudy9 = () => {
           marginTop: "100px"
         }}
       >
-        <img src={Logo} width="350px" alt="" />
-        <Box marginTop="20px" display="flex" flexDirection="column" gap={2}>
-          <Typography variant="h3"
+        <img src={Logo} width="300px" alt="" />
+        <Box
+          marginTop="20px"
+          display="flex"
+          flexDirection="column"
+          gap={2}
+          sx={{
+            width: { md: "40vw" }
+          }}>
+          <Typography variant="h4"
             sx={{ fontWeight: "900", fontFamily: "Switzer-Variable", color: "#363435" }}
           >
             Jal Jeevan Mission Meghalaya
           </Typography>
-          <Typography variant="h4">Challenges</Typography>
-          <Typography variant="p">
+          <Typography
+            variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "1.7rem",
+              fontWeight: "300"
+            }}
+          >Challenges</Typography>
+
+          <Typography
+            variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}
+          >
             The geographic disparity in terms of the area being far-flung and
             scattered especially in parts of Garo Hills, West Jaintia Hills is
             significant. Time being another factor here, people were unable to
@@ -36,27 +57,59 @@ const CaseStudy9 = () => {
             villages were present but many of these were not functional, causing
             dissent among people.
           </Typography>
-          <Typography variant="p">
+          <Typography
+            variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}
+          >
             The expectation of the people was unfulfilled, considering these
             issues & the gap that was covered as a big journey bridged with
             rigorous efforts.
           </Typography>
-          <Typography variant="h4">
+          <Typography
+            variant="h4"
+            sx={{
+              color: "#363435",
+              fontSize: "1.7rem",
+              fontFamily: "Switzer-Variable",
+              fontWeight: "300"
+            }}
+          >
             The Journey Communication Need Assessment (CNA)
           </Typography>
-          <Typography variant="p">
+          <Typography
+            variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}
+          >
             A survey was conducted to determine the on-ground communication need
             gap and challenges of the actual beneficiaries with regard to the
             Mission objectives, benefits, media habits, current status, current
             challenges, and need for community contribution.
           </Typography>
-          <Typography variant="p">
+          <Typography
+            variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}
+          >
             The CNA report focused to bridge the gap in the community that
             contributed to and enabled to sustain along with understanding the
             operation and maintenance of the project activities in the
             community.
           </Typography>
-          <Typography variant="p">
+          <Typography
+            variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}
+          >
             A workflow was determined for the CNA Survey which consisted of the
             Identification of Zones & Districts along with the Target Groups in
             them, Determination of Samples Survey Sizes, Preparing Survey
@@ -64,8 +117,22 @@ const CaseStudy9 = () => {
             Functionaries along with Supervisors, Preparing Route Plans along
             with Data Collection, Entry, and Evaluation.
           </Typography>
-          <Typography variant="h4">Impact</Typography>
-          <Typography variant="p">
+          <Typography
+            variant="h4"
+            sx={{
+              color: "#363435",
+              fontSize: "1.7rem",
+              fontFamily: "Switzer-Variable",
+              fontWeight: "300"
+            }}
+          >Impact</Typography>
+          <Typography
+            variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}
+          >
             The Jal Jeevan Mission (JJM) and Public Health Engineering (PHE) are
             being promoted through various measures. Data regarding water supply
             in different regions and villages is being collected, as well as
@@ -87,7 +154,7 @@ const CaseStudy9 = () => {
           </Typography>
         </Box>
       </Box>
-      <Box sx={{ p: { xs: "10px", sm: "20px 100px" }, width: '950px' }}>
+      <Box sx={{ p: { xs: "10px", sm: "20px 150px" }, width: '950px' }}>
         <Grid container spacing={3}>
           <Grid item xs={12} sm={6} md={6}>
             <img src={img1} alt="" width="100%" height="250px" />

@@ -58,7 +58,9 @@ const WhoWeAre = () => {
               variant="p"
               sx={{
                 width: { xs: "100%", sm: "100%", md: "50%" },
-                fontSize: '0.8rem'
+                fontSize: '0.8rem',
+                color: "#363435",
+
                 // textAlign: { xs: "center", sm: "start", md: "start" },
               }}
             >

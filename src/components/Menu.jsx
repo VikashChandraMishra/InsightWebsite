@@ -131,7 +131,7 @@ const Menu = ({ onClose }) => {
                 }}
                 onClick={onClose}
               >
-                WHO WE ARE
+                WHO ARE WE
               </Typography>
 
             </RouterLink>

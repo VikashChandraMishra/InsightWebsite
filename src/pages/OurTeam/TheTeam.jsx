@@ -36,7 +36,7 @@ const TheTeam = () => {
     <div>
       <Box
         sx={{
-          paddingLeft: {xs: "7vw", md: "10vw"},
+          paddingLeft: { xs: "7vw", md: "10vw" },
           marginTop: "120px",
         }}
       >
@@ -107,7 +107,7 @@ const TheTeam = () => {
       </Box>
 
       {/* Team Modal */}
-      <Modal
+      {/* <Modal
         aria-labelledby="transition-modal-title"
         aria-describedby="transition-modal-description"
         open={open}
@@ -167,8 +167,23 @@ const TheTeam = () => {
                     }}
                   >
                     <Box>
-                      <Typography variant="h5">{teamMember.name}</Typography>
-                      <Typography variant="h5">
+                      <Typography
+                        variant="h5"
+                        sx={{
+                          color: "#363435",
+                          fontWeight: '400',
+                          fontFamily: "Switzer-Variable"
+                        }}
+                      >{teamMember.name}</Typography>
+                      <Typography
+                        variant="h5"
+                      
+                        sx={{
+                          color: "#363435",
+                          fontWeight: '400',
+                          fontFamily: "Switzer-Variable"
+                        }}
+                      >
                         {teamMember.Designation}
                       </Typography>
                     </Box>
@@ -184,7 +199,7 @@ const TheTeam = () => {
             </Box>
           )}
         </Fade>
-      </Modal>
+      </Modal> */}
     </div>
   );
 };

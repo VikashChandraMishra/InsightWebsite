@@ -9,24 +9,56 @@ const CaseStudy6 = () => {
       <Box
         sx={{
           width: { xs: "100%", sm: "60%" },
-          p: { xs: "10px", sm: "20px 100px" },
+          p: { xs: "10px", sm: "20px 150px" },
+          marginTop: "100px"
         }}
       >
-        <img src={Logo} alt="" />
-        <Box marginTop="20px" display="flex" flexDirection="column" gap={2}>
-          <Typography variant="h3" sx={{ fontWeight: "bold" }}>
+        <img src={Logo} width="250px" alt="" />
+        <Box marginTop="20px"
+          display="flex"
+          flexDirection="column"
+          gap={2}
+          sx={{
+            width: { md: "40vw" }
+          }}>
+          <Typography variant="h4"
+            sx={{ fontWeight: "900", fontFamily: "Switzer-Variable", color: "#363435" }}
+          >
             UNICEF
           </Typography>
-          <Typography variant="h5">United Nations Children's Fund</Typography>
-          <Typography variant="h4">Challenges</Typography>
-          <Typography variant="p">
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "1.3rem",
+              fontWeight: "300"
+            }}>United Nations Children's Fund</Typography>
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "1.7rem",
+              fontWeight: "300"
+            }}>Challenges</Typography>
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}>
             Major challenge was in form of knowing which and how to monitor
             among appropriate media channels, to explore issues that are being
             picked up to help strategise the media engagement in a targeted
             manner.
           </Typography>
-          <Typography variant="h4">The Journey</Typography>
-          <Typography variant="p">
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "1.7rem",
+              fontWeight: "300"
+            }}>The Journey</Typography>
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}>
             Depending upon the North-eastern States, a set of Online Media
             Platforms & Print Media of specific states were selected to track
             the News Articles. Daily reports were created that highlighted the
@@ -35,8 +67,17 @@ const CaseStudy6 = () => {
             authorities in formulating and implementing policies.
           </Typography>
 
-          <Typography variant="h4">Impact</Typography>
-          <Typography variant="p">
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "1.7rem",
+              fontWeight: "300"
+            }}>Impact</Typography>
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}>
             UNICEF leveraged Media Monitoring to strategically plan their
             advocacy programs with Media, and prioritise issues related to Child
             Rights and well-being in the State. By closely monitoring media

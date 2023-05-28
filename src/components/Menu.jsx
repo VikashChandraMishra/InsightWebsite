@@ -19,7 +19,7 @@ const Menu = ({ onClose }) => {
         style={{
           position: "fixed",
           top: 0,
-          left: 0,
+          left: "4rem",
           width: "100vw",
           background: "#fff",
           zIndex: 999,
@@ -33,7 +33,7 @@ const Menu = ({ onClose }) => {
           style={{
             position: "absolute",
             top: "1rem",
-            right: "1rem",
+            right: "12rem",
             padding: "1rem",
             fontSize: "1.5rem",
             cursor: "pointer",
@@ -44,12 +44,14 @@ const Menu = ({ onClose }) => {
         </motion.div>
 
         <Box
-          sx={{ p: { xs: 5, md: 10 } }}
+          sx={{
+            p: { xs: 5, md: 10 }
+          }}
           display="flex"
           flexDirection="column"
-          gap={2}
+          gap={1}
         >
-          
+
           {/* Home */}
           <motion.div
             initial={{ opacity: 0, y: -50 }}
@@ -57,16 +59,31 @@ const Menu = ({ onClose }) => {
             transition={{ duration: 0.5, delay: 0.1 }}
             style={{
               cursor: "pointer",
+              marginTop: "5vh"
             }}
           >
 
             <RouterLink
               to="/"
-              style={{ textDecoration: "none", color: "black" }}
+              style={{
+                textDecoration: "none",
+                color: "black"
+              }}
             >
               <Typography
-                variant="h4"
-                sx={{ "&:hover": { color: "darkgreen" } }}
+                variant="p"
+                sx={{
+                  "&:hover": {
+                    color: "darkgreen",
+                    fontWeight: "bold"
+                  },
+                  fontSize: {
+                    xs: "1.5rem",
+                    md: "2rem"
+                  },
+                  fontFamily: "Switzer-Variable",
+                  fontWeight: "200"
+                }}
                 onClick={onClose}
               >
                 HOME
@@ -99,8 +116,19 @@ const Menu = ({ onClose }) => {
             >
 
               <Typography
-                variant="h4"
-                sx={{ "&:hover": { color: "darkgreen" } }}
+                variant="p"
+                sx={{
+                  "&:hover": {
+                    color: "darkgreen",
+                    fontWeight: "bold"
+                  },
+                  fontSize: {
+                    xs: "1.5rem",
+                    md: "2rem"
+                  },
+                  fontFamily: "Switzer-Variable",
+                  fontWeight: "200"
+                }}
                 onClick={onClose}
               >
                 WHO WE ARE
@@ -132,8 +160,19 @@ const Menu = ({ onClose }) => {
             >
 
               <Typography
-                variant="h4"
-                sx={{ "&:hover": { color: "darkgreen" } }}
+                variant="p"
+                sx={{
+                  "&:hover": {
+                    color: "darkgreen",
+                    fontWeight: "bold"
+                  },
+                  fontSize: {
+                    xs: "1.5rem",
+                    md: "2rem"
+                  },
+                  fontFamily: "Switzer-Variable",
+                  fontWeight: "200"
+                }}
                 onClick={onClose}
               >
                 WHAT WE DO
@@ -158,8 +197,19 @@ const Menu = ({ onClose }) => {
             >
 
               <Typography
-                variant="h4"
-                sx={{ "&:hover": { color: "darkgreen" } }}
+                variant="p"
+                sx={{
+                  "&:hover": {
+                    color: "darkgreen",
+                    fontWeight: "bold"
+                  },
+                  fontSize: {
+                    xs: "1.5rem",
+                    md: "2rem"
+                  },
+                  fontFamily: "Switzer-Variable",
+                  fontWeight: "200"
+                }}
                 onClick={onClose}
               >
                 OUR WORK
@@ -183,8 +233,19 @@ const Menu = ({ onClose }) => {
               style={{ textDecoration: "none", color: "black" }}
             >
               <Typography
-                variant="h4"
-                sx={{ "&:hover": { color: "darkgreen" } }}
+                variant="p"
+                sx={{
+                  "&:hover": {
+                    color: "darkgreen",
+                    fontWeight: "bold"
+                  },
+                  fontSize: {
+                    xs: "1.5rem",
+                    md: "2rem"
+                  },
+                  fontFamily: "Switzer-Variable",
+                  fontWeight: "200"
+                }}
                 onClick={onClose}
               >
                 CASE STUDIES
@@ -206,8 +267,19 @@ const Menu = ({ onClose }) => {
               style={{ textDecoration: "none", color: "black" }}
             >
               <Typography
-                variant="h4"
-                sx={{ "&:hover": { color: "darkgreen" } }}
+                variant="p"
+                sx={{
+                  "&:hover": {
+                    color: "darkgreen",
+                    fontWeight: "bold"
+                  },
+                  fontSize: {
+                    xs: "1.5rem",
+                    md: "2rem"
+                  },
+                  fontFamily: "Switzer-Variable",
+                  fontWeight: "200"
+                }}
                 onClick={onClose}
               >
                 THE TEAM
@@ -229,8 +301,19 @@ const Menu = ({ onClose }) => {
               style={{ textDecoration: "none", color: "black" }}
             >
               <Typography
-                variant="h4"
-                sx={{ "&:hover": { color: "darkgreen" } }}
+                variant="p"
+                sx={{
+                  "&:hover": {
+                    color: "darkgreen",
+                    fontWeight: "bold"
+                  },
+                  fontSize: {
+                    xs: "1.5rem",
+                    md: "2rem"
+                  },
+                  fontFamily: "Switzer-Variable",
+                  fontWeight: "200"
+                }}
                 onClick={onClose}
               >
                 CAREERS
@@ -252,19 +335,30 @@ const Menu = ({ onClose }) => {
               style={{ textDecoration: "none", color: "black" }}
             >
               <Typography
-                variant="h4"
-                sx={{ "&:hover": { color: "darkgreen" } }}
+                variant="p"
+                sx={{
+                  "&:hover": {
+                    color: "darkgreen",
+                    fontWeight: "bold"
+                  },
+                  fontSize: {
+                    xs: "1.5rem",
+                    md: "2rem"
+                  },
+                  fontFamily: "Switzer-Variable",
+                  fontWeight: "200"
+                }}
                 onClick={onClose}
               >
                 CONTACT US
               </Typography>
             </RouterLink>
           </motion.div>
-        
+
         </Box>
-      
+
       </motion.div>
-    
+
     </div>
   );
 };

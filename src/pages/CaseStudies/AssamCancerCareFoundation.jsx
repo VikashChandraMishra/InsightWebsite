@@ -11,8 +11,9 @@ const CaseStudy1 = () => {
       <Box
         sx={{
           width: { xs: "80vw", sm: "80vw" },
-          paddingLeft: { xs: "10vw", sm: "10vw", md: "12vw" },
-          paddingTop: { md: "3vh" }
+          paddingLeft: { xs: "10vw", sm: "10vw", md: "10vw" },
+          paddingTop: { md: "3vh" },
+          marginTop: "100px"
         }}
       >
         <img src={Logo} width="200px" alt="" />

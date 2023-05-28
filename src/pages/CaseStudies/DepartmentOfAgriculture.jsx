@@ -11,24 +11,64 @@ const CaseStudy5 = () => {
       <Box
         sx={{
           width: { xs: "100%", sm: "60%" },
-          p: { xs: "10px", sm: "20px 100px" },
+          p: { xs: "10px", sm: "20px 150px" },
+          marginTop: "100px"
         }}
       >
-        <img src={Logo} alt="" />
-        <Box marginTop="20px" display="flex" flexDirection="column" gap={2}>
-          <Typography variant="h3" sx={{ fontWeight: "bold" }}>
-            DEPARTMENT OF AGRICULTURE
+        <img src={Logo} width="350px" alt="" />
+        <Box
+          marginTop="20px"
+          display="flex"
+          flexDirection="column"
+          gap={2}
+          sx={{
+            width: { md: "40vw" }
+          }}
+        >
+          <Typography variant="h4"
+            sx={{ fontWeight: "900", fontFamily: "Switzer-Variable", color: "#363435" }}
+          >
+            Department of Agriculture
           </Typography>
-          <Typography variant="h4">Challenges</Typography>
-          <Typography variant="p">
+          <Typography
+            variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "1.7rem",
+              fontWeight: "300"
+            }}
+          >Challenges</Typography>
+          <Typography
+            variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}
+          >
             There were significant obstacles in the form of a lack of awareness,
             schemes, and benefits that were unknown to the farmers.
           </Typography>
-          <Typography variant="h4">
+          <Typography
+            variant="h4"
+            sx={{
+              color: "#363435",
+              fontSize: "1.7rem",
+              fontFamily: "Switzer-Variable",
+              fontWeight: "300"
+            }}
+          >
             The Journey - Krishok Hojagota Abhijan: A Roadshow by the
             Directorate of Agriculture
           </Typography>
-          <Typography variant="p">
+          <Typography
+            variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem",
+              fontFamily: "Switzer-Variable",
+              fontWeight: "300"
+            }}
+          >
             Initiated by the Directorate of Agriculture, a drive was conducted
             for 45 days to raise awareness and to tackle the lack of awareness,
             impart information about schemes and benefits to the farmers. 20
@@ -40,7 +80,15 @@ const CaseStudy5 = () => {
             inventions, upliftment, and introduction of machinery to boost
             agricultural sector of Assam.
           </Typography>
-          <Typography variant="p">
+          <Typography
+            variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem",
+              fontFamily: "Switzer-Variable",
+              fontWeight: "300"
+            }}
+          >
             Notable schemes included the National Food Security Mission 2020-21,
             Soil Health Card Programme, PMFBY (Pradhan Mantri Fasal Bima
             Yojana), and Targeting Rice Fallow Areas TRFA (Pulse) 2019-20. The
@@ -51,15 +99,39 @@ const CaseStudy5 = () => {
             the Driver and support staff along with photos that were timestamped
             and location stamped.
           </Typography>
-          <Typography variant="h4">Impact</Typography>
-          <Typography variant="p">
+          <Typography
+            variant="h4"
+            sx={{
+              color: "#363435",
+              fontSize: "1.7rem",
+              fontFamily: "Switzer-Variable",
+              fontWeight: "300"
+            }}
+          >Impact</Typography>
+          <Typography
+            variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem",
+              fontFamily: "Switzer-Variable",
+              fontWeight: "300"
+            }}
+          >
             The entire rural drive under D.O.A was a huge success. The activity
             helped increase awareness and knowledge of the farmers in different
             aspects such as the use of machinery, and agricultural techniques
             along with a profound understanding of the schemes and benefits
             provided to farmers overall.
           </Typography>
-          <Typography variant="p">
+          <Typography
+            variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem",
+              fontFamily: "Switzer-Variable",
+              fontWeight: "300"
+            }}
+          >
             In 45 days of the initiative, the activity reached out to more than
             80% of the farming population of rural Assam (27.2 lakh farmers)
             inclusive of households small & large, making them aware of the
@@ -67,7 +139,7 @@ const CaseStudy5 = () => {
           </Typography>
         </Box>
       </Box>
-      <Box sx={{ p: { xs: "10px", sm: "20px 100px" }, width: '950px' }}>
+      <Box sx={{ p: { xs: "10px", sm: "20px 150px" }, width: '950px' }}>
         <Grid container spacing={3}>
           <Grid item xs={12} sm={6} md={6}>
             <img src={img1} alt="" width="100%" height="250px" />

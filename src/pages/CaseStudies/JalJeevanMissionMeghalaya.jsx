@@ -16,12 +16,15 @@ const CaseStudy9 = () => {
       <Box
         sx={{
           width: { xs: "100%", sm: "60%" },
-          p: { xs: "10px", sm: "20px 100px" },
+          p: { xs: "10px", sm: "20px 150px" },
+          marginTop: "100px"
         }}
       >
-        <img src={Logo} alt="" />
+        <img src={Logo} width="350px" alt="" />
         <Box marginTop="20px" display="flex" flexDirection="column" gap={2}>
-          <Typography variant="h3" sx={{ fontWeight: "bold" }}>
+          <Typography variant="h3"
+            sx={{ fontWeight: "900", fontFamily: "Switzer-Variable", color: "#363435" }}
+          >
             Jal Jeevan Mission Meghalaya
           </Typography>
           <Typography variant="h4">Challenges</Typography>

@@ -30,7 +30,10 @@ const WhoWeAre = () => {
           <Box display="flex" flexDirection="column" gap={2}>
             <Typography
               variant="p"
-              sx={{ fontSize: '1.5rem' }}
+              sx={{
+                fontSize: '1.5rem',
+                color: "#363435",
+              }}
             // sx={{ textAlign: { xs: "center", sm: "start", md: "start" } }}
             >
               Experts in Integrated Communication
@@ -39,7 +42,8 @@ const WhoWeAre = () => {
               variant="p"
               sx={{
                 width: { xs: "100%", sm: "100%", md: "50%" },
-                fontSize: '0.8rem'
+                fontSize: '0.8rem',
+                color: "#363435",
                 // textAlign: { xs: "center", sm: "start", md: "start" }
               }}
             >

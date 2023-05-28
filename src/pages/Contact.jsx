@@ -19,25 +19,27 @@ const Contact = () => {
           }}
           flexDirection="column" gap={5}>
           <Typography
-            variant="h1"
+            variant="p"
             sx={{
               fontWeight: "bold",
               color: "#363435",
               fontSize: { xs: "60px", md: "120px" },
-              fontFamily: 'Switzer-Variable'
+              fontFamily: 'Switzer-Variable',
+              paddingLeft: "5vw"
             }}
           >
             Contact Us
           </Typography>
-          <Box display="flex" flexDirection="column"
-            sx={{
-              alignItems: { xs: "center" }
-            }}
-            gap={2}>
+          <Box
+            display="flex"
+            flexDirection="column"
+            gap={2}
+          >
             <Typography
               variant="p"
               sx={{
-                fontSize: {xs: "1.5rem", md:"2rem"}
+                color: "#363435",
+                fontSize: { xs: "1.5rem", md: "2rem" }
               }}
             >For projects and collaboration</Typography>
             <Box

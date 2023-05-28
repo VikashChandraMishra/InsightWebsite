@@ -36,7 +36,7 @@ const TheTeam = () => {
     <div>
       <Box
         sx={{
-          padding: { xs: 2, sm: "20px 100px" },
+          padding: { xs: 2, sm: "20px 10vw" },
         }}
       >
         <Box display="flex" flexDirection="column" gap={5}>
@@ -45,7 +45,8 @@ const TheTeam = () => {
             sx={{
               fontWeight: "bold",
               color: "#363435",
-              fontSize: { xs: "40px", md: "90px" },
+              fontFamily: "Switzer-Variable",
+              fontSize: { xs: "40px", md: "7rem" },
             }}
           >
             The Team

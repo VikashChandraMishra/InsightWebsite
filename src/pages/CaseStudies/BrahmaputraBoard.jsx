@@ -14,29 +14,65 @@ const CaseStudy8 = () => {
       <Box
         sx={{
           width: { xs: "100%", sm: "60%" },
-          p: { xs: "10px", sm: "20px 100px" },
+          p: { xs: "10px", sm: "20px 150px" },
+          marginTop: "100px"
         }}
       >
-        <img src={Logo} alt="" />
-        <Box marginTop="20px" display="flex" flexDirection="column" gap={2}>
-          <Typography variant="h3" sx={{ fontWeight: "bold" }}>
+        <img src={Logo} width="90px" alt="" />
+        <Box           marginTop="20px"
+          display="flex"
+          flexDirection="column"
+          gap={2}
+          sx={{
+            width: { md: "40vw" }
+          }}
+>
+          <Typography variant="h4"
+            sx={{ fontWeight: "900", fontFamily: "Switzer-Variable", color: "#363435" }}>
             Brahmaputra Board
           </Typography>
-          <Typography variant="p">United Nations Children's Funds</Typography>
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "1.3rem",
+              fontWeight: "300"
+            }}>United Nations Children's Funds</Typography>
 
-          <Typography variant="h4">Challenges</Typography>
-          <Typography variant="p">
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "1.7rem",
+              fontWeight: "300"
+            }}>Challenges</Typography>
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}>
             The Expedition was extensive, starting from Gelling in Upper Siang
             District of Arunachal Pradesh and was scheduled to conclude at
             Assameralga in South Salmara Mankachar District of Assam tentatively
             from the 16th December, 2020 to 14th January, 2021.
           </Typography>
-          <Typography variant="p">
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}>
             Full coverage of the expedition, along with LIVE recording and
             documentation in rugged terrains with less or no network.
           </Typography>
-          <Typography variant="h4">The Journey</Typography>
-          <Typography variant="p">
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "1.7rem",
+              fontWeight: "300"
+            }}>The Journey</Typography>
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}>
             To ensure the success of their rafting campaign, a 3-member team was
             deployed to work closely with the rafting team. In addition, a
             separate on-ground local support team was stationed at various key
@@ -50,14 +86,27 @@ const CaseStudy8 = () => {
             success, with more than 7 videos on different topics and themes
             released to the public.
           </Typography>
-          <Typography variant="p">
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}>
             A full-page ad was released on International Day of Yoga, the 21st
             of June, asking people to stay tuned for the winner's announcement
             on their page, promoting followers.
           </Typography>
 
-          <Typography variant="h4">Impact</Typography>
-          <Typography variant="p">
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "1.7rem",
+              fontWeight: "300"
+            }}>Impact</Typography>
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}>
             The Brahmaputra Aamantran Abhiyaan was executed with careful
             attention to detail and thorough planning. The project included
             several critical components, such as the capture of high-quality
@@ -67,7 +116,11 @@ const CaseStudy8 = () => {
             utilised social media tools to create engagement and awareness
             around the event.
           </Typography>
-          <Typography variant="p">
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}>
             A comprehensive digital documentation of news, events, campaigns,
             outreach activities, and community involvement programs was also
             compiled. To ensure maximum reach and awareness, the team identified
@@ -75,7 +128,11 @@ const CaseStudy8 = () => {
             their implementation upon approval. They also proposed and engaged
             with influencers to endorse the Abhiyaan.
           </Typography>
-          <Typography variant="p">
+          <Typography variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}>
             A calendar for planned content release and dissemination was
             created, with a focus on creating infectious and shareable content
             that would drive engagement and virality. The team also engaged key

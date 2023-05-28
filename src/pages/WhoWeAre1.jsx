@@ -10,7 +10,7 @@ const WhoWeAre = () => {
           p: { xs: "30px 50px", md: "10vh 12vw" },
           display: "flex",
           flexDirection: { xs: "column", md: "row" },
-
+          marginTop: "15vh",
           alignItems: "center",
           gap: { xs: 5, sm: 10 },
         }}

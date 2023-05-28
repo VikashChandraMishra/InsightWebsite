@@ -16,7 +16,7 @@ const Careers = () => {
           width: { xs: "90%", sm: "85%" },
           // p: { xs: "10vw 15vw", sm: "3vw " },
           marginLeft: { xs: "6vw", sm: "8vw", md: "12vw" },
-          marginTop: { md: "10vh" }
+          marginTop: { md: "20vh" }
         }}
       >
         <Box marginTop="20px" display="flex" flexDirection="column" gap={2}>

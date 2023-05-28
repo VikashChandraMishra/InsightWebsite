@@ -9,6 +9,7 @@ const Contact = () => {
         sx={{
           p: { xs: "0px", sm: "20px 100px" },
           display: "flex",
+          marginTop: "15vh",
           justifyContent: { xs: "center", sm: "start" },
           alignItems: "center",
         }}

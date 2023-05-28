@@ -50,7 +50,7 @@ const OurWork = () => {
     <>
       <Box sx={{
         padding: { md: "20px 150px" },
-        marginTop: "20px"
+        marginTop: "100px"
       }}>
         <Typography
           variant="h1"

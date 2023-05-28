@@ -17,7 +17,8 @@ const Index = () => {
       <Box>
 
         <Box sx={{
-          p: { xs: 6, md: "8vh 12vw" }
+          p: { xs: 6, md: "8vh 12vw" },
+          marginTop: "15vh",
         }}>
 
           <Typography

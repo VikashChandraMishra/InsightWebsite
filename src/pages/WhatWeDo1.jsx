@@ -19,7 +19,7 @@ const WhatWeDo = () => {
           p: { xs: 2, sm: "20px 100px" },
           display: "flex",
           flexDirection: { xs: "column", md: "row" },
-
+          marginTop: "15vh",
           alignItems: "center",
           gap: { xs: 5, sm: 10 },
         }}

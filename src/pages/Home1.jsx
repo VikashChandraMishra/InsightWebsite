@@ -6,7 +6,7 @@ const Home = () => {
     <div id="home">
       <Box
         sx={{
-          marginTop: "5vh",
+          marginTop: "15vh",
           marginLeft: "15vw",
           marginRight: "15vw",
           display: "flex",
@@ -33,23 +33,26 @@ const Home = () => {
           display="flex"
           flexDirection="column"
           gap={2}
-          sx={{ 
+          sx={{
             width: { md: "27.5vw" },
-            marginTop: {xs: "0vh", md: "15vh"}
+            marginTop: { xs: "0vh", md: "15vh" }
           }}
         >
-          <Typography 
-          variant="p"
-          sx={{
-            fontSize: '1.5rem',
-            width: {md: '20vw'}
-          }}
+          <Typography
+            variant="p"
+            sx={{
+              fontSize: '1.5rem',
+              color: "#454a46",
+              fontWeight: "300",
+              width: { md: '20vw' }
+            }}
           >
             Creating effective and inclusive communication
           </Typography>
           <Typography
             variant="p"
             sx={{
+              color: "#454a46",
               // textAlign: { xs: "center", sm: "start", md: "start" },
               fontSize: "0.7rem",
             }}
@@ -65,6 +68,7 @@ const Home = () => {
           <Typography
             variant="p"
             sx={{
+              color: "#454a46",
               // textAlign: { xs: "center", sm: "start", md: "start" },
               fontSize: "0.7rem",
             }}
@@ -92,12 +96,12 @@ const Home = () => {
               cursor: "pointer",
             }}
           >
-            <Typography variant="p" sx={{ 
+            <Typography variant="p" sx={{
               color: "whitesmoke",
               fontFamily: 'Switzer-Thin',
               p: "0.1rem",
               fontSize: '1.2rem'
-              }}>
+            }}>
               Know more
             </Typography>
           </Box>

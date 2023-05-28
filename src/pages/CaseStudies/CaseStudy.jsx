@@ -86,7 +86,12 @@ const CaseStudy = ({ title, content, logo, link, logoH, logoW }) => {
             </Box>
           </div>
 
-          <Link to={link}>
+          <Link to={link}
+          sx={{
+            textDecoration: "none",
+
+          }}
+          >
             <Box
               sx={{
                 width: "100%",
@@ -101,7 +106,7 @@ const CaseStudy = ({ title, content, logo, link, logoH, logoW }) => {
               }}
             >
               <Typography variant="p" sx={{
-                color: "white",
+                color: "white",        
                 fontFamily: 'Switzer-Extralight',
                 fontSize: '0.8rem',
               }}>

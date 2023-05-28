@@ -10,22 +10,56 @@ const CaseStudy2 = () => {
       <Box
         sx={{
           width: { xs: "100%", sm: "60%" },
-          p: { xs: "10px", sm: "20px 100px" },
+          p: { xs: "10px", sm: "20px 150px" },
+          marginTop: "100px"
         }}
       >
-        <img src={Logo} alt="" />
-        <Box marginTop="20px" display="flex" flexDirection="column" gap={2}>
-          <Typography variant="h3" sx={{ fontWeight: "bold" }}>
+        <img src={Logo} width="110px" alt="" />
+        <Box
+          marginTop="20px"
+          display="flex"
+          flexDirection="column"
+          gap={2}
+          sx={{
+            width: { md: "45vw" }
+          }}>
+          <Typography variant="h3"
+            sx={{ fontWeight: "900", fontFamily: "Switzer-Variable", color: "#363435" }}
+          >
             APART
           </Typography>
-          <Typography variant="h4">
+          <Typography
+            variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "1.4rem",
+              fontWeight: "300"
+            }}
+          >
             Assam Agribusiness and Rural Transformation Project
           </Typography>
-          <Typography variant="p">
+          <Typography
+            variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}
+          >
             World Bank Funded Govt. of Assam Project
           </Typography>
-          <Typography variant="h4">Challenges</Typography>
-          <Typography variant="p">
+          <Typography
+            variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "1.7rem",
+              fontWeight: "300"
+            }}>Challenges</Typography>
+          <Typography
+            variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}>
             There is a knowledge gap among the rural community and target
             beneficiaries regarding the production of their produce, including
             material inputs, finances, technical know-how, and data information,
@@ -38,10 +72,21 @@ const CaseStudy2 = () => {
             communication that would effectively influence the adoption of
             practices.
           </Typography>
-          <Typography variant="h4">
+          <Typography variant="h4"
+            sx={{
+              color: "#363435",
+              fontSize: "1.7rem",
+              fontFamily: "Switzer-Variable",
+              fontWeight: "300"
+            }}>
             The Journey: Communication Need Assessment (CNA)
           </Typography>
-          <Typography variant="p">
+          <Typography
+            variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}>
             The use of new forms of information and technology such as mobile
             and the internet has amplified traditional modes of training for
             cultivators and people engaged in agricultural and allied
@@ -50,14 +95,24 @@ const CaseStudy2 = () => {
             smartphones, the internet, and social media, which could make the
             learning and awareness process more effective.
           </Typography>
-          <Typography variant="p">
+          <Typography
+            variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}>
             The CNA was conducted in 21 districts across Assam as part of the
             APART Project. The data was collected from respondents and project
             beneficiaries during October to November 2020, covering all regions
             from Hailakandi in the south to Sivasagar in upper Assam (north) and
             Kokrajhar in the west.
           </Typography>
-          <Typography variant="p">
+          <Typography
+            variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}>
             The research instruments of the CNA were designed to derive key
             messages related to the project from respondents engaged in
             farming/agriculture, fishery, piggery, and dairy. Women respondents
@@ -68,7 +123,12 @@ const CaseStudy2 = () => {
             respondents, their needs and aspirations, and technological skills
             in communication.
           </Typography>
-          <Typography variant="p">
+          <Typography
+            variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}>
             21 districts, divided under 8 zones, were covered in the exercise
             using purposive sampling. Within each selected district, 30
             respondents engaged in agriculture, piggery, fishery, dairy, and
@@ -78,7 +138,12 @@ const CaseStudy2 = () => {
             and a total of 633 farmers and women beneficiaries were covered in
             the exercise.
           </Typography>
-          <Typography variant="p">
+          <Typography
+            variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}>
             The research tools used in the CNA included a detailed interview
             schedule with a mix of quantitative (with options) and qualitative
             (without options) questions for each category of the respondents.
@@ -96,8 +161,19 @@ const CaseStudy2 = () => {
             collected empirically (i.e., from the respondents) and from
             secondary sources.
           </Typography>
-          <Typography variant="h4">Impact</Typography>
-          <Typography variant="p">
+          <Typography variant="h4"
+            sx={{
+              color: "#363435",
+              fontSize: "1.7rem",
+              fontFamily: "Switzer-Variable",
+              fontWeight: "300"
+            }}>Impact</Typography>
+          <Typography
+            variant="p"
+            sx={{
+              color: "#363435",
+              fontSize: "0.7rem"
+            }}>
             To effectively bridge the communication gap between the
             beneficiaries and the APART project team, a communication strategy
             was outlined. The primary communication-related needs expressed by

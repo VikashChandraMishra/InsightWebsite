@@ -49,7 +49,7 @@ const OurWork = () => {
   return (
     <>
       <Box sx={{
-        padding: {md: "20px 150px"}
+        padding: { md: "20px 150px" }
       }}>
         <Typography
           variant="h1"
@@ -80,6 +80,7 @@ const OurWork = () => {
                 sx={{
                   display: "flex",
                   flexDirection: "column",
+                  flexShrink: 0,
                   justifyContent: "space-between",
                   gap: 2,
                   p: 2,
@@ -95,6 +96,10 @@ const OurWork = () => {
                 />
 
                 <Typography variant="p"
+                  sx={{
+                    fontSize: "0.8rem",
+                    marginTop: `${item.labelMarginTop}`
+                  }}
                 >{item.name}</Typography>
 
                 <Button

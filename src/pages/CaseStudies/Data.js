@@ -10,24 +10,24 @@ export const caseStudies = [{
         title: 'Department Of Agriculture',
         content: "DOA works hard toward highlighting and raising awareness about the various equipment, techniques & schemes made available by the Directorate, for the farmers of Assam through an LED van roadshow.",
         logo: '../assets/DOA.png',
-        logoH: '80px',
-        logoW: '250px',
+        logoH: '60px',
+        logoW: '220px',
         link: "/dept-of-agri"
     },
     {
         title: 'Jal Jeevan Mission Meghalaya',
         content: "JJM prioritises the provision of FHTCs in quality-affected areas, villages in drought-prone and desert areas & Sansad Adarsh Gram Yojana (SAGY) villages along with functionality of these taps.",
         logo: '../assets/JJM1.png',
-        logoH: '80px',
-        logoW: '80px',
+        logoH: '62px',
+        logoW: '58px',
         link: "/jjm"
     },
     {
         title: 'APART',
         content: "APART, a project undertaken by the Govt. of India and World Bank to support and facilitate agri-business investments, increasing agriculture productivity and market access, along with enabling smallholder farmers to produce crops that are resilient to recurrent floods or droughts in the State.",
         logo: '../assets/APART Logo2.png',
-        logoH: '80px',
-        logoW: '80px',
+        logoH: '65px',
+        logoW: '65px',
         link: "/apart"
     },
     {

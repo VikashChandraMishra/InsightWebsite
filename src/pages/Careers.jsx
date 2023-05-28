@@ -13,29 +13,37 @@ const Careers = () => {
       <Box
         sx={{
           width: { xs: "90%", sm: "85%" },
-          p: { xs: "10px 20px", sm: "20px 100px" },
+          // p: { xs: "10vw 15vw", sm: "3vw " },
+          marginLeft: { xs: "6vw", sm: "8vw", md: "12vw" },
+          marginTop: { md: "10vh" }
         }}
       >
         <Box marginTop="20px" display="flex" flexDirection="column" gap={2}>
-          <Typography variant="h1" sx={{ 
-            fontWeight: "bold",
+          <Typography variant="h1" sx={{
+            fontWeight: "800",
             fontFamily: "Switzer-Variable",
-            fontSize: {xs:"50px", md: "100px"}
-            }}>
+            fontSize: { xs: "50px", md: "100px" },
+            color: "#454a46"
+          }}>
             Careers
           </Typography>
           <Typography variant="p"
-          sx={{
-            fontSize: "1.5rem"
-          }}
+            sx={{
+              fontSize: "1.7rem",
+              color: "#454a46",
+              // fontFamily: "Switzer-Thin",
+              fontWeight: "300"
+            }}
           >Be part of the team. Join us.</Typography>
 
           <Typography variant="p"
-          sx={{
-            // fontWeight: "600",
-            fontSize: "0.8rem",
-            width: {xs: "100%", md: "50%"}
-          }}
+            sx={{
+              fontWeight: "300",
+              // fontWeight: "600",
+              color: "#454a46",
+              fontSize: "0.8rem",
+              width: { xs: "100%", md: "50%" }
+            }}
           >
             Are you a creative visionary looking for a place in the dynamic world of advertising? Join oInsight Brandcom and embark on an exciting journey that will elevate your career to new heights!
 
@@ -48,20 +56,37 @@ const Careers = () => {
             media, data and technology. Come, be part of a team that strives to
             do meaningful work and leave a profound impact on communities. */}
           </Typography>
-          <Typography variant="h4" sx={{ fontWeight: "bold" }}>
+          <Typography variant="p" sx={{
+            fontWeight: "bold",
+            fontSize: "2rem",
+            color: "#454a46"
+          }}>
             Vacancies
           </Typography>
         </Box>
-        <Grid container spacing={3} sx={{ marginTop: "20px" }}>
+        <Grid container spacing={3}
+          sx={{
+            marginTop: "2px",
+            width: { xs: "95vw", sm: "87vw", md: "75vw" }
+          }}
+        >
           <Grid item xs={12} sm={12} md={12}>
             <Divider />
             <Box
-              p={2}
+              sx={{
+                padding: "1.2rem 0rem"
+              }}
               display="flex"
               justifyContent="space-between"
               alignItems="center"
             >
-              <Typography variant="h5" sx={{ fontWeight: "bold" }}>
+              <Typography
+                variant="p"
+                sx={{
+                  fontWeight: "bold",
+                  fontSize: "1.4rem",
+                  color: "#454a46"
+                }}>
                 Senior Visualizer
               </Typography>
               <KeyboardArrowDownIcon onClick={() => handleOpen(true)} />
@@ -138,12 +163,20 @@ const Careers = () => {
             )}
             <Divider />
             <Box
-              p={2}
+              sx={{
+                padding: "1.2rem 0rem"
+              }}
               display="flex"
               justifyContent="space-between"
               alignItems="center"
             >
-              <Typography variant="h5" sx={{ fontWeight: "bold" }}>
+              <Typography
+                variant="p"
+                sx={{
+                  fontSize: "1.4rem",
+                  color: "#454a46",
+                  fontWeight: "bold"
+                }}>
                 Experience Designer
               </Typography>
               <KeyboardArrowDownIcon />
@@ -151,12 +184,20 @@ const Careers = () => {
             <Divider />
             <Divider />
             <Box
-              p={2}
+              sx={{
+                padding: "1.2rem 0rem"
+              }}
               display="flex"
               justifyContent="space-between"
               alignItems="center"
             >
-              <Typography variant="h5" sx={{ fontWeight: "bold" }}>
+              <Typography
+                variant="p"
+                sx={{
+                  fontSize: "1.4rem",
+                  color: "#454a46",
+                  fontWeight: "bold"
+                }}>
                 Content Writer
               </Typography>
               <KeyboardArrowDownIcon />

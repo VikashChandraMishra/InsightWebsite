@@ -42,12 +42,23 @@ const CaseStudy = ({ title, content, logo, link, logoH, logoW }) => {
                         flexDirection: "column",
                         justifyContent: 'space-between',
                         gap: 2,
-                        height: '55vh',
+                        height: '50vh',
                         // width: {xs: '70vw', md: '100%'}
                     }}
                 >
                     <div>
-                        <img src={`assets/${logo}`} alt="" height={logoH} width={logoW} />
+
+                        <Box
+                            sx={{
+                                height: "80px",
+                                display: "flex",
+                                alignItems: "center"
+                            }}
+                        >
+
+                            <img src={`assets/${logo}`} alt="" height={logoH} width={logoW} />
+
+                        </Box>
 
                         <Box
                             display="flex"
@@ -57,12 +68,23 @@ const CaseStudy = ({ title, content, logo, link, logoH, logoW }) => {
                             }}
                         >
 
-                            <Typography variant="p" sx={{ fontWeight: "bold" }}>
+                            <Typography
+                                variant="p"
+                                sx={{
+                                    fontWeight: "bold",
+                                    fontSize: "0.8rem"
+                                }}>
                                 {title}
                             </Typography>
                             <br />
-                            <Typography variant="p">
-                                {limitedContent}
+                            <Typography
+                                variant="p"
+                                sx={{
+                                    fontSize: "0.75rem"
+                                }}
+                            >
+                                {/* {limitedContent} */}
+                                {content}
                             </Typography>
 
                         </Box>
@@ -73,7 +95,13 @@ const CaseStudy = ({ title, content, logo, link, logoH, logoW }) => {
 
                         <Button
                             variant="contained"
-                            sx={{ backgroundColor: "#2F5325" }}
+                            sx={{ 
+                                backgroundColor: "#2F5325",
+                                borderRadius: "8px",
+                                paddingTop: "2px",
+                                paddingBottom: "2px",
+                                color: "whitesmoke"
+                            }}
                             fullWidth
                         >
                             View more

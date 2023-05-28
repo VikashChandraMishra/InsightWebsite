@@ -16,21 +16,23 @@ const Index = () => {
 
       <Box>
 
-        <Box sx={{ p: { xs: 6, md: "20px 100px" } }}>
+        <Box sx={{
+          p: { xs: 6, md: "8vh 12vw" }
+        }}>
 
           <Typography
-            variant="h1"
+            variant="p"
             sx={{
-              fontFamily: "'Switzer', sans-serif",
-              fontWeight: "bold",
+              fontFamily: "Switzer-Variable",
+              fontWeight: "800",
               color: "#363435",
-              fontSize: { xs: "40px", md: "90px" },
+              fontSize: { xs: "40px", md: "6rem" },
             }}
           >
             Case Studies
           </Typography>
 
-          <Grid container spacing={3} sx={{ marginTop: "20px" }}>
+          <Grid container spacing={2} sx={{ marginTop: "20px" }}>
 
             {
               caseStudies.map(({ title, content, logo, link, logoH, logoW }) => {

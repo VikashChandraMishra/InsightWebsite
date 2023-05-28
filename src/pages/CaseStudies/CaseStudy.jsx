@@ -42,7 +42,7 @@ const CaseStudy = ({ title, content, logo, link, logoH, logoW }) => {
                         flexDirection: "column",
                         justifyContent: 'space-between',
                         gap: 2,
-                        height: '50vh',
+                        height: {sm: '30vh', md: '50vh'},
                         // width: {xs: '70vw', md: '100%'}
                     }}
                 >

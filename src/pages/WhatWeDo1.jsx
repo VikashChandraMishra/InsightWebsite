@@ -16,10 +16,10 @@ const WhatWeDo = () => {
       <Box
         display="flex"
         sx={{
-          p: { xs: 2, sm: "20px 100px" },
+          p: { xs: 2, sm: "20px 150px" },
           display: "flex",
           flexDirection: { xs: "column", md: "row" },
-          marginTop: "15vh",
+          marginTop: "100px",
           alignItems: "center",
           gap: { xs: 5, sm: 10 },
         }}
@@ -27,16 +27,20 @@ const WhatWeDo = () => {
         <Typography
           variant="h1"
           sx={{
-            fontWeight: "900",
+            fontWeight: "800",
+            fontFamily: "Switzer-Variable",
             color: "#363435",
-            fontSize: { xs: "40px", md: "90px" },
-            fontFamily: 'Switzer-Variable'
+            fontSize: { xs: "70px", md: "105px" },
           }}
         >
           What We Do
         </Typography>
       </Box>
-      <Grid container spacing={3} sx={{ p: { xs: 2, sm: "20px 100px" } }}>
+      <Grid
+        container
+        spacing={3}
+        sx={{ p: { xs: 2, sm: "20px 150px" }, width: { md: "70%" } }}
+      >
         <Grid item md={2.4} sm={3} xs={4}>
           <Box
             display="flex"
@@ -47,8 +51,8 @@ const WhatWeDo = () => {
           >
             <Box
               sx={{
-                width: { xs: "80px", sm: "120px", md: "150px" },
-                height: { xs: "80px", sm: "120px", md: "150px" },
+                width: { xs: "70px", sm: "90px", md: "105px" },
+                height: { xs: "70px", sm: "90px", md: "105px" },
                 borderRadius: "50%",
                 backgroundColor: "#2F5325",
                 display: "flex",
@@ -56,7 +60,7 @@ const WhatWeDo = () => {
                 alignItems: "center",
               }}
             >
-              <Box sx={{ height: { md: "60px" }, width: { md: "70px" } }}>
+              <Box sx={{ height: { md: "50px" }, width: { md: "50px" } }}>
                 <img src={icon1} alt="" width="100%" height="100%" />
               </Box>
             </Box>
@@ -75,8 +79,8 @@ const WhatWeDo = () => {
           >
             <Box
               sx={{
-                width: { xs: "80px", sm: "120px", md: "150px" },
-                height: { xs: "80px", sm: "120px", md: "150px" },
+                width: { xs: "70px", sm: "90px", md: "105px" },
+                height: { xs: "70px", sm: "90px", md: "105px" },
                 borderRadius: "50%",
                 backgroundColor: "#2F5325",
                 display: "flex",
@@ -84,7 +88,7 @@ const WhatWeDo = () => {
                 alignItems: "center",
               }}
             >
-              <Box sx={{ height: { md: "70px" }, width: { md: "60px" } }}>
+              <Box sx={{ height: { md: "50px" }, width: { md: "40px" } }}>
                 <img src={icon2} alt="" width="100%" height="100%" />
               </Box>
             </Box>
@@ -103,8 +107,8 @@ const WhatWeDo = () => {
           >
             <Box
               sx={{
-                width: { xs: "80px", sm: "120px", md: "150px" },
-                height: { xs: "80px", sm: "120px", md: "150px" },
+                width: { xs: "70px", sm: "90px", md: "105px" },
+                height: { xs: "70px", sm: "90px", md: "105px" },
                 borderRadius: "50%",
                 backgroundColor: "#2F5325",
                 display: "flex",
@@ -112,7 +116,7 @@ const WhatWeDo = () => {
                 alignItems: "center",
               }}
             >
-              <Box sx={{ height: { md: "80px" }, width: { md: "60px" } }}>
+              <Box sx={{ height: { md: "60px" }, width: { md: "40px" } }}>
                 <img src={icon3} alt="" width="100%" height="100%" />
               </Box>
             </Box>
@@ -131,8 +135,8 @@ const WhatWeDo = () => {
           >
             <Box
               sx={{
-                width: { xs: "80px", sm: "120px", md: "150px" },
-                height: { xs: "80px", sm: "120px", md: "150px" },
+                width: { xs: "70px", sm: "90px", md: "105px" },
+                height: { xs: "70px", sm: "90px", md: "105px" },
                 borderRadius: "50%",
                 backgroundColor: "#2F5325",
                 display: "flex",
@@ -140,7 +144,7 @@ const WhatWeDo = () => {
                 alignItems: "center",
               }}
             >
-              <Box sx={{ height: { md: "45px" }, width: { md: "80px" } }}>
+              <Box sx={{ height: { md: "30px" }, width: { md: "60px" } }}>
                 <img src={icon4} alt="" width="100%" height="100%" />
               </Box>
             </Box>
@@ -159,8 +163,8 @@ const WhatWeDo = () => {
           >
             <Box
               sx={{
-                width: { xs: "80px", sm: "120px", md: "150px" },
-                height: { xs: "80px", sm: "120px", md: "150px" },
+                width: { xs: "70px", sm: "90px", md: "105px" },
+                height: { xs: "70px", sm: "90px", md: "105px" },
                 borderRadius: "50%",
                 backgroundColor: "#2F5325",
                 display: "flex",
@@ -185,8 +189,8 @@ const WhatWeDo = () => {
           >
             <Box
               sx={{
-                width: { xs: "80px", sm: "120px", md: "150px" },
-                height: { xs: "80px", sm: "120px", md: "150px" },
+                width: { xs: "70px", sm: "90px", md: "105px" },
+                height: { xs: "70px", sm: "90px", md: "105px" },
                 borderRadius: "50%",
                 backgroundColor: "#2F5325",
                 display: "flex",
@@ -194,7 +198,7 @@ const WhatWeDo = () => {
                 alignItems: "center",
               }}
             >
-              <Box sx={{ height: { md: "80px" }, width: { md: "65px" } }}>
+              <Box sx={{ height: { md: "60px" }, width: { md: "45px" } }}>
                 <img src={icon6} alt="" width="100%" height="100%" />
               </Box>
             </Box>
@@ -213,8 +217,8 @@ const WhatWeDo = () => {
           >
             <Box
               sx={{
-                width: { xs: "80px", sm: "120px", md: "150px" },
-                height: { xs: "80px", sm: "120px", md: "150px" },
+                width: { xs: "70px", sm: "90px", md: "105px" },
+                height: { xs: "70px", sm: "90px", md: "105px" },
                 borderRadius: "50%",
                 backgroundColor: "#2F5325",
                 display: "flex",
@@ -239,8 +243,8 @@ const WhatWeDo = () => {
           >
             <Box
               sx={{
-                width: { xs: "80px", sm: "120px", md: "150px" },
-                height: { xs: "80px", sm: "120px", md: "150px" },
+                width: { xs: "70px", sm: "90px", md: "105px" },
+                height: { xs: "70px", sm: "90px", md: "105px" },
                 borderRadius: "50%",
                 backgroundColor: "#2F5325",
                 display: "flex",
@@ -265,8 +269,8 @@ const WhatWeDo = () => {
           >
             <Box
               sx={{
-                width: { xs: "80px", sm: "120px", md: "150px" },
-                height: { xs: "80px", sm: "120px", md: "150px" },
+                width: { xs: "70px", sm: "90px", md: "105px" },
+                height: { xs: "70px", sm: "90px", md: "105px" },
                 borderRadius: "50%",
                 backgroundColor: "#2F5325",
                 display: "flex",
@@ -290,12 +294,13 @@ const WhatWeDo = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          marginLeft: { xs: "none", md: "1050px" },
+          marginLeft: { xs: "100px", md: "1050px" },
+
           marginTop: "50px",
           cursor: "pointer",
         }}
       >
-        <Typography variant="h6" sx={{ color: "white" }}>
+        <Typography variant="h6" sx={{ color: "white", fontFamily: "Switzer-ExtraLight" }}>
           Let's connect
         </Typography>
       </Box>

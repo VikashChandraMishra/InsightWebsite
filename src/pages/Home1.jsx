@@ -97,8 +97,8 @@ const Home = () => {
             }}
           >
             <Typography variant="p" sx={{
-              color: "whitesmoke",
-              fontFamily: 'Switzer-Thin',
+              color: "white",
+              fontFamily: 'Switzer-Extralight',
               p: "0.1rem",
               fontSize: '1.2rem'
             }}>

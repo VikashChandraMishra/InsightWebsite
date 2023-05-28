@@ -58,21 +58,41 @@ const Careers = () => {
             do meaningful work and leave a profound impact on communities. */}
           </Typography>
 
-          <Link to="/apply">
+          {/* <Link to="/apply"> */}
 
-            <Button
+          {/* <Button
               variant="contained"
               sx={{
                 backgroundColor: "#2F5325",
                 borderRadius: "8px",
                 paddingTop: "2px",
                 paddingBottom: "2px",
-                color: "whitesmoke"
               }}
             >
-              Apply Now
-            </Button>
+              <Typography
+                variant="button"
+                style={{
+                  textTransform: 'lowercase',
+                  color: "white"
+                }}>
+                Apply Now
+              </Typography>
+            </Button> */}
 
+          {/* </Link> */}
+          <Link to="/apply">
+            <button
+              style={{
+                width: "100px",
+                backgroundColor: "#2F5325",
+                border: "none",
+                borderRadius: "8px",
+                paddingTop: "6px",
+                paddingBottom: "6px",
+                color: "white",
+                fontFamily: 'Switzer-Extralight',
+              }}
+            >Apply Now</button>
           </Link>
 
           <Typography variant="p" sx={{

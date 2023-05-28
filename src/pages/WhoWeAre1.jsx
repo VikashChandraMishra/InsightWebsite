@@ -82,7 +82,7 @@ const WhoWeAre = () => {
                   cursor: "pointer",
                 }}
               >
-                <Typography variant="h6" sx={{ color: "white" }}>
+                <Typography variant="h6" sx={{ color: "white", fontFamily: 'Switzer-Extralight' }}>
                   Let's connect
                 </Typography>
               </Box>

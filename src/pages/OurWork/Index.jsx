@@ -49,7 +49,7 @@ const OurWork = () => {
   return (
     <>
       <Box sx={{
-        padding: { md: "20px 150px" },
+        padding: {xs: "20px", md: "20px 150px" },
         marginTop: "100px"
       }}>
         <Typography

@@ -16,7 +16,7 @@ const Careers = () => {
           width: { xs: "90%", sm: "85%" },
           // p: { xs: "10vw 15vw", sm: "3vw " },
           marginLeft: { xs: "6vw", sm: "8vw", md: "12vw" },
-          marginTop: { md: "20vh" }
+          marginTop: { xs: "10vh", md: "20vh" }
         }}
       >
         <Box marginTop="20px" display="flex" flexDirection="column" gap={2}>
@@ -47,9 +47,29 @@ const Careers = () => {
             }}
           >
             Are you a creative visionary looking for a place in the dynamic world of advertising? Join oInsight Brandcom and embark on an exciting journey that will elevate your career to new heights!
-
+          </Typography>
+          
+          <Typography variant="p"
+            sx={{
+              fontWeight: "300",
+              // fontWeight: "600",
+              color: "#454a46",
+              fontSize: "0.8rem",
+              width: { xs: "100%", md: "50%" }
+            }}
+          >
             We are seeking individuals with a passion for storytelling, design, and strategy to join our talented team of professionals. With a proven track record of creating groundbreaking campaigns for our clients, we provide the perfect platform for you to showcase your skills and make an impact in the industry.
-
+          </Typography>
+          
+          <Typography variant="p"
+            sx={{
+              fontWeight: "300",
+              // fontWeight: "600",
+              color: "#454a46",
+              fontSize: "0.8rem",
+              width: { xs: "100%", md: "50%" }
+            }}
+          >
             Don't miss this opportunity to collaborate with like-minded individuals, work on challenging projects, and be at the forefront of cutting-edge advertising techniques. To take the first step towards an extraordinary career, simply fill out our Google form and join us today!
 
             {/* Atlnsight, we help clients navigate, progress and thrive in a world

@@ -4,7 +4,6 @@ import { Box, Grid, Typography } from "@mui/material";
 import Backdrop from "@mui/material/Backdrop";
 import Modal from "@mui/material/Modal";
 import Fade from "@mui/material/Fade";
-import Button from "@mui/material/Button";
 import CloseIcon from "@mui/icons-material/Close";
 
 const style = {
@@ -21,26 +20,31 @@ const style = {
 };
 
 const TheTeam = () => {
+
   const [open, setOpen] = React.useState(false);
   const [teamMember, setTeamMember] = useState(null);
+
   const handleOpen = (id) => {
     const member = data.find((member) => member.id === id);
     setTeamMember(member);
     setOpen(true);
   };
+
   const handleClose = () => setOpen(false);
 
-  const [id, setId] = useState(null);
-
   return (
+
     <div>
+
       <Box
         sx={{
           paddingLeft: { xs: "7vw", md: "10vw" },
           marginTop: "120px",
         }}
       >
+
         <Box display="flex" flexDirection="column" gap={5}>
+
           <Typography
             variant="h1"
             sx={{
@@ -52,26 +56,34 @@ const TheTeam = () => {
           >
             The Team
           </Typography>
+
           <Box display="flex" flexDirection="column">
+
             <Typography variant="p">
               "Great things in business are not done by one person they're done
               by a team or people"
             </Typography>
+
             <Typography variant="p" sx={{ fontWeight: "bold" }}>
               Steve Jobs
             </Typography>
+
           </Box>
+
         </Box>
 
         <Grid
           container
           spacing={3}
-          sx={{ marginTop: "20px", width: { xs: "100%", md: "70%" } }}
+          sx={{ marginTop: "20px", width: { xs: "100%", md: "62%" } }}
         >
+
           {data.map((item) => {
             return (
               <>
+
                 <Grid item xs={6} sm={4} md={4}>
+
                   <Box
                     sx={{
                       width: { xs: "150px", sm: "180px", md: "230px" },
@@ -80,6 +92,7 @@ const TheTeam = () => {
                     }}
                     onClick={() => handleOpen(item.id)}
                   >
+
                     <img
                       src={`images/team members/${item.image}`}
                       alt=""
@@ -87,27 +100,36 @@ const TheTeam = () => {
                       height="100%"
                       style={{ borderRadius: "10%" }}
                     />
+
                   </Box>
+
                   <Box display="flex" flexDirection="column">
+
                     <Typography
                       variant="h6"
                       sx={{ fontWeight: "bold", textAlign: "center" }}
                     >
                       {item.name}
                     </Typography>
+
                     <Typography variant="p" sx={{ textAlign: "center" }}>
                       {item.Designation}
                     </Typography>
+
                   </Box>
+
                 </Grid>
+
               </>
             );
           })}
+
         </Grid>
+
       </Box>
 
       {/* Team Modal */}
-      {/* <Modal
+      <Modal
         aria-labelledby="transition-modal-title"
         aria-describedby="transition-modal-description"
         open={open}
@@ -120,9 +142,13 @@ const TheTeam = () => {
           },
         }}
       >
+
         <Fade in={open}>
+
           {teamMember && (
+
             <Box sx={style}>
+
               <Box
                 display="flex"
                 gap={10}
@@ -133,6 +159,7 @@ const TheTeam = () => {
                 alignItems="center"
                 sx={{ flexDirection: { xs: "column", sm: "row" } }}
               >
+
                 <Box
                   sx={{
                     width: { xs: "150px", sm: "200px" },
@@ -140,6 +167,7 @@ const TheTeam = () => {
                     marginTop: { xs: "20px", sm: "0px" },
                   }}
                 >
+
                   <img
                     src={`images/team members/${teamMember.image}`}
                     alt=""
@@ -147,7 +175,9 @@ const TheTeam = () => {
                     height="100%"
                     style={{ borderRadius: "10px" }}
                   />
+
                 </Box>
+
                 <Box
                   sx={{
                     width: { xs: 200, sm: 500 },
@@ -156,6 +186,7 @@ const TheTeam = () => {
                   display="flex"
                   flexDirection="column"
                 >
+
                   <Box
                     display="flex"
                     sx={{
@@ -166,7 +197,9 @@ const TheTeam = () => {
                       gap: { xs: 5, sm: 0 },
                     }}
                   >
+
                     <Box>
+
                       <Typography
                         variant="h5"
                         sx={{
@@ -175,9 +208,10 @@ const TheTeam = () => {
                           fontFamily: "Switzer-Variable"
                         }}
                       >{teamMember.name}</Typography>
+
                       <Typography
                         variant="h5"
-                      
+
                         sx={{
                           color: "#363435",
                           fontWeight: '400',
@@ -186,22 +220,37 @@ const TheTeam = () => {
                       >
                         {teamMember.Designation}
                       </Typography>
+
                     </Box>
+
                     <CloseIcon onClick={handleClose} />
+
                   </Box>
+
                   <Box>
+
                     <Typography variant="p">
                       {teamMember.Description}
                     </Typography>
+
                   </Box>
+
                 </Box>
+
               </Box>
+
             </Box>
+
           )}
+
         </Fade>
-      </Modal> */}
+
+      </Modal>
+
     </div>
+
   );
+
 };
 
 export default TheTeam;

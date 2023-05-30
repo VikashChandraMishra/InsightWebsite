@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Logo from "../assets/insightLogo.png";
 import { Box } from "@mui/material";
 import { motion } from "framer-motion";
-import MenuIcon from "@mui/icons-material/Menu";
 import Menu from "./Menu";
 import { Link } from "react-router-dom";
 
@@ -39,7 +38,7 @@ const Navbar = () => {
           right: 0,
           top: 0,
           zIndex: 999,
-          background: isScrolled ? "rgba(255, 255, 255, 0.8)" : "transparent",
+          background: isScrolled ? "rgba(255, 255, 255, 0.6)" : "transparent",
           boxShadow: isScrolled ? "0px 0px 10px rgba(0, 0, 0, 0.1)" : "none",
           backdropFilter: isScrolled ? "blur(10px)" : "none",
           transition: "background-color 0.3s, box-shadow 0.3s",
@@ -65,6 +64,20 @@ const Navbar = () => {
             }}
           >
             <Box display="flex" flexDirection="column" gap={0.5}>
+              <Box
+                sx={{
+                  height: "2px",
+                  width: "40px",
+                  backgroundColor: "black",
+                }}
+              ></Box>
+              <Box
+                sx={{
+                  height: "2px",
+                  width: "40px",
+                  backgroundColor: "black",
+                }}
+              ></Box>
               <Box
                 sx={{
                   height: "2px",

@@ -30,6 +30,7 @@ import OurWork from "./pages/OurWork/Index";
 import { createTheme, ThemeProvider } from '@mui/material';
 import CareerApplication from "./pages/Forms/CareerApplication";
 
+import Awards from "./pages/Awards";
 
 const theme = createTheme({
   typography: {
@@ -71,6 +72,8 @@ function App() {
 
           <Route path="/unicef" element={<UNICEF />} />
           <Route path="/brahmaputra-board" element={<BrahmaputraBoard />} />
+
+          <Route path="/awards" element={<Awards />} />
 
           <Route path="/apply" element={<CareerApplication />} />
 

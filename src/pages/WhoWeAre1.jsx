@@ -1,9 +1,12 @@
-import { Box, Button, Typography } from "@mui/material";
-import React from "react";
+import { Box, Typography } from "@mui/material";
+import { Link } from "react-router-dom";
 
 const WhoWeAre = () => {
+
   return (
+
     <div id="who_we_are">
+
       <Box
         display="flex"
         sx={{
@@ -15,7 +18,9 @@ const WhoWeAre = () => {
           gap: { xs: 5, sm: 10 },
         }}
       >
+
         <Box display="flex" flexDirection="column" gap={5}>
+
           <Typography
             variant="h1"
             sx={{
@@ -27,24 +32,25 @@ const WhoWeAre = () => {
           >
             Who Are We
           </Typography>
+
           <Box display="flex" flexDirection="column" gap={2}>
+
             <Typography
               variant="p"
               sx={{
                 fontSize: '1.5rem',
                 color: "#363435",
               }}
-            // sx={{ textAlign: { xs: "center", sm: "start", md: "start" } }}
             >
               Experts in Integrated Communication
             </Typography>
+
             <Typography
               variant="p"
               sx={{
                 width: { xs: "100%", sm: "100%", md: "50%" },
                 fontSize: '0.8rem',
                 color: "#363435",
-                // textAlign: { xs: "center", sm: "start", md: "start" }
               }}
             >
               With a decade of experience as a full-service communications
@@ -60,8 +66,6 @@ const WhoWeAre = () => {
                 width: { xs: "100%", sm: "100%", md: "50%" },
                 fontSize: '0.8rem',
                 color: "#363435",
-
-                // textAlign: { xs: "center", sm: "start", md: "start" },
               }}
             >
               Our versatile team of young professionals comes from diverse
@@ -69,30 +73,48 @@ const WhoWeAre = () => {
               This allows us to be open to ideas, objective yet emotional, which
               is aided by our deep understanding of consumer behaviour.
             </Typography>
+
             <Box sx={{ margin: { xs: "auto", sm: "0" } }}>
               {" "}
-              <Box
+
+              <Link
+                to="/contact"
                 sx={{
-                  backgroundColor: "#2F5325",
-                  width: "150px",
-                  borderRadius: "5px",
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  marginLeft: { xs: "none", md: "65vw" },
-                  marginTop: "20px",
-                  cursor: "pointer",
+                  textDecoration: "none"
                 }}
               >
-                <Typography variant="h6" sx={{ color: "white", fontFamily: 'Switzer-Extralight' }}>
-                  Let's connect
-                </Typography>
-              </Box>
+
+                <Box
+                  sx={{
+                    backgroundColor: "#2F5325",
+                    width: "150px",
+                    borderRadius: "5px",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    marginLeft: { xs: "none", md: "65vw" },
+                    marginTop: "20px",
+                    cursor: "pointer",
+                  }}
+                >
+
+                  <Typography variant="h6" sx={{ color: "white", fontFamily: 'Switzer-Extralight' }}>
+                    Let's connect
+                  </Typography>
+
+                </Box>
+
+              </Link>
+
             </Box>
+
           </Box>
+
         </Box>
+
       </Box>
-    </div>
+
+    </div >
   );
 };
 

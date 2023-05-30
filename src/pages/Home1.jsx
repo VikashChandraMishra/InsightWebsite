@@ -1,21 +1,23 @@
-import { Box, Button, Typography } from "@mui/material";
-import React from "react";
+import { Box, Typography } from "@mui/material";
 
 const Home = () => {
+  
   return (
+    
     <div id="home">
+    
       <Box
         sx={{
-          marginTop: "15vh",
+          marginTop: "20vh",
           marginLeft: "15vw",
           marginRight: "15vw",
           display: "flex",
           flexDirection: { xs: "column", md: "row" },
           alignItems: "center",
           gap: { xs: 5, sm: 10 },
-          // marginTop: "20vh",
         }}
       >
+
         <Typography
           variant="h1"
           sx={{
@@ -24,11 +26,11 @@ const Home = () => {
             color: "#363435",
             fontSize: { xs: "40px", md: "90px" },
             fontFamily: "Switzer-Variable"
-            // textAlign: { xs: "center", sm: "start", md: "start" },
           }}
         >
           Connecting The Dots
         </Typography>
+
         <Box
           display="flex"
           flexDirection="column"
@@ -38,6 +40,7 @@ const Home = () => {
             marginTop: { xs: "0vh", md: "15vh" }
           }}
         >
+
           <Typography
             variant="p"
             sx={{
@@ -49,11 +52,11 @@ const Home = () => {
           >
             Creating effective and inclusive communication
           </Typography>
+
           <Typography
             variant="p"
             sx={{
               color: "#454a46",
-              // textAlign: { xs: "center", sm: "start", md: "start" },
               fontSize: "0.7rem",
             }}
           >
@@ -69,7 +72,6 @@ const Home = () => {
             variant="p"
             sx={{
               color: "#454a46",
-              // textAlign: { xs: "center", sm: "start", md: "start" },
               fontSize: "0.7rem",
             }}
           >
@@ -83,7 +85,8 @@ const Home = () => {
             <b> compelling stories </b> that help organisations achieve their
             goals. Know more
           </Typography>
-          <Box
+
+          {/* <Box
             sx={{
               backgroundColor: "#2F5325",
               width: "120px",
@@ -96,6 +99,7 @@ const Home = () => {
               cursor: "pointer",
             }}
           >
+
             <Typography variant="p" sx={{
               color: "white",
               fontFamily: 'Switzer-Extralight',
@@ -104,17 +108,9 @@ const Home = () => {
             }}>
               Know more
             </Typography>
-          </Box>
+          </Box> */}
         </Box>
       </Box>
-
-      {/* <Box marginTop="100px">
-        <WhoWeAre />
-      </Box> */}
-      {/* <Box marginTop="100px">
-        <WhatWeDo />
-      </Box> */}
-      {/* <Footer /> */}
     </div>
   );
 };

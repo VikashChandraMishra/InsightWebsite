@@ -253,6 +253,40 @@ const Menu = ({ onClose }) => {
             </RouterLink>
           </motion.div>
 
+          {/* Case Studies */}
+          <motion.div
+            initial={{ opacity: 0, y: -50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            style={{
+              cursor: "pointer",
+            }}
+          >
+            <RouterLink
+              to="/awards"
+              style={{ textDecoration: "none", color: "black" }}
+            >
+              <Typography
+                variant="p"
+                sx={{
+                  "&:hover": {
+                    color: "darkgreen",
+                    fontWeight: "bold"
+                  },
+                  fontSize: {
+                    xs: "1.5rem",
+                    md: "2rem"
+                  },
+                  fontFamily: "Switzer-Variable",
+                  fontWeight: "200"
+                }}
+                onClick={onClose}
+              >
+                AWARDS
+              </Typography>
+            </RouterLink>
+          </motion.div>
+
           {/* Team */}
           <motion.div
             initial={{ opacity: 0, y: -50 }}

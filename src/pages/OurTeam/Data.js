@@ -33,7 +33,7 @@ export const data = [
   },
   {
     id: 5,
-    image: "SalikKhan.png",
+    image: "SalikKhan1.png",
     name: "Salik Khan",
     Designation: "Director Strategy and Govt. Affairs",
     Description:

@@ -78,8 +78,8 @@ const Menu = ({ onClose }) => {
                     fontWeight: "bold"
                   },
                   fontSize: {
-                    xs: "1.5rem",
-                    md: "2rem"
+                    xs: "1.3rem",
+                    md: "1.8rem"
                   },
                   fontFamily: "Switzer-Variable",
                   fontWeight: "200"
@@ -123,8 +123,8 @@ const Menu = ({ onClose }) => {
                     fontWeight: "bold"
                   },
                   fontSize: {
-                    xs: "1.5rem",
-                    md: "2rem"
+                    xs: "1.3rem",
+                    md: "1.8rem"
                   },
                   fontFamily: "Switzer-Variable",
                   fontWeight: "200"
@@ -167,8 +167,8 @@ const Menu = ({ onClose }) => {
                     fontWeight: "bold"
                   },
                   fontSize: {
-                    xs: "1.5rem",
-                    md: "2rem"
+                    xs: "1.3rem",
+                    md: "1.8rem"
                   },
                   fontFamily: "Switzer-Variable",
                   fontWeight: "200"
@@ -204,8 +204,8 @@ const Menu = ({ onClose }) => {
                     fontWeight: "bold"
                   },
                   fontSize: {
-                    xs: "1.5rem",
-                    md: "2rem"
+                    xs: "1.3rem",
+                    md: "1.8rem"
                   },
                   fontFamily: "Switzer-Variable",
                   fontWeight: "200"
@@ -240,8 +240,8 @@ const Menu = ({ onClose }) => {
                     fontWeight: "bold"
                   },
                   fontSize: {
-                    xs: "1.5rem",
-                    md: "2rem"
+                    xs: "1.3rem",
+                    md: "1.8rem"
                   },
                   fontFamily: "Switzer-Variable",
                   fontWeight: "200"
@@ -253,7 +253,41 @@ const Menu = ({ onClose }) => {
             </RouterLink>
           </motion.div>
 
-          {/* Case Studies */}
+          {/* Clients Speak */}
+          <motion.div
+            initial={{ opacity: 0, y: -50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            style={{
+              cursor: "pointer",
+            }}
+          >
+            <RouterLink
+              to="/clients-speak"
+              style={{ textDecoration: "none", color: "black" }}
+            >
+              <Typography
+                variant="p"
+                sx={{
+                  "&:hover": {
+                    color: "darkgreen",
+                    fontWeight: "bold"
+                  },
+                  fontSize: {
+                    xs: "1.3rem",
+                    md: "1.8rem"
+                  },
+                  fontFamily: "Switzer-Variable",
+                  fontWeight: "200"
+                }}
+                onClick={onClose}
+              >
+                CLIENTS SPEAK
+              </Typography>
+            </RouterLink>
+          </motion.div>
+
+          {/* Awards */}
           <motion.div
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
@@ -274,8 +308,8 @@ const Menu = ({ onClose }) => {
                     fontWeight: "bold"
                   },
                   fontSize: {
-                    xs: "1.5rem",
-                    md: "2rem"
+                    xs: "1.3rem",
+                    md: "1.8rem"
                   },
                   fontFamily: "Switzer-Variable",
                   fontWeight: "200"
@@ -308,8 +342,8 @@ const Menu = ({ onClose }) => {
                     fontWeight: "bold"
                   },
                   fontSize: {
-                    xs: "1.5rem",
-                    md: "2rem"
+                    xs: "1.3rem",
+                    md: "1.8rem"
                   },
                   fontFamily: "Switzer-Variable",
                   fontWeight: "200"
@@ -342,8 +376,8 @@ const Menu = ({ onClose }) => {
                     fontWeight: "bold"
                   },
                   fontSize: {
-                    xs: "1.5rem",
-                    md: "2rem"
+                    xs: "1.3rem",
+                    md: "1.8rem"
                   },
                   fontFamily: "Switzer-Variable",
                   fontWeight: "200"
@@ -376,8 +410,8 @@ const Menu = ({ onClose }) => {
                     fontWeight: "bold"
                   },
                   fontSize: {
-                    xs: "1.5rem",
-                    md: "2rem"
+                    xs: "1.3rem",
+                    md: "1.8rem"
                   },
                   fontFamily: "Switzer-Variable",
                   fontWeight: "200"

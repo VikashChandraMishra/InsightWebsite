@@ -31,6 +31,7 @@ import { createTheme, ThemeProvider } from '@mui/material';
 import CareerApplication from "./pages/Forms/CareerApplication";
 
 import Awards from "./pages/Awards";
+import ClientsSpeak from "./pages/ClientsSpeak";
 
 const theme = createTheme({
   typography: {
@@ -76,6 +77,8 @@ function App() {
           <Route path="/awards" element={<Awards />} />
 
           <Route path="/apply" element={<CareerApplication />} />
+
+          <Route path="/clients-speak" element={<ClientsSpeak />} />
 
         </Routes>
         <Footer />

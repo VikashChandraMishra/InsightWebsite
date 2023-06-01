@@ -78,7 +78,7 @@ const Navbar = () => {
                   backgroundColor: "black",
                 }}
               ></Box>
-              <Box
+              {/* <Box
                 sx={{
                   height: "2px",
                   width: "40px",
@@ -91,7 +91,7 @@ const Navbar = () => {
                   width: "40px",
                   backgroundColor: "black",
                 }}
-              ></Box>
+              ></Box> */}
             </Box>
           </motion.div>
           {isOpen && <Menu onClose={handleMenuClose} />}

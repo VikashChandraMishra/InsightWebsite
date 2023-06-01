@@ -16,124 +16,94 @@ const Careers = () => {
           width: { xs: "90%", sm: "85%" },
           // p: { xs: "10vw 15vw", sm: "3vw " },
           marginLeft: { xs: "6vw", sm: "8vw", md: "12vw" },
-          marginTop: { xs: "10vh", md: "20vh" }
+          marginTop: { xs: "20vh", md: "20vh" },
         }}
       >
         <Box marginTop="20px" display="flex" flexDirection="column" gap={2}>
-          <Typography variant="h1" sx={{
-            fontWeight: "800",
-            fontFamily: "Switzer-Variable",
-            fontSize: { xs: "50px", md: "100px" },
-            color: "#454a46"
-          }}>
+          <Typography
+            variant="h1"
+            sx={{
+              fontWeight: "800",
+              fontFamily: "Switzer-Variable",
+              fontSize: { xs: "50px", md: "100px" },
+              color: "#454a46",
+            }}
+          >
             Careers
           </Typography>
-          <Typography variant="p"
+          <Typography
+            variant="p"
             sx={{
               fontSize: "1.7rem",
               color: "#454a46",
               // fontFamily: "Switzer-Thin",
-              fontWeight: "300"
-            }}
-          >Be part of the team. Join us.</Typography>
-
-          <Typography variant="p"
-            sx={{
               fontWeight: "300",
-              // fontWeight: "600",
-              color: "#454a46",
-              fontSize: "0.8rem",
-              width: { xs: "100%", md: "50%" }
             }}
           >
-            Are you a creative visionary looking for a place in the dynamic world of advertising? Join oInsight Brandcom and embark on an exciting journey that will elevate your career to new heights!
+            Be part of the team. Join us.
           </Typography>
-          
-          <Typography variant="p"
-            sx={{
-              fontWeight: "300",
-              // fontWeight: "600",
-              color: "#454a46",
-              fontSize: "0.8rem",
-              width: { xs: "100%", md: "50%" }
-            }}
-          >
-            We are seeking individuals with a passion for storytelling, design, and strategy to join our talented team of professionals. With a proven track record of creating groundbreaking campaigns for our clients, we provide the perfect platform for you to showcase your skills and make an impact in the industry.
-          </Typography>
-          
-          <Typography variant="p"
-            sx={{
-              fontWeight: "300",
-              // fontWeight: "600",
-              color: "#454a46",
-              fontSize: "0.8rem",
-              width: { xs: "100%", md: "50%" }
-            }}
-          >
-            Don't miss this opportunity to collaborate with like-minded individuals, work on challenging projects, and be at the forefront of cutting-edge advertising techniques. To take the first step towards an extraordinary career, simply fill out our Google form and join us today!
 
+          <Typography
+            variant="p"
+            sx={{
+              fontWeight: "300",
+              // fontWeight: "600",
+              color: "#454a46",
+              fontSize: "0.8rem",
+              width: { xs: "100%", md: "50%" },
+            }}
+          >
+            <p>
+              Are you a creative visionary looking for a place in the dynamic
+              world of advertising? Join oInsight Brandcom and embark on an
+              exciting journey that will elevate your career to new heights!
+            </p>
+            <p>
+              We are seeking individuals with a passion for storytelling, design, and
+              strategy to join our talented team of professionals. With a proven
+              track record of creating groundbreaking campaigns for our clients,
+              we provide the perfect platform for you to showcase your skills and
+              make an impact in the industry.
+            </p>
+
+            <p>
+              Don't miss this opportunity to
+              collaborate with like-minded individuals, work on challenging
+              projects, and be at the forefront of cutting-edge advertising
+              techniques. To take the first step towards an extraordinary career,
+              simply fill out our Google form and join us today!
+            </p>
+            
             {/* Atlnsight, we help clients navigate, progress and thrive in a world
             of change. We help champion meaningful progress through creative,
             media, data and technology. Come, be part of a team that strives to
             do meaningful work and leave a profound impact on communities. */}
           </Typography>
 
-          {/* <Link to="/apply"> */}
-
-          {/* <Button
-              variant="contained"
-              sx={{
-                backgroundColor: "#2F5325",
-                borderRadius: "8px",
-                paddingTop: "2px",
-                paddingBottom: "2px",
-              }}
-            >
-              <Typography
-                variant="button"
-                style={{
-                  textTransform: 'lowercase',
-                  color: "white"
-                }}>
-                Apply Now
-              </Typography>
-            </Button> */}
-
-          {/* </Link> */}
-          <Link to="/apply">
-            <button
-              style={{
-                width: "100px",
-                backgroundColor: "#2F5325",
-                border: "none",
-                borderRadius: "8px",
-                paddingTop: "6px",
-                paddingBottom: "6px",
-                color: "white",
-                fontFamily: 'Switzer-Extralight',
-              }}
-            >Apply Now</button>
-          </Link>
-
-          <Typography variant="p" sx={{
-            fontWeight: "bold",
-            fontSize: "2rem",
-            color: "#454a46"
-          }}>
+          <Typography
+            variant="p"
+            sx={{
+              fontWeight: "bold",
+              fontSize: "2rem",
+              color: "#454a46",
+            }}
+          >
             Vacancies
           </Typography>
         </Box>
-        <Grid container spacing={3}
+        <Grid
+          container
+          spacing={3}
           sx={{
             marginTop: "2px",
-            width: { xs: "95vw", sm: "87vw", md: "75vw" }
+            width: { xs: "95vw", sm: "87vw", md: "75vw" },
           }}
         >
           <Grid item xs={12} sm={12} md={12}>
             <Divider />
             <Box
               sx={{
-                padding: "1.2rem 0rem"
+                padding: "1.2rem 0rem",
               }}
               display="flex"
               justifyContent="space-between"
@@ -144,8 +114,9 @@ const Careers = () => {
                 sx={{
                   fontWeight: "bold",
                   fontSize: "1.4rem",
-                  color: "#454a46"
-                }}>
+                  color: "#454a46",
+                }}
+              >
                 Senior Visualizer
               </Typography>
               <KeyboardArrowDownIcon onClick={() => handleOpen(true)} />
@@ -212,18 +183,26 @@ const Careers = () => {
                   molestiae consequatur, vel illum qui dolorem eum fugiat quo
                   voluptas nulla pariatur
                 </Typography>
-                <Button
-                  variant="contained"
-                  sx={{ backgroundColor: "darkgreen", alignSelf: "start" }}
-                >
-                  Apply for the position
-                </Button>
+                <Link to="/apply">
+                  <Button
+                    variant="contained"
+                    sx={{
+                      backgroundColor: "#2F5325",
+                      borderRadius: "8px",
+                      paddingTop: "2px",
+                      paddingBottom: "2px",
+                      color: "whitesmoke",
+                    }}
+                  >
+                    Apply Now
+                  </Button>
+                </Link>
               </Box>
             )}
             <Divider />
             <Box
               sx={{
-                padding: "1.2rem 0rem"
+                padding: "1.2rem 0rem",
               }}
               display="flex"
               justifyContent="space-between"
@@ -234,8 +213,9 @@ const Careers = () => {
                 sx={{
                   fontSize: "1.4rem",
                   color: "#454a46",
-                  fontWeight: "bold"
-                }}>
+                  fontWeight: "bold",
+                }}
+              >
                 Experience Designer
               </Typography>
               <KeyboardArrowDownIcon />
@@ -244,7 +224,7 @@ const Careers = () => {
             <Divider />
             <Box
               sx={{
-                padding: "1.2rem 0rem"
+                padding: "1.2rem 0rem",
               }}
               display="flex"
               justifyContent="space-between"
@@ -255,9 +235,318 @@ const Careers = () => {
                 sx={{
                   fontSize: "1.4rem",
                   color: "#454a46",
-                  fontWeight: "bold"
-                }}>
+                  fontWeight: "bold",
+                }}
+              >
                 Content Writer
+              </Typography>
+              <KeyboardArrowDownIcon />
+            </Box>
+            <Divider />
+            <Divider />
+            <Box
+              sx={{
+                padding: "1.2rem 0rem",
+              }}
+              display="flex"
+              justifyContent="space-between"
+              alignItems="center"
+            >
+              <Typography
+                variant="p"
+                sx={{
+                  fontSize: "1.4rem",
+                  color: "#454a46",
+                  fontWeight: "bold",
+                }}
+              >
+                Social Media Executive
+              </Typography>
+              <KeyboardArrowDownIcon />
+            </Box>
+            <Divider />
+            <Divider />
+            <Box
+              sx={{
+                padding: "1.2rem 0rem",
+              }}
+              display="flex"
+              justifyContent="space-between"
+              alignItems="center"
+            >
+              <Typography
+                variant="p"
+                sx={{
+                  fontSize: "1.4rem",
+                  color: "#454a46",
+                  fontWeight: "bold",
+                }}
+              >
+                Copywriter
+              </Typography>
+              <KeyboardArrowDownIcon />
+            </Box>
+            <Divider />
+            <Divider />
+            <Box
+              sx={{
+                padding: "1.2rem 0rem",
+              }}
+              display="flex"
+              justifyContent="space-between"
+              alignItems="center"
+            >
+              <Typography
+                variant="p"
+                sx={{
+                  fontSize: "1.4rem",
+                  color: "#454a46",
+                  fontWeight: "bold",
+                }}
+              >
+                Brand Servicing Manager
+              </Typography>
+              <KeyboardArrowDownIcon />
+            </Box>
+            <Divider />
+            <Divider />
+            <Box
+              sx={{
+                padding: "1.2rem 0rem",
+              }}
+              display="flex"
+              justifyContent="space-between"
+              alignItems="center"
+            >
+              <Typography
+                variant="p"
+                sx={{
+                  fontSize: "1.4rem",
+                  color: "#454a46",
+                  fontWeight: "bold",
+                }}
+              >
+                Manager (F & A)
+              </Typography>
+              <KeyboardArrowDownIcon />
+            </Box>
+            <Divider />
+            <Divider />
+            <Box
+              sx={{
+                padding: "1.2rem 0rem",
+              }}
+              display="flex"
+              justifyContent="space-between"
+              alignItems="center"
+            >
+              <Typography
+                variant="p"
+                sx={{
+                  fontSize: "1.4rem",
+                  color: "#454a46",
+                  fontWeight: "bold",
+                }}
+              >
+                Direct Sales Manager
+              </Typography>
+              <KeyboardArrowDownIcon />
+            </Box>
+            <Divider />
+            <Divider />
+            <Box
+              sx={{
+                padding: "1.2rem 0rem",
+              }}
+              display="flex"
+              justifyContent="space-between"
+              alignItems="center"
+            >
+              <Typography
+                variant="p"
+                sx={{
+                  fontSize: "1.4rem",
+                  color: "#454a46",
+                  fontWeight: "bold",
+                }}
+              >
+                Sales Executive (2 Nos)
+              </Typography>
+              <KeyboardArrowDownIcon />
+            </Box>
+            <Divider />
+            <Divider />
+            <Box
+              sx={{
+                padding: "1.2rem 0rem",
+              }}
+              display="flex"
+              justifyContent="space-between"
+              alignItems="center"
+            >
+              <Typography
+                variant="p"
+                sx={{
+                  fontSize: "1.4rem",
+                  color: "#454a46",
+                  fontWeight: "bold",
+                }}
+              >
+                Direct Sales Manager
+              </Typography>
+              <KeyboardArrowDownIcon />
+            </Box>
+            <Divider />
+            <Divider />
+            <Box
+              sx={{
+                padding: "1.2rem 0rem",
+              }}
+              display="flex"
+              justifyContent="space-between"
+              alignItems="center"
+            >
+              <Typography
+                variant="p"
+                sx={{
+                  fontSize: "1.4rem",
+                  color: "#454a46",
+                  fontWeight: "bold",
+                }}
+              >
+                Sales Executive (2 Nos)
+              </Typography>
+              <KeyboardArrowDownIcon />
+            </Box>
+            <Divider />
+            <Divider />
+            <Box
+              sx={{
+                padding: "1.2rem 0rem",
+              }}
+              display="flex"
+              justifyContent="space-between"
+              alignItems="center"
+            >
+              <Typography
+                variant="p"
+                sx={{
+                  fontSize: "1.4rem",
+                  color: "#454a46",
+                  fontWeight: "bold",
+                }}
+              >
+                Social Media Executive / Content Writer
+              </Typography>
+              <KeyboardArrowDownIcon />
+            </Box>
+            <Divider />
+            <Divider />
+            <Box
+              sx={{
+                padding: "1.2rem 0rem",
+              }}
+              display="flex"
+              justifyContent="space-between"
+              alignItems="center"
+            >
+              <Typography
+                variant="p"
+                sx={{
+                  fontSize: "1.4rem",
+                  color: "#454a46",
+                  fontWeight: "bold",
+                }}
+              >
+                Social Media Executive
+              </Typography>
+              <KeyboardArrowDownIcon />
+            </Box>
+            <Divider />
+            <Divider />
+            <Box
+              sx={{
+                padding: "1.2rem 0rem",
+              }}
+              display="flex"
+              justifyContent="space-between"
+              alignItems="center"
+            >
+              <Typography
+                variant="p"
+                sx={{
+                  fontSize: "1.4rem",
+                  color: "#454a46",
+                  fontWeight: "bold",
+                }}
+              >
+                Business Development Manager
+              </Typography>
+              <KeyboardArrowDownIcon />
+            </Box>
+            <Divider />
+            <Divider />
+            <Box
+              sx={{
+                padding: "1.2rem 0rem",
+              }}
+              display="flex"
+              justifyContent="space-between"
+              alignItems="center"
+            >
+              <Typography
+                variant="p"
+                sx={{
+                  fontSize: "1.4rem",
+                  color: "#454a46",
+                  fontWeight: "bold",
+                }}
+              >
+                Brand Servicing Manager
+              </Typography>
+              <KeyboardArrowDownIcon />
+            </Box>
+            <Divider />
+            <Divider />
+            <Box
+              sx={{
+                padding: "1.2rem 0rem",
+              }}
+              display="flex"
+              justifyContent="space-between"
+              alignItems="center"
+            >
+              <Typography
+                variant="p"
+                sx={{
+                  fontSize: "1.4rem",
+                  color: "#454a46",
+                  fontWeight: "bold",
+                }}
+              >
+                Team Leader / Communication Expert
+              </Typography>
+              <KeyboardArrowDownIcon />
+            </Box>
+            <Divider />
+            <Divider />
+            <Box
+              sx={{
+                padding: "1.2rem 0rem",
+              }}
+              display="flex"
+              justifyContent="space-between"
+              alignItems="center"
+            >
+              <Typography
+                variant="p"
+                sx={{
+                  fontSize: "1.4rem",
+                  color: "#454a46",
+                  fontWeight: "bold",
+                }}
+              >
+                Graphic Designer
               </Typography>
               <KeyboardArrowDownIcon />
             </Box>

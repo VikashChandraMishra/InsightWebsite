@@ -96,6 +96,23 @@ const Form = () => {
 
           <Box sx={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 2 }}>
             <label style={{ fontSize: "1.2rem" }}>
+              Which team do you want to apply for?
+            </label>
+            <select
+              name="about"
+              id="about"
+              style={{ padding: "10px 30px", borderRadius: "50px" }}
+            >
+              <option value="Brand Servicing">Brand Servicing</option>
+              <option value="Copy Writing">Copy Writing</option>
+              <option value="Art & Design">Art & Design</option>
+              <option value="Audio Visual">Audio Visual</option>
+              <option value="Social Media">Social Media</option>
+            </select>
+          </Box>
+          
+          <Box sx={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 2 }}>
+            <label style={{ fontSize: "1.2rem" }}>
               Please confirm your salary expectations:
             </label>
             <input

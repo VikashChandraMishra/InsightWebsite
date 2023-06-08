@@ -1,70 +1,74 @@
 import React, { useState } from "react";
-import { Box, Typography, Paper, Grid, Button } from "@mui/material";
+import {
+  Box,
+  Typography,
+  Paper,
+  Grid,
+  IconButton,
+} from "@mui/material";
 import { data } from "./Data";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import JJMLogo from "../../assets/Group 52.png";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import JJMLogo from "../../assets/JJM.png";
 import NHMLogo from "../../assets/NHM.png";
 import Modal from "@mui/material/Modal";
-import img1 from "../../assets/JJMM1.png";
-import img2 from "../../assets/JJMM2.png";
-import img3 from "../../assets/JJMM3.png";
+import img1 from "../../assets/Press ad 1.png";
+import img2 from "../../assets/Post 1 copy.png";
+import img3 from "../../assets/Post 3_1 copy.png";
 import img4 from "../../assets/Banner_Assamese.png";
 import img5 from "../../assets/Hoarding_Assamese.png";
 import img6 from "../../assets/Poster_English.png";
 import CloseIcon from "@mui/icons-material/Close";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 
 // Modal Style
 const style = {
   position: "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -50%)",
-  width: { xs: 300, sm: 400, md: "100vw" },
-  height: "100vh",
-  background: "none",
-  outline: "none",
+  top: 0,
+  left: 0,
+  right: 0,
+  bottom: 0,
+  backgroundColor: "rgba(0, 0, 0, 0.5)",
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
   flexDirection: "column",
-  p: 4,
 };
-
 const OurWork = () => {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+  const [selectedItem, setSelectedItem] = useState(null);
 
-  const [id, setId] = useState(null);
-
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+  const handleViewMore = (item) => {
+    setSelectedItem(item);
+    console.log(item)
+    handleOpen();
   };
+
   return (
     <>
-      <Box sx={{
-        padding: {xs: "20px", md: "20px 150px" },
-        marginTop: "100px"
-      }}>
+      <Box
+        sx={{
+          padding: { xs: "20px", md: "20px 150px" },
+          marginTop: "100px",
+        }}
+      >
         <Typography
           variant="h1"
           sx={{
             fontWeight: "bold",
             color: "#363435",
             fontSize: { xs: "40px", md: "7rem" },
-            fontFamily: "Switzer-Variable"
+            fontFamily: "Switzer-Variable",
           }}
         >
           Our Work{" "}
         </Typography>
 
-        <Typography variant="p"
+        <Typography
+          variant="p"
           sx={{
             fontSize: "1.5rem",
             color: "#363435",
@@ -80,6 +84,7 @@ const OurWork = () => {
                 elevation={5}
                 key={item.id}
                 sx={{
+                  position: "relative",
                   zIndex: 1,
                   display: "flex",
                   flexDirection: "column",
@@ -89,8 +94,8 @@ const OurWork = () => {
                   p: 2,
                   marginTop: "20px",
                   height: "25vh",
-                  borderBottomLeftRadius: "15px",
-                  borderBottomRightRadius: "15px"
+                  borderBottomLeftRadius: "10px",
+                  borderBottomRightRadius: "10px",
                 }}
               >
                 <img
@@ -100,180 +105,245 @@ const OurWork = () => {
                   height={item.logoH}
                 />
 
-                <Typography variant="p"
+                <Typography
+                  variant="p"
                   sx={{
                     fontSize: "0.8rem",
                     // marginTop: `${item.labelMarginTop}`
                   }}
-                >{item.name}</Typography>
-
+                >
+                  {item.name}
+                </Typography>
               </Paper>
               <Box
                 sx={{
                   backgroundColor: "#2F5325",
                   borderBottomLeftRadius: "10px",
                   borderBottomRightRadius: "10px",
-                  p: 0.3,
-                  marginTop: "-15px",
-                  zIndex: -1
+                  // marginTop: "100px",
+                  // p: 0.3,
+                  marginTop: "-3px",
+                  position: "relative",
+                  zIndex: 0,
+                  p: "5px 15px",
                 }}
+                onClick={() => handleViewMore(item)}
               >
-                <Typography variant="p" sx={{ color: "white" }}>
+                <Typography
+                  variant="p"
+                  sx={{ color: "white", fontSize: "14px" }}
+                >
                   View more
                 </Typography>
               </Box>
-
             </Grid>
           ))}
         </Grid>
       </Box>
-
-      <Modal open={open}>
-        <Box sx={style}>
-          <Box
-            display="flex"
-            gap={2}
-            sx={{
-              flexDirection: { xs: "column", md: "row" },
-              marginTop: "100px",
-              marginLeft: "100px",
-              marginRight: "100px",
-            }}
-          >
-            <Box
-              backgroundColor="white"
-              p={2}
-              borderRadius="10px"
-              margin="auto"
-            >
-              <img src={JJMLogo} alt="" width="70px" height="70px" />
-            </Box>
-            <Box>
-              <Typography
-                variant="p"
-                sx={{ color: "white", fontWeight: "bold" }}
+      {
+        open ?
+          <Modal open={open} onClose={handleClose}>
+            <Box sx={style}>
+              <Box
+                display="flex"
+                jusitdyContent="center"
+                alignItems="center"
+                gap={2}
+                width="80%"
+                sx={{ flexDirection: { xs: "column", sm: "row" } }}
               >
-                Jal Jeevan Mission Meghalaya
-              </Typography>
-            </Box>
-            <Box>
-              <Typography variant="p" sx={{ color: "white" }}>
-                Insight brandcom is currently providing social media management,
-                creative services, and communicaiton need assesment survey for
-                Jal Jeevan Misson in Meghalaya
-              </Typography>
-            </Box>
-          </Box>
-          <Box p={2} margin="auto" width="600px" marginBottom="100px">
-            <Slider {...settings}>
-              <div>
-                <Box sx={{ display: "flex", justifyContent: "center" }}>
-                  <img
-                    src={img1}
-                    alt="slider-img"
-                    width="500px"
-                    height="400px"
-                  />
+                <Box
+                  sx={{
+                    // backgroundColor: "white",
+                    // height: "100px",
+                    // width: "100px",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    p: 1,
+                    borderRadius: "10px",
+                  }}
+                >
+                  <img src={`assets/${selectedItem.logo}`} alt="" width={selectedItem.logoW} height={selectedItem.logoH} />
                 </Box>
-              </div>
-              <div>
-                <Box sx={{ display: "flex", justifyContent: "center" }}>
-                  <img
-                    src={img2}
-                    alt="slider-img"
-                    width="250px"
-                    height="400px"
-                  />
+                <Box>
+                  <Typography
+                    variant="p"
+                    sx={{ color: "white", fontWeight: "bold" }}
+                  >
+                    {selectedItem.name}
+                  </Typography>
                 </Box>
-              </div>
-              <div>
-                <Box sx={{ display: "flex", justifyContent: "center" }}>
-                  <img
-                    src={img3}
-                    alt="slider-img"
-                    width="250px"
-                    height="400px"
-                  />
-                </Box>
-              </div>
-            </Slider>
-          </Box>
-        </Box>
-      </Modal>
+                {/* <Box>
+                  <Typography variant="p" sx={{ color: "white", fontSize: "13px" }}>
+                    Insight brandcom is currently providing social media management,
+                    creative services, and communicaiton need assesment survey for
+                    Jal Jeevan Misson in Meghalaya
+                  </Typography>
+                </Box> */}
+              </Box>
 
-      <Modal open={open}>
-        <Box sx={style}>
-          <Box
-            display="flex"
-            gap={2}
-            sx={{
-              flexDirection: { xs: "column", md: "row" },
-              marginTop: "100px",
-              marginLeft: "100px",
-              marginRight: "100px",
-            }}
-          >
-            <Box
-              backgroundColor="white"
-              p={2}
-              borderRadius="10px"
-              margin="auto"
-            >
-              <img src={NHMLogo} alt="" width="90px" height="70px" />
-            </Box>
-            <Box>
-              <Typography
-                variant="p"
-                sx={{ color: "white", fontWeight: "bold" }}
+              <Carousel
+                showThumbs={false}
+                showIndicators={false}
+                // selectedItem={selectedItem ? selectedItem.id - 1 : 0}
+                selectedItem={0}
+                renderArrowPrev={(onClickHandler, hasPrev, label) =>
+                  hasPrev && (
+                    <IconButton
+                      type="button"
+                      onClick={onClickHandler}
+                      title={label}
+                      style={{
+                        zIndex: 2,
+                        position: "absolute",
+                        top: "50%",
+                        left: "2%",
+                        transform: "translateY(-50%)",
+                        cursor: "pointer",
+                        // backgroundColor: "rgb(255, 255, 255, 0.5)", 
+                        backgroundColor: "black"
+                      }}
+                    >
+                      <ArrowBackIosIcon sx={{ color: "white" }} />
+                    </IconButton>
+                  )
+                }
+                renderArrowNext={(onClickHandler, hasNext, label) =>
+                  hasNext && (
+                    <IconButton
+                      onClick={onClickHandler}
+                      title={label}
+                      style={{
+                        zIndex: 2,
+                        position: "absolute",
+                        top: "50%",
+                        right: "2%",
+                        transform: "translateY(-50%)",
+                        cursor: "pointer",
+                        // backgroundColor: "rgb(255, 255, 255, 0.5)",
+                        backgroundColor: "black"
+                      }}
+                    >
+                      <ArrowForwardIosIcon sx={{ color: "white" }} />
+                    </IconButton>
+                  )
+                }
               >
-                Jal Jeevan Mission Meghalaya
-              </Typography>
+                <div>
+                  <img
+                    src={`assets/${selectedItem.img1}`}
+                    alt="1"
+                    style={{
+                      maxHeight: "500px",
+                      maxWidth: "600px",
+                      margin: "auto",
+                      display: "block",
+                    }}
+                  />
+                </div>
+                <div>
+                  <img
+                    src={`assets/${selectedItem.img2}`}
+                    alt="2"
+                    style={{
+                      maxHeight: "500px",
+                      maxWidth: "600px",
+                      margin: "auto",
+                      display: "block",
+                    }}
+                  />
+                </div>
+                <div>
+                  <img
+                    src={`assets/${selectedItem.img3}`}
+                    alt="3"
+                    style={{
+                      maxHeight: "500px",
+                      maxWidth: "600px",
+                      margin: "auto",
+                      display: "block",
+                    }}
+                  />
+                </div>
+
+                {
+                  selectedItem.img4 ?
+                    <div>
+                      <img
+                        src={`assets/${selectedItem.img4}`}
+                        alt="4"
+                        style={{
+                          maxHeight: "500px",
+                          maxWidth: "600px",
+                          margin: "auto",
+                          display: "block",
+                        }}
+                      />
+                    </div>
+                    :
+                    <div>
+                      <img
+                        src={`assets/${selectedItem.img2}`}
+                        alt="2"
+                        style={{
+                          maxHeight: "500px",
+                          maxWidth: "600px",
+                          margin: "auto",
+                          display: "block",
+                        }}
+                      />
+                    </div>
+
+                }
+
+                {
+                  selectedItem.img5 ?
+                    <div>
+                      <img
+                        src={`assets/${selectedItem.img5}`}
+                        alt="5"
+                        style={{
+                          maxHeight: "500px",
+                          maxWidth: "600px",
+                          margin: "auto",
+                          display: "block",
+                        }}
+                      />
+                    </div>
+                    :
+                    <div>
+                      <img
+                        src={`assets/${selectedItem.img1}`}
+                        alt="1"
+                        style={{
+                          maxHeight: "500px",
+                          maxWidth: "600px",
+                          margin: "auto",
+                          display: "block",
+                        }}
+                      />
+                    </div>
+                }
+
+              </Carousel>
+
+              <CloseIcon
+                sx={{
+                  position: "absolute",
+                  top: "10px",
+                  right: "10px",
+                  color: "white",
+                  cursor: "pointer",
+                  fontSize: "2rem",
+                }}
+                onClick={handleClose}
+              />
             </Box>
-            <Box>
-              <Typography variant="p" sx={{ color: "white" }}>
-                Insight brandcom is currently providing social media management,
-                creative services, and communicaiton need assesment survey for
-                Jal Jeevan Misson in Meghalaya
-              </Typography>
-            </Box>
-            <CloseIcon onClick={handleClose} />
-          </Box>
-          <Box p={2} margin="auto" width="600px" marginBottom="100px">
-            <Slider {...settings}>
-              <div>
-                <Box sx={{ display: "flex", justifyContent: "center" }}>
-                  <img
-                    src={img4}
-                    alt="slider-img"
-                    width="500px"
-                    height="400px"
-                  />
-                </Box>
-              </div>
-              <div>
-                <Box sx={{ display: "flex", justifyContent: "center" }}>
-                  <img
-                    src={img5}
-                    alt="slider-img"
-                    width="550px"
-                    height="400px"
-                  />
-                </Box>
-              </div>
-              <div>
-                <Box sx={{ display: "flex", justifyContent: "center" }}>
-                  <img
-                    src={img6}
-                    alt="slider-img"
-                    width="350px"
-                    height="400px"
-                  />
-                </Box>
-              </div>
-            </Slider>
-          </Box>
-        </Box>
-      </Modal>
+          </Modal>
+          : ""
+      }
+
     </>
   );
 };

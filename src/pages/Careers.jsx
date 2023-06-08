@@ -2,9 +2,11 @@ import React from "react";
 import { Box, Button, Grid, Typography, Divider } from "@mui/material";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 const Careers = () => {
   const [open, setOpen] = useState(false);
+
+  const navigate = useNavigate(null);
 
   const handleOpen = () => {
     setOpen(!open);
@@ -59,21 +61,21 @@ const Careers = () => {
               exciting journey that will elevate your career to new heights!
             </p>
             <p>
-              We are seeking individuals with a passion for storytelling, design, and
-              strategy to join our talented team of professionals. With a proven
-              track record of creating groundbreaking campaigns for our clients,
-              we provide the perfect platform for you to showcase your skills and
-              make an impact in the industry.
+              We are seeking individuals with a passion for storytelling,
+              design, and strategy to join our talented team of professionals.
+              With a proven track record of creating groundbreaking campaigns
+              for our clients, we provide the perfect platform for you to
+              showcase your skills and make an impact in the industry.
             </p>
 
             <p>
-              Don't miss this opportunity to
-              collaborate with like-minded individuals, work on challenging
-              projects, and be at the forefront of cutting-edge advertising
-              techniques. To take the first step towards an extraordinary career,
-              simply fill out our Google form and join us today!
+              Don't miss this opportunity to collaborate with like-minded
+              individuals, work on challenging projects, and be at the forefront
+              of cutting-edge advertising techniques. To take the first step
+              towards an extraordinary career, simply fill out our Google form
+              and join us today!
             </p>
-            
+
             {/* Atlnsight, we help clients navigate, progress and thrive in a world
             of change. We help champion meaningful progress through creative,
             media, data and technology. Come, be part of a team that strives to
@@ -101,7 +103,7 @@ const Careers = () => {
         >
           <Grid item xs={12} sm={12} md={12}>
             <Divider />
-            <Box
+            {/* <Box
               sx={{
                 padding: "1.2rem 0rem",
               }}
@@ -242,7 +244,7 @@ const Careers = () => {
               </Typography>
               <KeyboardArrowDownIcon />
             </Box>
-            <Divider />
+            <Divider /> */}
             <Divider />
             <Box
               sx={{
@@ -260,9 +262,19 @@ const Careers = () => {
                   fontWeight: "bold",
                 }}
               >
-                Social Media Executive
+                Social Media Executive - Guwahati
               </Typography>
-              <KeyboardArrowDownIcon />
+              <Box display="flex" alignItems="center" gap={2}>
+                <Button
+                  variant="contained"
+                  color="success"
+                  sx={{ fontWeight: "bold" }}
+                  onClick={() => { navigate('/apply'); }}
+                >
+                  Apply Now
+                </Button>
+                <KeyboardArrowDownIcon />
+              </Box>
             </Box>
             <Divider />
             <Divider />
@@ -282,9 +294,19 @@ const Careers = () => {
                   fontWeight: "bold",
                 }}
               >
-                Copywriter
+                Copywriter - Guwahati
               </Typography>
-              <KeyboardArrowDownIcon />
+              <Box display="flex" alignItems="center" gap={2}>
+                <Button
+                  variant="contained"
+                  color="success"
+                  sx={{ fontWeight: "bold" }}
+                  onClick={() => { navigate('/apply'); }}
+                >
+                  Apply Now
+                </Button>
+                <KeyboardArrowDownIcon />
+              </Box>
             </Box>
             <Divider />
             <Divider />
@@ -304,9 +326,19 @@ const Careers = () => {
                   fontWeight: "bold",
                 }}
               >
-                Brand Servicing Manager
+                Brand Servicing Manager - Guwahati
               </Typography>
-              <KeyboardArrowDownIcon />
+              <Box display="flex" alignItems="center" gap={2}>
+                <Button
+                  variant="contained"
+                  color="success"
+                  sx={{ fontWeight: "bold" }}
+                  onClick={() => { navigate('/apply'); }}
+                >
+                  Apply Now
+                </Button>
+                <KeyboardArrowDownIcon />
+              </Box>
             </Box>
             <Divider />
             <Divider />
@@ -326,9 +358,19 @@ const Careers = () => {
                   fontWeight: "bold",
                 }}
               >
-                Manager (F & A)
+                Manager (F & A) - Guwahati
               </Typography>
-              <KeyboardArrowDownIcon />
+              <Box display="flex" alignItems="center" gap={2}>
+                <Button
+                  variant="contained"
+                  color="success"
+                  sx={{ fontWeight: "bold" }}
+                  onClick={() => { navigate('/apply'); }}
+                >
+                  Apply Now
+                </Button>
+                <KeyboardArrowDownIcon />
+              </Box>
             </Box>
             <Divider />
             <Divider />
@@ -348,9 +390,19 @@ const Careers = () => {
                   fontWeight: "bold",
                 }}
               >
-                Direct Sales Manager
+                Direct Sales Manager - Guwahati
               </Typography>
-              <KeyboardArrowDownIcon />
+              <Box display="flex" alignItems="center" gap={2}>
+                <Button
+                  variant="contained"
+                  color="success"
+                  sx={{ fontWeight: "bold" }}
+                  onClick={() => { navigate('/apply'); }}
+                >
+                  Apply Now
+                </Button>
+                <KeyboardArrowDownIcon />
+              </Box>
             </Box>
             <Divider />
             <Divider />
@@ -370,9 +422,19 @@ const Careers = () => {
                   fontWeight: "bold",
                 }}
               >
-                Sales Executive (2 Nos)
+                Sales Executive - Guwahati
               </Typography>
-              <KeyboardArrowDownIcon />
+              <Box display="flex" alignItems="center" gap={2}>
+                <Button
+                  variant="contained"
+                  color="success"
+                  sx={{ fontWeight: "bold" }}
+                  onClick={() => { navigate('/apply'); }}
+                >
+                  Apply Now
+                </Button>
+                <KeyboardArrowDownIcon />
+              </Box>
             </Box>
             <Divider />
             <Divider />
@@ -392,9 +454,19 @@ const Careers = () => {
                   fontWeight: "bold",
                 }}
               >
-                Direct Sales Manager
+                Direct Sales Manager - Silchar
               </Typography>
-              <KeyboardArrowDownIcon />
+              <Box display="flex" alignItems="center" gap={2}>
+                <Button
+                  variant="contained"
+                  color="success"
+                  sx={{ fontWeight: "bold" }}
+                  onClick={() => { navigate('/apply'); }}
+                >
+                  Apply Now
+                </Button>
+                <KeyboardArrowDownIcon />
+              </Box>
             </Box>
             <Divider />
             <Divider />
@@ -414,9 +486,19 @@ const Careers = () => {
                   fontWeight: "bold",
                 }}
               >
-                Sales Executive (2 Nos)
+                Sales Executive - Silchar
               </Typography>
-              <KeyboardArrowDownIcon />
+              <Box display="flex" alignItems="center" gap={2}>
+                <Button
+                  variant="contained"
+                  color="success"
+                  sx={{ fontWeight: "bold" }}
+                  onClick={() => { navigate('/apply'); }}
+                >
+                  Apply Now
+                </Button>
+                <KeyboardArrowDownIcon />
+              </Box>
             </Box>
             <Divider />
             <Divider />
@@ -436,9 +518,52 @@ const Careers = () => {
                   fontWeight: "bold",
                 }}
               >
-                Social Media Executive / Content Writer
+                Social Media Executive / Content Writer - Megahalaya
               </Typography>
-              <KeyboardArrowDownIcon />
+              <Box display="flex" alignItems="center" gap={2}>
+                <Button
+                  variant="contained"
+                  color="success"
+                  sx={{ fontWeight: "bold" }}
+                  onClick={() => { navigate('/apply'); }}
+                >
+                  Apply Now
+                </Button>
+                <KeyboardArrowDownIcon />
+              </Box>
+            </Box>
+            <Divider />
+
+            <Divider />
+            <Box
+              sx={{
+                padding: "1.2rem 0rem",
+              }}
+              display="flex"
+              justifyContent="space-between"
+              alignItems="center"
+            >
+              <Typography
+                variant="p"
+                sx={{
+                  fontSize: "1.4rem",
+                  color: "#454a46",
+                  fontWeight: "bold",
+                }}
+              >
+                Social Media Executive - Delhi
+              </Typography>
+              <Box display="flex" alignItems="center" gap={2}>
+                <Button
+                  variant="contained"
+                  color="success"
+                  sx={{ fontWeight: "bold" }}
+                  onClick={() => { navigate('/apply'); }}
+                >
+                  Apply Now
+                </Button>
+                <KeyboardArrowDownIcon />
+              </Box>
             </Box>
             <Divider />
             <Divider />
@@ -458,9 +583,19 @@ const Careers = () => {
                   fontWeight: "bold",
                 }}
               >
-                Social Media Executive
+                Business Development Manager - Delhi
               </Typography>
-              <KeyboardArrowDownIcon />
+              <Box display="flex" alignItems="center" gap={2}>
+                <Button
+                  variant="contained"
+                  color="success"
+                  sx={{ fontWeight: "bold" }}
+                  onClick={() => { navigate('/apply'); }}
+                >
+                  Apply Now
+                </Button>
+                <KeyboardArrowDownIcon />
+              </Box>
             </Box>
             <Divider />
             <Divider />
@@ -480,9 +615,19 @@ const Careers = () => {
                   fontWeight: "bold",
                 }}
               >
-                Business Development Manager
+                Brand Servicing Manager - Kanpur
               </Typography>
-              <KeyboardArrowDownIcon />
+              <Box display="flex" alignItems="center" gap={2}>
+                <Button
+                  variant="contained"
+                  color="success"
+                  sx={{ fontWeight: "bold" }}
+                  onClick={() => { navigate('/apply'); }}
+                >
+                  Apply Now
+                </Button>
+                <KeyboardArrowDownIcon />
+              </Box>
             </Box>
             <Divider />
             <Divider />
@@ -502,9 +647,19 @@ const Careers = () => {
                   fontWeight: "bold",
                 }}
               >
-                Brand Servicing Manager
+                Team Leader / Communication Expert - Bhopal
               </Typography>
-              <KeyboardArrowDownIcon />
+              <Box display="flex" alignItems="center" gap={2}>
+                <Button
+                  variant="contained"
+                  color="success"
+                  sx={{ fontWeight: "bold" }}
+                  onClick={() => { navigate('/apply'); }}
+                >
+                  Apply Now
+                </Button>
+                <KeyboardArrowDownIcon />
+              </Box>
             </Box>
             <Divider />
             <Divider />
@@ -524,9 +679,19 @@ const Careers = () => {
                   fontWeight: "bold",
                 }}
               >
-                Team Leader / Communication Expert
+                Content Writer - Noida
               </Typography>
-              <KeyboardArrowDownIcon />
+              <Box display="flex" alignItems="center" gap={2}>
+                <Button
+                  variant="contained"
+                  color="success"
+                  sx={{ fontWeight: "bold" }}
+                  onClick={() => { navigate('/apply'); }}
+                >
+                  Apply Now
+                </Button>
+                <KeyboardArrowDownIcon />
+              </Box>
             </Box>
             <Divider />
             <Divider />
@@ -546,9 +711,19 @@ const Careers = () => {
                   fontWeight: "bold",
                 }}
               >
-                Graphic Designer
+                Graphic Designer - Noida
               </Typography>
-              <KeyboardArrowDownIcon />
+              <Box display="flex" alignItems="center" gap={2}>
+                <Button
+                  variant="contained"
+                  color="success"
+                  sx={{ fontWeight: "bold" }}
+                  onClick={() => { navigate('/apply'); }}
+                >
+                  Apply Now
+                </Button>
+                <KeyboardArrowDownIcon />
+              </Box>
             </Box>
             <Divider />
           </Grid>

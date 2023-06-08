@@ -68,9 +68,17 @@ const Form = () => {
             <input type="file" style={{width:"200px"}} />
           </Box>
 
-          <Box sx={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 2 }}>
+          {/* <Box sx={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 2 }}>
             <label style={{ fontSize: "1.2rem" }}>LinkedIn Profile:</label>
             <input type="file" style={{width:"200px"}} />
+          </Box> */}
+
+          <Box sx={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 2 }}>
+            <label style={{ fontSize: "1.2rem" }}>LinkedIn Profile:</label>
+            <input
+              type="text"
+              style={{ padding: "10px 30px", borderRadius: "50px" }}
+            />
           </Box>
 
           <Box sx={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 2 }}>
@@ -94,7 +102,7 @@ const Form = () => {
             </select>
           </Box>
 
-          <Box sx={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 2 }}>
+          {/* <Box sx={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 2 }}>
             <label style={{ fontSize: "1.2rem" }}>
               Which team do you want to apply for?
             </label>
@@ -109,7 +117,7 @@ const Form = () => {
               <option value="Audio Visual">Audio Visual</option>
               <option value="Social Media">Social Media</option>
             </select>
-          </Box>
+          </Box> */}
           
           <Box sx={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 2 }}>
             <label style={{ fontSize: "1.2rem" }}>

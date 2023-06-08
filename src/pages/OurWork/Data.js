@@ -9,7 +9,10 @@ export const data = [
         img2: "Print Ad 1.jpg",
         img3: "Print Ad 2.jpg",
         img4: "Print Ad.jpg",
-        img5: "Standee.jpg"
+        img5: "Standee.jpg",
+        imgW: ["480px", "750px", "750px", "750px", "250px"],
+        imgH: ["500px", "500px", "500px", "500px", "500px"],
+        imgLabel: ["Cover", "Print Ad", "Print Ad", "Print Ad", "Standee"]
     },
     {
         id: 2,
@@ -21,7 +24,10 @@ export const data = [
         img2: "ApolloDigital Screen.jpg",
         img3: "ApolloLeaflet.jpg",
         img4: "ApolloPoster.jpg",
-        img5: "ApolloSocial media post.jpg"
+        img5: "ApolloSocial media post.jpg",
+        imgW: ["700px", "750px", "350px", "370px", "400px"],
+        imgH: ["500px", "500px", "500px", "500px", "500px"],
+        imgLabel: ["Calendar", "Digital Screen", "Leaflet", "Poster", "Social Media Post"]
     },
     {
         id: 3,
@@ -33,6 +39,9 @@ export const data = [
         img2: "ACCFOutdoor creative.jpg",
         img3: "ACCFStandee.jpg",
         img4: "ACCFwall panels.jpg",
+        imgW: ["900px", "1000px", "1000px", "800px", "900px"],
+        imgH: ["500px", "500px", "500px", "500px", "500px"],
+        imgLabel: ["Installions", "Outdoor creative", "Standee", "Wall Panels", "Installions"]
     },
     {
         id: 4,
@@ -44,6 +53,9 @@ export const data = [
         img2: "ASACSSocial media post (2).jpg",
         img3: "ASACSSocial media post (3).jpg",
         img4: "ASACSSocial media post (4).jpg",
+        imgW: ["500px", "500px", "500px", "500px", "500px"],
+        imgH: ["500px", "500px", "500px", "500px", "500px"],
+        imgLabel: ["Social Media Post", "Social Media Post", "Social Media Post", "Social Media Post", "Social Media Post"]
     },
     {
         id: 5,
@@ -55,6 +67,9 @@ export const data = [
         img2: "AtalAmritPrint Ad 1.jpg",
         img3: "AtalAmritPrint Ad 2.jpg",
         img4: "AtalAmritPrint Ad.jpg",
+        imgW: ["750px", "650px", "330px", "650px", "750px"],
+        imgH: ["500px", "500px", "500px", "500px", "500px"],
+        imgLabel: ["Mobile Van", "Print Ad", "Print Ad", "Print Ad", "Mobile Van"]
     },
     {
         id: 6,
@@ -65,8 +80,10 @@ export const data = [
         img1: "DOABackdrop.jpg",
         img2: "DOASocial media 2.jpg",
         img3: "DOASocial post 1.jpg",
-        img4: "DOASocial post.jpg"
-
+        img4: "DOASocial post.jpg",
+        imgW: ["600px", "500px", "500px", "500px", "600px"],
+        imgH: ["500px", "500px", "500px", "500px", "500px"],
+        imgLabel: ["Backdrop", "Social Post", "Social Post", "Social Post", "Backdrop"]
     },
     {
         id: 7,
@@ -79,6 +96,9 @@ export const data = [
         img3: "AriasMobile LED  Van.jpg",
         img4: "AriasSocial Media Post.jpg",
         img5: "AriasStandee.JPG",
+        imgW: ["1000px", "670px", "750px", "420px", "250px"],
+        imgH: ["500px", "500px", "500px", "500px", "500px"],
+        imgLabel: ["Hoarding", "Leaflet", "Mobile LED  Van", "Social Media Post", "Standee"]
     },
     {
         id: 8,
@@ -91,6 +111,9 @@ export const data = [
         img3: "SwachhBharatHorading.jpg",
         img4: "SwachhBharatPoster.jpg",
         img5: "SwachhBharatSocial media post 1.JPG",
+        imgW: ["900px", "330px", "850px", "380px", "500px"],
+        imgH: ["500px", "500px", "500px", "500px", "500px"],
+        imgLabel: ["Calendar", "Print Ad", "Hoarding", "Poster", "Social Media Post"]
     },
     // {
     //     id: 9,
@@ -110,6 +133,9 @@ export const data = [
         img3: "APARTMobile Van.jpg",
         img4: "APARTSocial Media Post.jpg",
         img5: "APARTStandee.JPG",
+        imgW: ["1000px", "500px", "500px", "380px", "300px"],
+        imgH: ["500px", "500px", "500px", "500px", "500px"],
+        imgLabel: ["Hoarding", "Leaflet", "Mobile Van", "Social Media Post", "Standee"]
     },
     {
         id: 10,
@@ -121,6 +147,9 @@ export const data = [
         img2: "BrahmaputraBoardCofee Table book.jpg",
         img3: "BrahmaputraBoardPress meet.jpg",
         img4: "BrahmaputraBoardSocial media promotions.jpg",
+        imgW: ["450px", "750px", "750px", "750px", "450px"],
+        imgH: ["500px", "500px", "500px", "500px", "500px"],
+        imgLabel: ["Logo", "Cofee Table Book", "Press Meet", "Social Media Promotions", "Board Logo"]
     },
     {
         id: 11,
@@ -132,6 +161,9 @@ export const data = [
         img2: "DeptHortiBanner.jpg",
         img3: "DeptHortiSocial post 1.jpg",
         img4: "DeptHortiSocial post 2.jpg",
+        imgW: ["1000px", "1000px", "750px", "750px", "1000px"],
+        imgH: ["500px", "500px", "500px", "500px", "500px"],
+        imgLabel: ["Banner", "Banner", "Social Post", "Social Post", "Banner"]
     },
     // {
     //     id: 10,
@@ -158,6 +190,9 @@ export const data = [
         img3: "GMCPrint Ad.jpg",
         img4: "GMCSingage.jpg",
         img5: "GMCStandee.JPG",
+        imgW: ["700px", "750px", "400px", "750px", "450px"],
+        imgH: ["500px", "500px", "500px", "500px", "500px"],
+        imgLabel: ["Hoarding", "Poster", "Print Ad", "Singage", "Standee"]
     },
     {
         id: 13,
@@ -169,6 +204,9 @@ export const data = [
         img2: "AsdmaPrint Ad.jpg",
         img3: "AsdmaSocial media post 1.jpg",
         img4: "AsdmaSocial media post.jpg",
+        imgW: ["400px", "900px", "400px", "750px", "400px"],
+        imgH: ["500px", "500px", "500px", "500px", "500px"],
+        imgLabel: ["Print Ad", "Print Ad", "Social Media Post", "Social Media Post", "Print Ad"]
     },
     {
         id: 14,
@@ -181,6 +219,9 @@ export const data = [
         img3: "PurabiHoarding.jpg",
         img4: "PurabiStandee.jpeg",
         img5: "PurabiStore branding.jpg",
+        imgW: ["400px", "900px", "900px", "700px", "750px"],
+        imgH: ["500px", "500px", "500px", "500px", "500px"],
+        imgLabel: ["Calender Mockup", "Diary Cover", "Hoarding", "Standee", "Store Branding"]
     },
     {
         id: 15,
@@ -193,6 +234,9 @@ export const data = [
         img3: "JJMAPost 28 copy.jpg",
         img4: "JJMAStandee.jpeg",
         img5: "JJMASocial media post 2.jpg",
+        imgW: ["500px", "700px", "500px", "400px", "500px"],
+        imgH: ["500px", "500px", "500px", "500px", "500px"],
+        imgLabel: ["Social Media Post", "Social Media Post", "Social Media Post", "Standee", "Social Media Post"]
     },
     // {
     //     id: 15,
@@ -212,6 +256,9 @@ export const data = [
         img3: "FSSAISocial media post.jpg",
         img4: "FSSAIStandee.jpg",
         img5: "FSSAIWelcome Board.jpg",
+        imgW: ["600px", "500px", "500px", "500px", "650px"],
+        imgH: ["500px", "500px", "500px", "500px", "500px"],
+        imgLabel: ["Press Ad", "Leaflet", "Social Media Post", "Standee", "Welcome Board"]
     },
     // {
     //     id: 17,
@@ -231,6 +278,9 @@ export const data = [
         img3: "MPMSocial media post 1  (3).jpg",
         img4: "MPMSocial media post 1  (4).jpg",
         img5: "MPMSocial media post 1  (5).jpg",
+        imgW: ["500px", "700px", "500px", "650px", "400px"],
+        imgH: ["500px", "500px", "500px", "500px", "500px"],
+        imgLabel: ["Social Media Post", "Social Media Post", "Social Media Post", "Social Media Post", "Social Media Post"]
     },
     {
         id: 19,
@@ -242,6 +292,9 @@ export const data = [
         img2: "CCISocial media post 2.jpg",
         img3: "CCISocial media post 3.jpg",
         img4: "Social media post 4.jpg",
+        imgW: ["400px", "700px", "400px", "500px", "400px"],
+        imgH: ["500px", "500px", "500px", "500px", "500px"],
+        imgLabel: ["Social Media Post", "Social Media Post", "Social Media Post", "Social Media Post", "Social Media Post"]
     },
     {
         id: 20,
@@ -252,7 +305,10 @@ export const data = [
         img1: "NRLHoarding 1.jpg",
         img2: "NRLHoarding 2.jpg",
         img3: "NRLHoarding 3.jpg",
-        img4: "NRLHoarding 1.jpg",
+        img4: "NRLHoarding 2.jpg",
+        imgW: ["600px", "600px", "600px", "600px", "600px"],
+        imgH: ["600px", "600px", "600px", "600px", "600px"],
+        imgLabel: ["Hoarding", "Hoarding", "Hoarding", "Hoarding", "Hoarding"]
     },
     // {
     //     id: 21,
@@ -271,6 +327,9 @@ export const data = [
         img2: "UPSIDASocial media post 2.jpg",
         img3: "UPSIDASocial media post 3.jpg",
         img4: "UPSIDASocial media post 4.jpg",
+        imgW: ["400px", "500px", "400px", "500px", "400px"],
+        imgH: ["500px", "500px", "500px", "500px", "500px"],
+        imgLabel: ["Social Media Post", "Social Media Post", "Social Media Post", "Social Media Post", "Social Media Post"]
     },
     {
         id: 23,
@@ -282,6 +341,9 @@ export const data = [
         img2: "JJMMSocial media post 2.jpg",
         img3: "JJMMSocial media post 3.jpg",
         img4: "JJMMSocial media post.jpg",
+        imgW: ["400px", "500px", "400px", "500px", "400px"],
+        imgH: ["500px", "500px", "500px", "500px", "500px"],
+        imgLabel: ["Social Media Post", "Social Media Post", "Social Media Post", "Social Media Post", "Social Media Post"]
     },
     // {
     //     id: 24,
@@ -300,5 +362,8 @@ export const data = [
         img2: "SharpsightPrint Ad 2.jpg",
         img3: "SharpsightSocial media post 1.jpg",
         img4: "SharpsightSocial media post 2.jpg",
+        imgW: ["400px", "500px", "400px", "500px", "400px"],
+        imgH: ["500px", "500px", "500px", "500px", "500px"],
+        imgLabel: ["Print Ad", "Print Ad", "Social Media Post", "Social Media Post", "Print Ad"]
     }
 ];

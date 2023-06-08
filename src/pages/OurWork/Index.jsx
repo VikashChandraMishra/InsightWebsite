@@ -79,7 +79,16 @@ const OurWork = () => {
 
         <Grid container spacing={3}>
           {data.map((item) => (
-            <Grid item md={3} sm={6} xs={12}>
+            <Grid
+              item
+              md={3}
+              sm={6}
+              xs={12}
+              onClick={() => handleViewMore(item)}
+              sx={{
+                cursor: "pointer"
+              }}
+            >
               <Paper
                 elevation={5}
                 key={item.id}
@@ -127,7 +136,6 @@ const OurWork = () => {
                   zIndex: 0,
                   p: "5px 15px",
                 }}
-                onClick={() => handleViewMore(item)}
               >
                 <Typography
                   variant="p"
@@ -146,7 +154,7 @@ const OurWork = () => {
             <Box sx={style}>
               <Box
                 display="flex"
-                jusitdyContent="center"
+                justifyContent="start"
                 alignItems="center"
                 gap={2}
                 width="80%"
@@ -174,14 +182,14 @@ const OurWork = () => {
                     {selectedItem.name}
                   </Typography>
                 </Box>
-                {/* <Box>
+              </Box>
+              {/* <Box>
                   <Typography variant="p" sx={{ color: "white", fontSize: "13px" }}>
                     Insight brandcom is currently providing social media management,
                     creative services, and communicaiton need assesment survey for
                     Jal Jeevan Misson in Meghalaya
                   </Typography>
                 </Box> */}
-              </Box>
 
               <Carousel
                 showThumbs={false}
@@ -231,36 +239,126 @@ const OurWork = () => {
                 }
               >
                 <div>
+                  {/* <Box
+                    display="flex"
+                    justifyContent="start"
+                    alignItems="center"
+                    gap={2}
+                    sx={{
+                      flexDirection: { xs: "column", sm: "row" },
+                      p: "0px 100px",
+                    }}
+                  >
+                    <Box
+                      sx={{
+                        backgroundColor: "white",
+                        height: "100px",
+                        width: "100px",
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        p: 1,
+                        borderRadius: "10px",
+                      }}
+                    >
+                      <img src={`assets/${selectedItem.logo}`} alt="" width={selectedItem.logoW} height={selectedItem.logoH} />
+                    </Box>
+                    <Box display="flex" alignItems="start">
+                      <Typography
+                        variant="p"
+                        sx={{
+                          color: "white",
+                          fontWeight: "bold",
+                          textAlign: "start",
+                        }}
+                      >
+                        {selectedItem.name}
+                      </Typography>
+                    </Box>
+                  </Box> */}
+                  <Box
+                    display="flex"
+                    alignItems="center"
+                    justifyContent="center"
+                  >
+                    <Typography
+                      variant="p"
+                      sx={{
+                        color: "white",
+                        fontSize: "16px",
+                        textAlign: "center",
+                        // paddingBottom: "3px"
+                        // width: { sx: "300px", md: "550px" }
+                      }}
+                    >
+                      {selectedItem.imgLabel[0]}
+                    </Typography>
+                  </Box>
                   <img
                     src={`assets/${selectedItem.img1}`}
                     alt="1"
                     style={{
-                      maxHeight: "500px",
-                      maxWidth: "600px",
+                      maxHeight: `${selectedItem.imgH[0]}`,
+                      maxWidth: `${selectedItem.imgW[0]}`,
                       margin: "auto",
                       display: "block",
                     }}
                   />
                 </div>
+
                 <div>
+                  <Box
+                    display="flex"
+                    alignItems="center"
+                    justifyContent="center"
+                  >
+                    <Typography
+                      variant="p"
+                      sx={{
+                        color: "white",
+                        fontSize: "16px",
+                        textAlign: "center",
+                        // width: { sx: "300px", md: "550px" }
+                      }}
+                    >
+                      {selectedItem.imgLabel[1]}
+                    </Typography>
+                  </Box>
                   <img
                     src={`assets/${selectedItem.img2}`}
                     alt="2"
                     style={{
-                      maxHeight: "500px",
-                      maxWidth: "600px",
+                      maxHeight: `${selectedItem.imgH[1]}`,
+                      maxWidth: `${selectedItem.imgW[1]}`,
                       margin: "auto",
                       display: "block",
                     }}
                   />
                 </div>
                 <div>
+                  <Box
+                    display="flex"
+                    alignItems="center"
+                    justifyContent="center"
+                  >
+                    <Typography
+                      variant="p"
+                      sx={{
+                        color: "white",
+                        fontSize: "16px",
+                        textAlign: "center",
+                        // width: { sx: "300px", md: "550px" }
+                      }}
+                    >
+                      {selectedItem.imgLabel[2]}
+                    </Typography>
+                  </Box>
                   <img
                     src={`assets/${selectedItem.img3}`}
                     alt="3"
                     style={{
-                      maxHeight: "500px",
-                      maxWidth: "600px",
+                      maxHeight: `${selectedItem.imgH[2]}`,
+                      maxWidth: `${selectedItem.imgW[2]}`,
                       margin: "auto",
                       display: "block",
                     }}
@@ -270,12 +368,29 @@ const OurWork = () => {
                 {
                   selectedItem.img4 ?
                     <div>
+                      <Box
+                        display="flex"
+                        alignItems="center"
+                        justifyContent="center"
+                      >
+                        <Typography
+                          variant="p"
+                          sx={{
+                            color: "white",
+                            fontSize: "16px",
+                            textAlign: "center",
+                            // width: { sx: "300px", md: "550px" }
+                          }}
+                        >
+                          {selectedItem.imgLabel[3]}
+                        </Typography>
+                      </Box>
                       <img
                         src={`assets/${selectedItem.img4}`}
                         alt="4"
                         style={{
-                          maxHeight: "500px",
-                          maxWidth: "600px",
+                          maxHeight: `${selectedItem.imgH[3]}`,
+                          maxWidth: `${selectedItem.imgW[3]}`,
                           margin: "auto",
                           display: "block",
                         }}
@@ -283,12 +398,29 @@ const OurWork = () => {
                     </div>
                     :
                     <div>
+                      <Box
+                        display="flex"
+                        alignItems="center"
+                        justifyContent="center"
+                      >
+                        <Typography
+                          variant="p"
+                          sx={{
+                            color: "white",
+                            fontSize: "16px",
+                            textAlign: "center",
+                            // width: { sx: "300px", md: "550px" }
+                          }}
+                        >
+                          {selectedItem.imgLabel[1]}
+                        </Typography>
+                      </Box>
                       <img
                         src={`assets/${selectedItem.img2}`}
                         alt="2"
                         style={{
-                          maxHeight: "500px",
-                          maxWidth: "600px",
+                          maxHeight: `${selectedItem.imgH[1]}`,
+                          maxWidth: `${selectedItem.imgW[1]}`,
                           margin: "auto",
                           display: "block",
                         }}
@@ -300,12 +432,29 @@ const OurWork = () => {
                 {
                   selectedItem.img5 ?
                     <div>
+                      <Box
+                        display="flex"
+                        alignItems="center"
+                        justifyContent="center"
+                      >
+                        <Typography
+                          variant="p"
+                          sx={{
+                            color: "white",
+                            fontSize: "16px",
+                            textAlign: "center",
+                            // width: { sx: "300px", md: "550px" }
+                          }}
+                        >
+                          {selectedItem.imgLabel[4]}
+                        </Typography>
+                      </Box>
                       <img
                         src={`assets/${selectedItem.img5}`}
                         alt="5"
                         style={{
-                          maxHeight: "500px",
-                          maxWidth: "600px",
+                          maxHeight: `${selectedItem.imgH[4]}`,
+                          maxWidth: `${selectedItem.imgW[4]}`,
                           margin: "auto",
                           display: "block",
                         }}
@@ -313,12 +462,29 @@ const OurWork = () => {
                     </div>
                     :
                     <div>
+                      <Box
+                        display="flex"
+                        alignItems="center"
+                        justifyContent="center"
+                      >
+                        <Typography
+                          variant="p"
+                          sx={{
+                            color: "white",
+                            fontSize: "16px",
+                            textAlign: "center",
+                            // width: { sx: "300px", md: "550px" }
+                          }}
+                        >
+                          {selectedItem.imgLabel[4]}
+                        </Typography>
+                      </Box>
                       <img
                         src={`assets/${selectedItem.img1}`}
                         alt="1"
                         style={{
-                          maxHeight: "500px",
-                          maxWidth: "600px",
+                          maxHeight: `${selectedItem.imgH[4]}`,
+                          maxWidth: `${selectedItem.imgW[4]}`,
                           margin: "auto",
                           display: "block",
                         }}

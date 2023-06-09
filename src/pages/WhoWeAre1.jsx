@@ -79,7 +79,7 @@ const WhoWeAre = () => {
 
               <Link
                 to="/contact"
-                sx={{
+                style={{
                   textDecoration: "none"
                 }}
               >

@@ -377,7 +377,7 @@ const WhatWeDo = () => {
   
       </Grid>
 
-      <Link to="/contact">
+      <Link to="/contact" style={{textDecoration: "none"}}>
       
         <Box
           sx={{

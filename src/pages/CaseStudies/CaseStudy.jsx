@@ -87,7 +87,7 @@ const CaseStudy = ({ title, content, logo, link, logoH, logoW }) => {
           </div>
 
           <Link to={link}
-          sx={{
+          style={{
             textDecoration: "none",
 
           }}

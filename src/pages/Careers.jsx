@@ -57,7 +57,7 @@ const Careers = () => {
           >
             <p>
               Are you a creative visionary looking for a place in the dynamic
-              world of advertising? Join oInsight Brandcom and embark on an
+              world of advertising? Join Insight Brandcom and embark on an
               exciting journey that will elevate your career to new heights!
             </p>
             <p>
@@ -340,7 +340,7 @@ const Careers = () => {
                 <KeyboardArrowDownIcon />
               </Box>
             </Box>
-            <Divider />
+            {/* <Divider />
             <Divider />
             <Box
               sx={{
@@ -371,7 +371,7 @@ const Careers = () => {
                 </Button>
                 <KeyboardArrowDownIcon />
               </Box>
-            </Box>
+            </Box> */}
             <Divider />
             <Divider />
             <Box
@@ -436,7 +436,7 @@ const Careers = () => {
                 <KeyboardArrowDownIcon />
               </Box>
             </Box>
-            <Divider />
+            {/* <Divider />
             <Divider />
             <Box
               sx={{
@@ -499,7 +499,7 @@ const Careers = () => {
                 </Button>
                 <KeyboardArrowDownIcon />
               </Box>
-            </Box>
+            </Box> */}
             <Divider />
             <Divider />
             <Box
@@ -518,7 +518,7 @@ const Careers = () => {
                   fontWeight: "bold",
                 }}
               >
-                Social Media Executive / Content Writer - Megahalaya
+                Social Media Executive / Content Writer - Shillong
               </Typography>
               <Box display="flex" alignItems="center" gap={2}>
                 <Button

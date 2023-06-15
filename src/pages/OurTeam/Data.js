@@ -17,7 +17,7 @@ export const data = [
   },
   {
     id: 3,
-    image: "t3.png",
+    image: "t3.JPG",
     name: "Nishat Ahmed",
     Designation: "Creative Director",
     Description:

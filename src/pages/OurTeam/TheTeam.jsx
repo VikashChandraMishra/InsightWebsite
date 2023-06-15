@@ -59,13 +59,13 @@ const TheTeam = () => {
 
           <Box display="flex" flexDirection="column">
 
-            <Typography variant="p">
-              "Great things in business are not done by one person they're done
-              by a team or people"
+            <Typography variant="p" sx={{ width: {xs: '90%', md: '50%'}, marginBottom: "20px" }}>
+              We are a dynamic and talented group of individuals dedicated to creating innovative and impactful advertising campaigns that drive results for our clients. With a diverse range of expertise and a passion for creativity, our team is here to help you elevate your brand and reach new heights. Our team of experts are the visionary creative directors, skilled copy writers, talented graphic designers ,dedicated account managers, Social & Digital Marketers and impeccable videographers and editors.
             </Typography>
 
-            <Typography variant="p" sx={{ fontWeight: "bold" }}>
-              Steve Jobs
+            <Typography variant="p" sx={{ width: {xs: '90%', md: '50%'} }}>
+              We have branched out to 7 cities in India, New Delhi, Kolkata, Jaipur, Bhubaneswar, Bhopal and Shillong.
+              Collaboratively, our team strives to understand your unique brand identity, goals, and challenges to develop tailored advertising solutions that resonate with your audience. We are passionate about delivering exceptional results and are committed to exceeding your expectations.
             </Typography>
 
           </Box>

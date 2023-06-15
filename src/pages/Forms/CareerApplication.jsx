@@ -96,9 +96,10 @@ const Form = () => {
               style={{ padding: "10px 30px", borderRadius: "50px", width: "200px" }}
             >
               <option value="Career Site">Career Site</option>
-              <option value="college university">College University</option>
+              <option value="college university">College/University</option>
               <option value="glassdoor">Glassdoor</option>
               <option value="social media">Social Media</option>
+              <option value="others">Others</option>
             </select>
           </Box>
 
@@ -119,7 +120,7 @@ const Form = () => {
             </select>
           </Box> */}
 
-          <Box sx={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 2 }}>
+          {/* <Box sx={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 2 }}>
             <label style={{ fontSize: "1.2rem" }}>
               Please confirm your salary expectations:
             </label>
@@ -127,9 +128,9 @@ const Form = () => {
               type="text"
               style={{ padding: "10px 30px", borderRadius: "50px" }}
             />
-          </Box>
+          </Box> */}
 
-          <Box
+          {/* <Box
             sx={{
               display: "flex",
               alignItems: "center",
@@ -159,8 +160,8 @@ const Form = () => {
               value="JavaScript"
             />
             <label for="javascript">45-50</label>
-          </Box>
-          <Box
+          </Box> */}
+          {/* <Box
             sx={{
               display: "flex",
               alignItems: "center",
@@ -203,7 +204,7 @@ const Form = () => {
               value="JavaScript"
             />
             <label for="javascript">Prefer not to say</label>
-          </Box>
+          </Box> */}
           <Button
             variant="contained"
             color="success"
@@ -279,9 +280,10 @@ const Form = () => {
               <option value="college university">College University</option>
               <option value="glassdoor">Glassdoor</option>
               <option value="social media">Social Media</option>
+              <option value="others">Others</option>
             </select>
           </Box>
-          <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
+          {/* <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
             <label style={{ fontSize: "1.2rem" }}>
               Please confirm your salary expectations:
             </label>
@@ -289,8 +291,8 @@ const Form = () => {
               type="text"
               style={{ padding: "10px 30px", borderRadius: "50px" }}
             />
-          </Box>
-          <Box
+          </Box> */}
+          {/* <Box
             sx={{
               display: "flex",
 
@@ -329,8 +331,8 @@ const Form = () => {
               />
               <label for="javascript">45-50</label>
             </Box>
-          </Box>
-          <Box
+          </Box> */}
+          {/* <Box
             sx={{
               display: "flex",
 
@@ -381,7 +383,7 @@ const Form = () => {
               />
               <label for="javascript">Prefer not to say</label>
             </Box>
-          </Box>
+          </Box> */}
           <Button
             variant="contained"
             color="success"

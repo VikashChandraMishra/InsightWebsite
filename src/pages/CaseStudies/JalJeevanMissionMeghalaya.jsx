@@ -17,7 +17,7 @@ const CaseStudy9 = () => {
         sx={{
           width: { xs: "100%", sm: "60%" },
           p: { xs: "10px", sm: "20px 150px" },
-          marginTop: "100px"
+          marginTop: "100px",
         }}
       >
         <img src={Logo} width="300px" alt="" />
@@ -27,10 +27,16 @@ const CaseStudy9 = () => {
           flexDirection="column"
           gap={2}
           sx={{
-            width: { md: "40vw" }
-          }}>
-          <Typography variant="h4"
-            sx={{ fontWeight: "900", fontFamily: "Switzer-Variable", color: "#363435" }}
+            width: { md: "40vw" },
+          }}
+        >
+          <Typography
+            variant="h4"
+            sx={{
+              fontWeight: "900",
+              fontFamily: "Switzer-Variable",
+              color: "#363435",
+            }}
           >
             Jal Jeevan Mission Meghalaya
           </Typography>
@@ -39,15 +45,17 @@ const CaseStudy9 = () => {
             sx={{
               color: "#363435",
               fontSize: "1.7rem",
-              fontWeight: "300"
+              fontWeight: "300",
             }}
-          >Challenges</Typography>
+          >
+            Challenges
+          </Typography>
 
           <Typography
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem"
+              fontSize: "0.7rem",
             }}
           >
             The geographic disparity in terms of the area being far-flung and
@@ -61,7 +69,7 @@ const CaseStudy9 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem"
+              fontSize: "0.7rem",
             }}
           >
             The expectation of the people was unfulfilled, considering these
@@ -74,7 +82,7 @@ const CaseStudy9 = () => {
               color: "#363435",
               fontSize: "1.7rem",
               fontFamily: "Switzer-Variable",
-              fontWeight: "300"
+              fontWeight: "300",
             }}
           >
             The Journey Communication Need Assessment (CNA)
@@ -83,7 +91,7 @@ const CaseStudy9 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem"
+              fontSize: "0.7rem",
             }}
           >
             A survey was conducted to determine the on-ground communication need
@@ -95,7 +103,7 @@ const CaseStudy9 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem"
+              fontSize: "0.7rem",
             }}
           >
             The CNA report focused to bridge the gap in the community that
@@ -107,7 +115,7 @@ const CaseStudy9 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem"
+              fontSize: "0.7rem",
             }}
           >
             A workflow was determined for the CNA Survey which consisted of the
@@ -123,14 +131,16 @@ const CaseStudy9 = () => {
               color: "#363435",
               fontSize: "1.7rem",
               fontFamily: "Switzer-Variable",
-              fontWeight: "300"
+              fontWeight: "300",
             }}
-          >Impact</Typography>
+          >
+            Impact
+          </Typography>
           <Typography
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem"
+              fontSize: "0.7rem",
             }}
           >
             The Jal Jeevan Mission (JJM) and Public Health Engineering (PHE) are
@@ -154,31 +164,84 @@ const CaseStudy9 = () => {
           </Typography>
         </Box>
       </Box>
-      <Box sx={{ p: { xs: "10px", sm: "20px 150px" }, width: '950px' }}>
+      <Box
+        sx={{
+          p: { xs: "10px", sm: "20px 150px" },
+          width: { xs: "100%", sm: "450px", md: "950px" },
+        }}
+      >
         <Grid container spacing={3}>
-          <Grid item xs={12} sm={6} md={6}>
-            <img src={img1} alt="" width="100%" height="250px" />
+          <Grid item xs={12} sm={12} md={6}>
+            <Box
+              sx={{
+                width: { xs: "350px", sm: "450px", md: "480px" },
+              }}
+            >
+              <img src={img1} alt="" width="100%" height="100%" />
+            </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={6}>
-            <img src={img2} alt="" width="100%" height="250px" />
+          <Grid item xs={12} sm={12} md={6}>
+            <Box
+              sx={{
+                width: { xs: "350px", sm: "450px", md: "480px" },
+              }}
+            >
+              <img src={img2} alt="" width="100%" height="100%" />
+            </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={6}>
-            <img src={img3} alt="" width="100%" height="250px" />
+          <Grid item xs={12} sm={12} md={6}>
+            <Box
+              sx={{
+                width: { xs: "350px", sm: "450px", md: "480px" },
+              }}
+            >
+              <img src={img3} alt="" width="100%" height="100%" />
+            </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={6}>
-            <img src={img4} alt="" width="100%" height="250px" />
+          <Grid item xs={12} sm={12} md={6}>
+            <Box
+              sx={{
+                width: { xs: "350px", sm: "450px", md: "480px" },
+              }}
+            >
+              <img src={img4} alt="" width="100%" height="100%" />
+            </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={6}>
-            <img src={img5} alt="" width="100%" height="250px" />
+          <Grid item xs={12} sm={12} md={6}>
+            <Box
+              sx={{
+                width: { xs: "350px", sm: "450px", md: "480px" },
+              }}
+            >
+              <img src={img5} alt="" width="100%" height="100%" />
+            </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={6}>
-            <img src={img6} alt="" width="100%" height="250px" />
+          <Grid item xs={12} sm={12} md={6}>
+            <Box
+              sx={{
+                width: { xs: "350px", sm: "450px", md: "480px" },
+              }}
+            >
+              <img src={img6} alt="" width="100%" height="100%" />
+            </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={6}>
-            <img src={img7} alt="" width="100%" height="250px" />
+          <Grid item xs={12} sm={12} md={6}>
+            <Box
+              sx={{
+                width: { xs: "350px", sm: "450px", md: "480px" },
+              }}
+            >
+              <img src={img7} alt="" width="100%" height="100%" />
+            </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={6}>
-            <img src={img8} alt="" width="100%" height="250px" />
+          <Grid item xs={12} sm={12} md={6}>
+            <Box
+              sx={{
+                width: { xs: "350px", sm: "450px", md: "480px" },
+              }}
+            >
+              <img src={img8} alt="" width="100%" height="100%" />
+            </Box>
           </Grid>
         </Grid>
       </Box>

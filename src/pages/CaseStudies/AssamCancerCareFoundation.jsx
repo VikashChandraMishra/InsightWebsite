@@ -11,23 +11,28 @@ const CaseStudy1 = () => {
       <Box
         sx={{
           width: { xs: "80vw", sm: "80vw" },
-          paddingLeft: { xs: "10vw", sm: "10vw", md: "10vw" },
+          paddingLeft: { xs: "10vw", sm: "10vw", md: "12vw" },
           paddingTop: { md: "3vh" },
-          marginTop: "100px"
+          marginTop: "100px",
         }}
       >
         <img src={Logo} width="200px" alt="" />
-        <Box marginTop="10px" display="flex" flexDirection="column" gap={2}
+        <Box
+          marginTop="10px"
+          display="flex"
+          flexDirection="column"
+          gap={2}
           sx={{
-            width: { md: "40vw" }
+            width: { md: "40vw" },
           }}
         >
           <Typography
             variant="p"
             sx={{
               fontWeight: "bold",
-              fontSize: "2.1rem"
-            }}>
+              fontSize: "2.1rem",
+            }}
+          >
             Assam Cancer Care Foundation
           </Typography>
           <Typography
@@ -35,9 +40,11 @@ const CaseStudy1 = () => {
             sx={{
               fontSize: "1.8rem",
               fontWeight: "300",
-              color: "#454a46"
+              color: "#454a46",
             }}
-          >Challenges</Typography>
+          >
+            Challenges
+          </Typography>
           <Typography
             variant="p"
             sx={{
@@ -66,7 +73,7 @@ const CaseStudy1 = () => {
             sx={{
               fontSize: "1.8rem",
               fontWeight: "300",
-              color: "#454a46"
+              color: "#454a46",
             }}
           >
             The Journey: Launch of Cancer Care Centres in 7 locations
@@ -112,9 +119,11 @@ const CaseStudy1 = () => {
             sx={{
               fontSize: "1.8rem",
               fontWeight: "300",
-              color: "#454a46"
+              color: "#454a46",
             }}
-          >Impact</Typography>
+          >
+            Impact
+          </Typography>
           <Typography
             variant="p"
             sx={{
@@ -142,46 +151,50 @@ const CaseStudy1 = () => {
         </Box>
       </Box>
 
-      <Box sx={{
-        // p: {
-        //   xs: "10px",
-        //   sm: "20px 100px",
-        //   md: ""
-        // },
-        paddingLeft: { xs: "13vw", sm: "13vw", md: "12vw" },
-        width: '80vw'
-      }}>
-        <Box
-          sx={{
-            paddingTop: "60px",
-            width: "75vw",
-            height: {xs: "150vh",sm: "150vh", md:"92vh"},
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "space-between"
-          }}
-        >
-          <Box
-            sx={{
-              display: "flex",
-              flexDirection: { xs: "column", sm: "column", md: "row" },
-              justifyContent: "space-between",
-            }}
-          >
-            <img src={img1} alt="" height="280px" />
-            <img src={img2} alt="" height="280px" />
-          </Box>
-          <Box
-            sx={{
-              display: "flex",
-              flexDirection: { xs: "column", sm: "column", md: "row" },
-              justifyContent: "space-between",
-            }}
-          >
-            <img src={img3} alt="" height="280px" />
-            <img src={img4} alt="" height="280px" />
-          </Box>
-        </Box>
+      <Box
+        sx={{
+          p: { xs: "10px", sm: "20px 150px" },
+          width: { xs: "100%", sm: "450px", md: "950px" },
+        }}
+      >
+        <Grid container spacing={3}>
+          <Grid item xs={12} sm={12} md={6}>
+            <Box
+              sx={{
+                width: { xs: "350px", sm: "450px", md: "480px" },
+              }}
+            >
+              <img src={img1} alt="" width="100%" height="100%" />
+            </Box>
+          </Grid>
+          <Grid item xs={12} sm={12} md={6}>
+            <Box
+              sx={{
+                width: { xs: "350px", sm: "450px", md: "480px" },
+              }}
+            >
+              <img src={img2} alt="" width="100%" height="100%" />
+            </Box>
+          </Grid>
+          <Grid item xs={12} sm={12} md={6}>
+            <Box
+              sx={{
+                width: { xs: "350px", sm: "450px", md: "480px" },
+              }}
+            >
+              <img src={img3} alt="" width="100%" height="100%" />
+            </Box>
+          </Grid>
+          <Grid item xs={12} sm={12} md={6}>
+            <Box
+              sx={{
+                width: { xs: "350px", sm: "450px", md: "480px" },
+              }}
+            >
+              <img src={img4} alt="" width="100%" height="100%" />
+            </Box>
+          </Grid>
+        </Grid>
       </Box>
     </div>
   );

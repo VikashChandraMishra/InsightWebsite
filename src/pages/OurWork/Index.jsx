@@ -60,7 +60,8 @@ const OurWork = () => {
           sx={{
             fontWeight: "bold",
             color: "#363435",
-            fontSize: { xs: "40px", md: "7rem" },
+            // color: "#454a46",
+            fontSize: { xs: "3rem", sm: '4rem', md: "7rem" },
             fontFamily: "Switzer-Variable",
           }}
         >
@@ -70,8 +71,9 @@ const OurWork = () => {
         <Typography
           variant="p"
           sx={{
-            fontSize: "1.5rem",
+            fontSize: { xs: "1rem", sm: "1.2rem", md: "1.5rem" },
             color: "#363435",
+            // color: "#454a46",
           }}
         >
           We create brand experiences the clients love
@@ -102,7 +104,7 @@ const OurWork = () => {
                   gap: 2,
                   p: 2,
                   marginTop: "20px",
-                  height: "25vh",
+                  height: { md: "20vh", sm: "30vh" },
                   borderBottomLeftRadius: "10px",
                   borderBottomRightRadius: "10px",
                 }}

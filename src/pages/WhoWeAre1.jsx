@@ -26,7 +26,8 @@ const WhoWeAre = () => {
             sx={{
               fontWeight: "800",
               color: "#363435",
-              fontSize: { xs: "40px", md: "100px" },
+              // color: "#454a46",
+              fontSize: { xs: "2.5rem", sm: "3rem", md: "7rem" },
               fontFamily: "Switzer-Variable"
             }}
           >
@@ -38,8 +39,9 @@ const WhoWeAre = () => {
             <Typography
               variant="p"
               sx={{
-                fontSize: '1.5rem',
+                fontSize: { xs: '1.2rem', md:'1.5rem'},
                 color: "#363435",
+                // color: "#454a46",
               }}
             >
               Experts in Integrated Communication
@@ -51,6 +53,7 @@ const WhoWeAre = () => {
                 width: { xs: "100%", sm: "100%", md: "50%" },
                 fontSize: '0.8rem',
                 color: "#363435",
+                // color: "#454a46",
               }}
             >
               With a decade of experience as a full-service communications
@@ -65,7 +68,9 @@ const WhoWeAre = () => {
               sx={{
                 width: { xs: "100%", sm: "100%", md: "50%" },
                 fontSize: '0.8rem',
-                color: "#363435",
+                // color: "#363435",
+                color: "#454a46",
+
               }}
             >
               Our versatile team of young professionals comes from diverse

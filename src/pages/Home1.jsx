@@ -1,5 +1,6 @@
 import { Box, Typography } from "@mui/material";
 import { useNavigate } from "react-router-dom";
+import img1 from "../assets/Our Key Clients.png";
 
 const Home = () => {
 
@@ -31,7 +32,8 @@ const Home = () => {
             fontWeight: "900",
             marginBottom: { xs: "0px", md: "10vh" },
             color: "#363435",
-            fontSize: { xs: "40px", md: "90px" },
+            // color: "#454a46",
+            fontSize: { xs: "2.5rem", sm: "3rem", md: "6rem" },
             fontFamily: "Switzer-Variable"
           }}
         >
@@ -52,7 +54,8 @@ const Home = () => {
             variant="p"
             sx={{
               fontSize: '1.5rem',
-              color: "#454a46",
+              // color: "#454a46",
+              color: "#363435",
               fontWeight: "300",
               width: { md: '20vw' }
             }}
@@ -63,7 +66,8 @@ const Home = () => {
           <Typography
             variant="p"
             sx={{
-              color: "#454a46",
+              // color: "#454a46",
+              color: "#363435",
               fontSize: "0.7rem",
             }}
           >
@@ -78,7 +82,8 @@ const Home = () => {
           <Typography
             variant="p"
             sx={{
-              color: "#454a46",
+              // color: "#454a46",
+              color: "#363435",
               fontSize: "0.7rem",
             }}
           >
@@ -120,6 +125,35 @@ const Home = () => {
               Let's Connect
             </Typography>
           </Box>
+        </Box>
+      </Box>
+      <Box
+        display="flex"
+        justifyContent="center"
+        alignItems="center"
+        flexDirection="column"
+        marginTop="100px"
+      >
+
+        <Typography variant="p" sx={{ fontWeight: "bold", fontFamily: "Switzer-Variable", fontSize: { xs: "2.5rem", sm: "3rem", md: "3.5rem" }, fontWeight: 900, color: "#363435" }}>
+          Our Key Clients
+        </Typography>
+
+        <Box
+          sx={{
+            borderRadius: "30px",
+            height: { xs: "350px", sm: "500px", md: "800px" },
+            width: { xs: "90%", sm: "90%", md: "90%" },
+            marginTop: "50px",
+          }}
+        >
+          <img
+            src={img1}
+            alt=""
+            width="100%"
+            height="100%"
+            style={{ borderRadius: "50px" }}
+          />
         </Box>
       </Box>
     </div>

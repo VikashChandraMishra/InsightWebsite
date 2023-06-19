@@ -261,7 +261,7 @@ const Form = () => {
           </Box>
           <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
             <label style={{ fontSize: "1.2rem" }}>LinkedIn Profile:</label>
-            <input type="file" />
+            <input type="text" />
           </Box>
           <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
             <label style={{ fontSize: "1.2rem" }}>Website/ Portfolio:</label>

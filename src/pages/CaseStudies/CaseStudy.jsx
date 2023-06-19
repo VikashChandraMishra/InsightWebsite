@@ -87,31 +87,23 @@ const CaseStudy = ({ title, content, logo, link, logoH, logoW }) => {
           </div>
 
           <Link to={link}
-          style={{
-            textDecoration: "none",
-
-          }}
+            style={{
+              textDecoration: 'none'
+            }}
           >
             <Box
+              variant="contained"
               sx={{
-                width: "100%",
                 backgroundColor: "#2F5325",
-                borderRadius: "8px",
-                border: "none",
+                borderRadius: "5px",
+                textAlign: 'center',
                 paddingTop: "2px",
-                paddingBottom: "4px",
-                cursor: "pointer",
-                textAlign: "center"
-
+                paddingBottom: "2px",
+                color: "whitesmoke",
               }}
+              fullWidth
             >
-              <Typography variant="p" sx={{
-                color: "white",        
-                fontFamily: 'Switzer-Extralight',
-                fontSize: '0.8rem',
-              }}>
-                View more
-              </Typography>
+              View more
             </Box>
           </Link>
         </Paper>

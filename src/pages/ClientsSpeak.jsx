@@ -23,8 +23,10 @@ const ClientsSpeak = () => {
                 sx={{
                     fontWeight: "800",
                     fontFamily: "Switzer-Variable",
+                    // color: "#454a46",
+                    color: "#363435",
                     textAlign: { xs: "center", md: "unset" },
-                    fontSize: { xs: "6rem" },
+                    fontSize: { xs: "2.5rem", sm: "3.5rem", md: "6rem" },
                     marginBottom: "5vh",
                 }}
             >
@@ -57,7 +59,7 @@ const ClientsSpeak = () => {
                         sx={{
                             fontFamily: "Switzer-Variable",
                             fontWeight: "200",
-                            fontSize: "0.8rem",
+                            fontSize: "0.9rem",
                         }}
                     >
                         “It was great to be associated with this agency since past 3+ years.
@@ -81,7 +83,7 @@ const ClientsSpeak = () => {
                                 flexDirection: "column",
                                 fontFamily: "Switzer-Variable",
                                 fontWeight: "200",
-                                fontSize: "0.7rem",
+                                fontSize: "0.8rem",
                             }}
                         >
                             <b>Kanishka Banerjee</b>
@@ -109,7 +111,7 @@ const ClientsSpeak = () => {
                         sx={{
                             fontFamily: "Switzer-Variable",
                             fontWeight: "200",
-                            fontSize: "0.8rem",
+                            fontSize: "0.9rem",
                         }}
                     >
                         “My overall experience with the agency in past 6 months was very
@@ -131,11 +133,11 @@ const ClientsSpeak = () => {
                                 flexDirection: "column",
                                 fontFamily: "Switzer-Variable",
                                 fontWeight: "200",
-                                fontSize: "0.7rem",
+                                fontSize: "0.8rem",
                             }}
                         >
                             <b>Dr. Navdeep Singh Suhag</b>
-                            <span>Director</span>
+                            <span>Deputy Director</span>
                             <span>Competition Commission of India</span>
                         </Typography>
                     </Box>
@@ -159,12 +161,12 @@ const ClientsSpeak = () => {
                         sx={{
                             fontFamily: "Switzer-Variable",
                             fontWeight: "200",
-                            fontSize: "0.8rem",
+                            fontSize: "0.9rem",
                         }}
                     >
                         “Insight understands and can comprehend our ideas and the output level increases. Be it an adaptation of Central creative, or a new creative, Insight started showing best results. As a Digital agency also, Insight Brandcom is doing satisfactory work and I am sure, together we will do many good works in future."
                     </Typography>
-                    
+
                     <Box>
                         <img
                             src={apolloLogo}
@@ -179,7 +181,7 @@ const ClientsSpeak = () => {
                                 flexDirection: "column",
                                 fontFamily: "Switzer-Variable",
                                 fontWeight: "200",
-                                fontSize: "0.7rem",
+                                fontSize: "0.8rem",
                             }}
                         >
                             <b>Uday Sankar Borkataki</b>
@@ -207,7 +209,7 @@ const ClientsSpeak = () => {
                         sx={{
                             fontFamily: "Switzer-Variable",
                             fontWeight: "200",
-                            fontSize: "0.8rem",
+                            fontSize: "0.9rem",
                         }}
                     >
                         “Insight Brandcom has a good understanding of consumer insight,
@@ -229,7 +231,7 @@ const ClientsSpeak = () => {
                                 flexDirection: "column",
                                 fontFamily: "Switzer-Variable",
                                 fontWeight: "200",
-                                fontSize: "0.7rem",
+                                fontSize: "0.8rem",
                             }}
                         >
                             <b>Syed Mujaddid Hussain</b>

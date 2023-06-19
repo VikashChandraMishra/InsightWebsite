@@ -87,7 +87,8 @@ const WhatWeDo = () => {
             fontWeight: "800",
             fontFamily: "Switzer-Variable",
             color: "#363435",
-            fontSize: { xs: "70px", md: "105px" },
+            // color: "#454a46",
+            fontSize: { xs: "3rem", sm: "4rem", md: "7rem" },
           }}
         >
           What We Do

@@ -11,7 +11,7 @@ const CaseStudy2 = () => {
         sx={{
           width: { xs: "100%", sm: "60%" },
           p: { xs: "10px", sm: "20px 150px" },
-          marginTop: "100px"
+          marginTop: "100px",
         }}
       >
         <img src={Logo} width="110px" alt="" />
@@ -21,10 +21,16 @@ const CaseStudy2 = () => {
           flexDirection="column"
           gap={2}
           sx={{
-            width: { md: "45vw" }
-          }}>
-          <Typography variant="h3"
-            sx={{ fontWeight: "900", fontFamily: "Switzer-Variable", color: "#363435" }}
+            width: { md: "45vw" },
+          }}
+        >
+          <Typography
+            variant="h3"
+            sx={{
+              fontWeight: "900",
+              fontFamily: "Switzer-Variable",
+              color: "#363435",
+            }}
           >
             APART
           </Typography>
@@ -33,7 +39,7 @@ const CaseStudy2 = () => {
             sx={{
               color: "#363435",
               fontSize: "1.4rem",
-              fontWeight: "300"
+              fontWeight: "300",
             }}
           >
             Assam Agribusiness and Rural Transformation Project
@@ -42,7 +48,7 @@ const CaseStudy2 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem"
+              fontSize: "0.7rem",
             }}
           >
             World Bank Funded Govt. of Assam Project
@@ -52,14 +58,18 @@ const CaseStudy2 = () => {
             sx={{
               color: "#363435",
               fontSize: "1.7rem",
-              fontWeight: "300"
-            }}>Challenges</Typography>
+              fontWeight: "300",
+            }}
+          >
+            Challenges
+          </Typography>
           <Typography
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem"
-            }}>
+              fontSize: "0.7rem",
+            }}
+          >
             There is a knowledge gap among the rural community and target
             beneficiaries regarding the production of their produce, including
             material inputs, finances, technical know-how, and data information,
@@ -72,21 +82,24 @@ const CaseStudy2 = () => {
             communication that would effectively influence the adoption of
             practices.
           </Typography>
-          <Typography variant="h4"
+          <Typography
+            variant="h4"
             sx={{
               color: "#363435",
               fontSize: "1.7rem",
               fontFamily: "Switzer-Variable",
-              fontWeight: "300"
-            }}>
+              fontWeight: "300",
+            }}
+          >
             The Journey: Communication Need Assessment (CNA)
           </Typography>
           <Typography
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem"
-            }}>
+              fontSize: "0.7rem",
+            }}
+          >
             The use of new forms of information and technology such as mobile
             and the internet has amplified traditional modes of training for
             cultivators and people engaged in agricultural and allied
@@ -99,8 +112,9 @@ const CaseStudy2 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem"
-            }}>
+              fontSize: "0.7rem",
+            }}
+          >
             The CNA was conducted in 21 districts across Assam as part of the
             APART Project. The data was collected from respondents and project
             beneficiaries during October to November 2020, covering all regions
@@ -111,8 +125,9 @@ const CaseStudy2 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem"
-            }}>
+              fontSize: "0.7rem",
+            }}
+          >
             The research instruments of the CNA were designed to derive key
             messages related to the project from respondents engaged in
             farming/agriculture, fishery, piggery, and dairy. Women respondents
@@ -127,8 +142,9 @@ const CaseStudy2 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem"
-            }}>
+              fontSize: "0.7rem",
+            }}
+          >
             21 districts, divided under 8 zones, were covered in the exercise
             using purposive sampling. Within each selected district, 30
             respondents engaged in agriculture, piggery, fishery, dairy, and
@@ -142,8 +158,9 @@ const CaseStudy2 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem"
-            }}>
+              fontSize: "0.7rem",
+            }}
+          >
             The research tools used in the CNA included a detailed interview
             schedule with a mix of quantitative (with options) and qualitative
             (without options) questions for each category of the respondents.
@@ -161,19 +178,24 @@ const CaseStudy2 = () => {
             collected empirically (i.e., from the respondents) and from
             secondary sources.
           </Typography>
-          <Typography variant="h4"
+          <Typography
+            variant="h4"
             sx={{
               color: "#363435",
               fontSize: "1.7rem",
               fontFamily: "Switzer-Variable",
-              fontWeight: "300"
-            }}>Impact</Typography>
+              fontWeight: "300",
+            }}
+          >
+            Impact
+          </Typography>
           <Typography
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem"
-            }}>
+              fontSize: "0.7rem",
+            }}
+          >
             To effectively bridge the communication gap between the
             beneficiaries and the APART project team, a communication strategy
             was outlined. The primary communication-related needs expressed by
@@ -199,15 +221,30 @@ const CaseStudy2 = () => {
           </Typography>
         </Box>
       </Box>
-      <Box sx={{ p: { xs: "10px", sm: "20px 100px" }, width: '1500px' }}>
+      <Box
+        sx={{
+          p: { xs: "10px", sm: "20px 150px" },
+          width: { xs: "100%", sm: "450px", md: "950px" },
+        }}
+      >
         <Grid container spacing={3}>
-          <Grid item xs={12} sm={6} md={6}>
-            <img src={img2} alt="" width="100%" height="400px" />
+          <Grid item xs={12} sm={12} md={12}>
+            <Box
+              sx={{
+                width: { xs: "350px", sm: "450px", md: "600px" },
+              }}
+            >
+              <img src={img1} alt="" width="100%" height="100%" />
+            </Box>
           </Grid>
-        </Grid>
-        <Grid container spacing={3}>
-          <Grid item xs={12} sm={6} md={6}>
-            <img src={img1} alt="" width="100%" height="400px" />
+          <Grid item xs={12} sm={12} md={12}>
+            <Box
+              sx={{
+                width: { xs: "350px", sm: "450px", md: "600px" },
+              }}
+            >
+              <img src={img2} alt="" width="100%" height="100%" />
+            </Box>
           </Grid>
         </Grid>
       </Box>

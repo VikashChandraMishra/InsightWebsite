@@ -13,14 +13,13 @@ import CaseStudy from "./CaseStudy";
 const Index = () => {
   return (
     <div>
-
       <Box>
-
-        <Box sx={{
-          p: { xs: 6, md: "8vh 12vw" },
-          marginTop: "15vh",
-        }}>
-
+        <Box
+          sx={{
+            p: { xs: 6, md: "8vh 12vw" },
+            marginTop: "15vh",
+          }}
+        >
           <Typography
             variant="p"
             sx={{
@@ -34,13 +33,18 @@ const Index = () => {
           </Typography>
 
           <Grid container spacing={2} sx={{ marginTop: "20px" }}>
-
-            {
-              caseStudies.map(({ title, content, logo, link, logoH, logoW }) => {
-                return <CaseStudy title={title} content={content} logo={logo} logoH={logoH} logoW={logoW} link={link} />
-              })
-            }
-
+            {caseStudies.map(({ title, content, logo, link, logoH, logoW }) => {
+              return (
+                <CaseStudy
+                  title={title}
+                  content={content}
+                  logo={logo}
+                  logoH={logoH}
+                  logoW={logoW}
+                  link={link}
+                />
+              );
+            })}
           </Grid>
         </Box>
       </Box>

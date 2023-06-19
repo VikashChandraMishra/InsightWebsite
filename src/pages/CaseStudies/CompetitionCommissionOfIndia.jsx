@@ -15,7 +15,7 @@ const CaseStudy4 = () => {
         sx={{
           width: { xs: "100%", sm: "60%" },
           p: { xs: "10px", sm: "20px 150px" },
-          marginTop: "100px"
+          marginTop: "100px",
         }}
       >
         <img src={Logo} width="100px" alt="" />
@@ -25,28 +25,46 @@ const CaseStudy4 = () => {
           flexDirection="column"
           gap={2}
           sx={{
-            width: { md: "40vw" }
-          }}>
-          <Typography variant="h4" sx={{ fontWeight: "900", fontFamily: "Switzer-Variable", color: "#363435" }}>
+            width: { md: "40vw" },
+          }}
+        >
+          <Typography
+            variant="h4"
+            sx={{
+              fontWeight: "900",
+              fontFamily: "Switzer-Variable",
+              color: "#363435",
+            }}
+          >
             CCI
           </Typography>
-          <Typography variant="p"
+          <Typography
+            variant="p"
             sx={{
               color: "#363435",
               fontSize: "1.3rem",
-              fontWeight: "300"
-            }}>Competition Commission Of India</Typography>
-          <Typography variant="p"
+              fontWeight: "300",
+            }}
+          >
+            Competition Commission Of India
+          </Typography>
+          <Typography
+            variant="p"
             sx={{
               color: "#363435",
               fontSize: "1.7rem",
-              fontWeight: "300"
-            }}>Challenges</Typography>
-          <Typography variant="p"
+              fontWeight: "300",
+            }}
+          >
+            Challenges
+          </Typography>
+          <Typography
+            variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem"
-            }}>
+              fontSize: "0.7rem",
+            }}
+          >
             The social media presence of the entity was found to be lacking,
             with a low engagement rate of only 1.8%. Despite having a presence
             on various social media platforms, it was observed that the
@@ -56,18 +74,24 @@ const CaseStudy4 = () => {
             and fails to inform or entertain the audience, as there are no
             engaging or informative Gifs or Videos.
           </Typography>
-          <Typography variant="h4"
+          <Typography
+            variant="h4"
             sx={{
               color: "#363435",
               fontSize: "1.7rem",
               fontFamily: "Switzer-Variable",
-              fontWeight: "300"
-            }}>The Journey</Typography>
-          <Typography variant="p"
+              fontWeight: "300",
+            }}
+          >
+            The Journey
+          </Typography>
+          <Typography
+            variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem"
-            }}>
+              fontSize: "0.7rem",
+            }}
+          >
             The responsibilities included the creation and maintenance of
             official handles for CCI on various social media platforms. We also
             developed a content strategy and created customised brand hashtags
@@ -78,18 +102,24 @@ const CaseStudy4 = () => {
             carried out to enhance the brand's position. Finally, all social
             media handles are now verified with a blue tick.
           </Typography>
-          <Typography variant="h4"
+          <Typography
+            variant="h4"
             sx={{
               color: "#363435",
               fontSize: "1.7rem",
               fontFamily: "Switzer-Variable",
-              fontWeight: "300"
-            }}>Impact</Typography>
-          <Typography variant="p"
+              fontWeight: "300",
+            }}
+          >
+            Impact
+          </Typography>
+          <Typography
+            variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem"
-            }}>
+              fontSize: "0.7rem",
+            }}
+          >
             Within a span of four months, we managed to achieve a reach of over
             one million on social media platforms. The overall engagement rate
             also witnessed an average increase of 10.46%, which is a significant
@@ -102,26 +132,72 @@ const CaseStudy4 = () => {
           </Typography>
         </Box>
       </Box>
-      <Box sx={{ p: { xs: "10px", sm: "20px 100px" } }}>
+      <Box
+        sx={{
+          p: { xs: "10px", sm: "20px 150px" },
+          width: { xs: "100%", sm: "450px", md: "950px" },
+        }}
+      >
         <Grid container spacing={3}>
           <Grid item xs={12} sm={6} md={4}>
-            <img src={img1} alt="" width="100%" height="500px" />
-          </Grid>
-
-          <Grid item xs={12} sm={6} md={4}>
-            <img src={img2} alt="" width="100%" height="500px" />
-          </Grid>
-          <Grid item xs={12} sm={6} md={4}>
-            <img src={img3} alt="" width="100%" height="500px" />
-          </Grid>
-          <Grid item xs={12} sm={6} md={4}>
-            <img src={img4} alt="" width="100%" height="500px" />
+            <Box
+              sx={{
+                width: { xs: "250px", sm: "300px", md: "300px" },
+                height: "500px",
+              }}
+            >
+              <img src={img1} alt="" width="100%" height="100%" />
+            </Box>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
-            <img src={img5} alt="" width="100%" height="500px" />
+            <Box
+              sx={{
+                width: { xs: "250px", sm: "300px", md: "300px" },
+                height: "500px",
+              }}
+            >
+              <img src={img2} alt="" width="100%" height="100%" />
+            </Box>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
-            <img src={img6} alt="" width="100%" height="500px" />
+            <Box
+              sx={{
+                width: { xs: "250px", sm: "300px", md: "320px" },
+                height: "500px",
+              }}
+            >
+              <img src={img3} alt="" width="100%" height="100%" />
+            </Box>
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <Box
+              sx={{
+                width: { xs: "250px", sm: "300px", md: "300px" },
+                height: "500px",
+              }}
+            >
+              <img src={img4} alt="" width="100%" height="100%" />
+            </Box>
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <Box
+              sx={{
+                width: { xs: "250px", sm: "300px", md: "300px" },
+                height: "500px",
+              }}
+            >
+              <img src={img5} alt="" width="100%" height="100%" />
+            </Box>
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <Box
+              sx={{
+                width: { xs: "250px", sm: "300px", md: "300px" },
+                height: "500px",
+              }}
+            >
+              <img src={img6} alt="" width="100%" height="100%" />
+            </Box>
           </Grid>
         </Grid>
       </Box>

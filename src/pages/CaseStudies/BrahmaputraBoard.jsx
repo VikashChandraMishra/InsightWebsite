@@ -15,64 +15,89 @@ const CaseStudy8 = () => {
         sx={{
           width: { xs: "100%", sm: "60%" },
           p: { xs: "10px", sm: "20px 150px" },
-          marginTop: "100px"
+          marginTop: "100px",
         }}
       >
         <img src={Logo} width="90px" alt="" />
-        <Box           marginTop="20px"
+        <Box
+          marginTop="20px"
           display="flex"
           flexDirection="column"
           gap={2}
           sx={{
-            width: { md: "40vw" }
+            width: { md: "40vw" },
           }}
->
-          <Typography variant="h4"
-            sx={{ fontWeight: "900", fontFamily: "Switzer-Variable", color: "#363435" }}>
+        >
+          <Typography
+            variant="h4"
+            sx={{
+              fontWeight: "900",
+              fontFamily: "Switzer-Variable",
+              color: "#363435",
+            }}
+          >
             Brahmaputra Board
           </Typography>
-          <Typography variant="p"
+          <Typography
+            variant="p"
             sx={{
               color: "#363435",
               fontSize: "1.3rem",
-              fontWeight: "300"
-            }}>United Nations Children's Funds</Typography>
+              fontWeight: "300",
+            }}
+          >
+            United Nations Children's Funds
+          </Typography>
 
-          <Typography variant="p"
+          <Typography
+            variant="p"
             sx={{
               color: "#363435",
               fontSize: "1.7rem",
-              fontWeight: "300"
-            }}>Challenges</Typography>
-          <Typography variant="p"
+              fontWeight: "300",
+            }}
+          >
+            Challenges
+          </Typography>
+          <Typography
+            variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem"
-            }}>
+              fontSize: "0.7rem",
+            }}
+          >
             The Expedition was extensive, starting from Gelling in Upper Siang
             District of Arunachal Pradesh and was scheduled to conclude at
             Assameralga in South Salmara Mankachar District of Assam tentatively
             from the 16th December, 2020 to 14th January, 2021.
           </Typography>
-          <Typography variant="p"
+          <Typography
+            variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem"
-            }}>
+              fontSize: "0.7rem",
+            }}
+          >
             Full coverage of the expedition, along with LIVE recording and
             documentation in rugged terrains with less or no network.
           </Typography>
-          <Typography variant="p"
+          <Typography
+            variant="p"
             sx={{
               color: "#363435",
               fontSize: "1.7rem",
-              fontWeight: "300"
-            }}>The Journey</Typography>
-          <Typography variant="p"
+              fontWeight: "300",
+            }}
+          >
+            The Journey
+          </Typography>
+          <Typography
+            variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem"
-            }}>
+              fontSize: "0.7rem",
+            }}
+          >
             To ensure the success of their rafting campaign, a 3-member team was
             deployed to work closely with the rafting team. In addition, a
             separate on-ground local support team was stationed at various key
@@ -86,27 +111,35 @@ const CaseStudy8 = () => {
             success, with more than 7 videos on different topics and themes
             released to the public.
           </Typography>
-          <Typography variant="p"
+          <Typography
+            variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem"
-            }}>
+              fontSize: "0.7rem",
+            }}
+          >
             A full-page ad was released on International Day of Yoga, the 21st
             of June, asking people to stay tuned for the winner's announcement
             on their page, promoting followers.
           </Typography>
 
-          <Typography variant="p"
+          <Typography
+            variant="p"
             sx={{
               color: "#363435",
               fontSize: "1.7rem",
-              fontWeight: "300"
-            }}>Impact</Typography>
-          <Typography variant="p"
+              fontWeight: "300",
+            }}
+          >
+            Impact
+          </Typography>
+          <Typography
+            variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem"
-            }}>
+              fontSize: "0.7rem",
+            }}
+          >
             The Brahmaputra Aamantran Abhiyaan was executed with careful
             attention to detail and thorough planning. The project included
             several critical components, such as the capture of high-quality
@@ -116,11 +149,13 @@ const CaseStudy8 = () => {
             utilised social media tools to create engagement and awareness
             around the event.
           </Typography>
-          <Typography variant="p"
+          <Typography
+            variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem"
-            }}>
+              fontSize: "0.7rem",
+            }}
+          >
             A comprehensive digital documentation of news, events, campaigns,
             outreach activities, and community involvement programs was also
             compiled. To ensure maximum reach and awareness, the team identified
@@ -128,11 +163,13 @@ const CaseStudy8 = () => {
             their implementation upon approval. They also proposed and engaged
             with influencers to endorse the Abhiyaan.
           </Typography>
-          <Typography variant="p"
+          <Typography
+            variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem"
-            }}>
+              fontSize: "0.7rem",
+            }}
+          >
             A calendar for planned content release and dissemination was
             created, with a focus on creating infectious and shareable content
             that would drive engagement and virality. The team also engaged key
@@ -143,27 +180,66 @@ const CaseStudy8 = () => {
           </Typography>
         </Box>
       </Box>
-      <Box sx={{ p: { xs: "10px", sm: "20px 100px" } }}>
+      <Box
+        sx={{
+          p: { xs: "10px", sm: "20px 150px" },
+          width: { xs: "100%", sm: "450px", md: "950px" },
+        }}
+      >
         <Grid container spacing={3}>
-          <Grid item xs={12} sm={10} md={10}>
-            <img src={img1} alt="" width="100%" height="300px" />
+          <Grid item xs={12} sm={12} md={12}>
+            <Box
+              sx={{
+                width: { xs: "350px", sm: "450px", md: "100%" },
+              }}
+            >
+              <img src={img1} alt="" width="100%" height="100%" />
+            </Box>
           </Grid>
-          <Grid item xs={12} sm={10} md={10}>
-            <img src={img2} alt="" width="100%" height="300px" />
+          <Grid item xs={12} sm={12} md={12}>
+            <Box
+              sx={{
+                width: { xs: "350px", sm: "450px", md: "100%" },
+              }}
+            >
+              <img src={img2} alt="" width="100%" height="100%" />
+            </Box>
           </Grid>
-          <Grid item xs={12} sm={10} md={10}>
-            <img src={img3} alt="" width="100%" height="300px" />
+          <Grid item xs={12} sm={12} md={12}>
+            <Box
+              sx={{
+                width: { xs: "350px", sm: "450px", md: "100%" },
+              }}
+            >
+              <img src={img3} alt="" width="100%" height="100%" />
+            </Box>
           </Grid>
-        </Grid>
-        <Grid container spacing={3}>
-          <Grid item xs={12} sm={6} md={3}>
-            <img src={img4} alt="" width="100%" height="250px" />
+          <Grid item xs={12} sm={6} md={4}>
+            <Box
+              sx={{
+                width: { xs: "200px", sm: "200px", md: "300px" },
+              }}
+            >
+              <img src={img4} alt="" width="100%" height="100%" />
+            </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
-            <img src={img5} alt="" width="100%" height="250px" />
+          <Grid item xs={12} sm={6} md={4}>
+            <Box
+              sx={{
+                width: { xs: "200px", sm: "200px", md: "300px" },
+              }}
+            >
+              <img src={img5} alt="" width="100%" height="100%" />
+            </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
-            <img src={img6} alt="" width="100%" height="250px" />
+          <Grid item xs={12} sm={6} md={4}>
+            <Box
+              sx={{
+                width: { xs: "200px", sm: "200px", md: "300px" },
+              }}
+            >
+              <img src={img6} alt="" width="100%" height="100%" />
+            </Box>
           </Grid>
         </Grid>
       </Box>

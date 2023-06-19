@@ -12,7 +12,7 @@ const CaseStudy5 = () => {
         sx={{
           width: { xs: "100%", sm: "60%" },
           p: { xs: "10px", sm: "20px 150px" },
-          marginTop: "100px"
+          marginTop: "100px",
         }}
       >
         <img src={Logo} width="350px" alt="" />
@@ -22,11 +22,16 @@ const CaseStudy5 = () => {
           flexDirection="column"
           gap={2}
           sx={{
-            width: { md: "40vw" }
+            width: { md: "40vw" },
           }}
         >
-          <Typography variant="h4"
-            sx={{ fontWeight: "900", fontFamily: "Switzer-Variable", color: "#363435" }}
+          <Typography
+            variant="h4"
+            sx={{
+              fontWeight: "900",
+              fontFamily: "Switzer-Variable",
+              color: "#363435",
+            }}
           >
             Department of Agriculture
           </Typography>
@@ -35,14 +40,16 @@ const CaseStudy5 = () => {
             sx={{
               color: "#363435",
               fontSize: "1.7rem",
-              fontWeight: "300"
+              fontWeight: "300",
             }}
-          >Challenges</Typography>
+          >
+            Challenges
+          </Typography>
           <Typography
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem"
+              fontSize: "0.7rem",
             }}
           >
             There were significant obstacles in the form of a lack of awareness,
@@ -54,7 +61,7 @@ const CaseStudy5 = () => {
               color: "#363435",
               fontSize: "1.7rem",
               fontFamily: "Switzer-Variable",
-              fontWeight: "300"
+              fontWeight: "300",
             }}
           >
             The Journey - Krishok Hojagota Abhijan: A Roadshow by the
@@ -66,7 +73,7 @@ const CaseStudy5 = () => {
               color: "#363435",
               fontSize: "0.7rem",
               fontFamily: "Switzer-Variable",
-              fontWeight: "300"
+              fontWeight: "300",
             }}
           >
             Initiated by the Directorate of Agriculture, a drive was conducted
@@ -86,7 +93,7 @@ const CaseStudy5 = () => {
               color: "#363435",
               fontSize: "0.7rem",
               fontFamily: "Switzer-Variable",
-              fontWeight: "300"
+              fontWeight: "300",
             }}
           >
             Notable schemes included the National Food Security Mission 2020-21,
@@ -105,16 +112,18 @@ const CaseStudy5 = () => {
               color: "#363435",
               fontSize: "1.7rem",
               fontFamily: "Switzer-Variable",
-              fontWeight: "300"
+              fontWeight: "300",
             }}
-          >Impact</Typography>
+          >
+            Impact
+          </Typography>
           <Typography
             variant="p"
             sx={{
               color: "#363435",
               fontSize: "0.7rem",
               fontFamily: "Switzer-Variable",
-              fontWeight: "300"
+              fontWeight: "300",
             }}
           >
             The entire rural drive under D.O.A was a huge success. The activity
@@ -129,7 +138,7 @@ const CaseStudy5 = () => {
               color: "#363435",
               fontSize: "0.7rem",
               fontFamily: "Switzer-Variable",
-              fontWeight: "300"
+              fontWeight: "300",
             }}
           >
             In 45 days of the initiative, the activity reached out to more than
@@ -139,16 +148,39 @@ const CaseStudy5 = () => {
           </Typography>
         </Box>
       </Box>
-      <Box sx={{ p: { xs: "10px", sm: "20px 150px" }, width: '950px' }}>
+      <Box
+        sx={{
+          p: { xs: "10px", sm: "20px 150px" },
+          width: { xs: "100%", sm: "450px", md: "950px" },
+        }}
+      >
         <Grid container spacing={3}>
-          <Grid item xs={12} sm={6} md={6}>
-            <img src={img1} alt="" width="100%" height="250px" />
+          <Grid item xs={12} sm={12} md={6}>
+            <Box
+              sx={{
+                width: { xs: "350px", sm: "450px", md: "480px" },
+              }}
+            >
+              <img src={img1} alt="" width="100%" height="100%" />
+            </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={6}>
-            <img src={img2} alt="" width="100%" height="250px" />
+          <Grid item xs={12} sm={12} md={6}>
+            <Box
+              sx={{
+                width: { xs: "350px", sm: "450px", md: "480px" },
+              }}
+            >
+              <img src={img2} alt="" width="100%" height="100%" />
+            </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={6}>
-            <img src={img3} alt="" width="100%" height="250px" />
+          <Grid item xs={12} sm={12} md={6}>
+            <Box
+              sx={{
+                width: { xs: "350px", sm: "450px", md: "480px" },
+              }}
+            >
+              <img src={img3} alt="" width="100%" height="100%" />
+            </Box>
           </Grid>
         </Grid>
       </Box>

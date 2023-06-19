@@ -27,8 +27,9 @@ const Careers = () => {
             sx={{
               fontWeight: "800",
               fontFamily: "Switzer-Variable",
-              fontSize: { xs: "50px", md: "100px" },
-              color: "#454a46",
+              fontSize: { xs: "3rem", sm: "4rem", md: "7rem" },
+              // color: "#454a46",
+              color: "#363435",
             }}
           >
             Careers
@@ -36,8 +37,9 @@ const Careers = () => {
           <Typography
             variant="p"
             sx={{
-              fontSize: "1.7rem",
-              color: "#454a46",
+              fontSize: { xs: "1.2rem", md: "1.7rem" },
+              // color: "#454a46",
+              color: "#363435",
               // fontFamily: "Switzer-Thin",
               fontWeight: "300",
             }}
@@ -50,7 +52,8 @@ const Careers = () => {
             sx={{
               fontWeight: "300",
               // fontWeight: "600",
-              color: "#454a46",
+              // color: "#454a46",
+              color: "#363435",
               fontSize: "0.8rem",
               width: { xs: "100%", md: "50%" },
             }}
@@ -86,8 +89,9 @@ const Careers = () => {
             variant="p"
             sx={{
               fontWeight: "bold",
-              fontSize: "2rem",
-              color: "#454a46",
+              fontSize: { xs: "1.3rem", sm: "1.5rem", md: "2rem" },
+              // color: "#454a46",
+              color: "#363435",
             }}
           >
             Vacancies
@@ -115,7 +119,7 @@ const Careers = () => {
                 variant="p"
                 sx={{
                   fontWeight: "bold",
-                  fontSize: "1.4rem",
+                  fontSize: { xs: "1rem", sm: "1.2rem", md: "1.4rem" },
                   color: "#454a46",
                 }}
               >
@@ -213,7 +217,7 @@ const Careers = () => {
               <Typography
                 variant="p"
                 sx={{
-                  fontSize: "1.4rem",
+                  fontSize: { xs: "1rem", sm: "1.2rem", md: "1.4rem" },
                   color: "#454a46",
                   fontWeight: "bold",
                 }}
@@ -235,7 +239,7 @@ const Careers = () => {
               <Typography
                 variant="p"
                 sx={{
-                  fontSize: "1.4rem",
+                  fontSize: { xs: "1rem", sm: "1.2rem", md: "1.4rem" },
                   color: "#454a46",
                   fontWeight: "bold",
                 }}
@@ -257,8 +261,9 @@ const Careers = () => {
               <Typography
                 variant="p"
                 sx={{
-                  fontSize: "1.4rem",
+                  fontSize: { xs: "1rem", sm: "1.2rem", md: "1.4rem" },
                   color: "#454a46",
+                  // color: "#363435",
                   fontWeight: "bold",
                 }}
               >
@@ -268,7 +273,11 @@ const Careers = () => {
                 <Button
                   variant="contained"
                   color="success"
-                  sx={{ fontWeight: "bold" }}
+                  sx={{
+                    fontWeight: "bold",
+                    width: { xs: "5.5rem", sm: "6rem", md: "7rem" },
+                    fontSize: { xs: "0.6rem", sm: "0.7rem", md: "0.9rem" }
+                  }}
                   onClick={() => { navigate('/apply'); }}
                 >
                   Apply Now
@@ -289,7 +298,7 @@ const Careers = () => {
               <Typography
                 variant="p"
                 sx={{
-                  fontSize: "1.4rem",
+                  fontSize: { xs: "1rem", sm: "1.2rem", md: "1.4rem" },
                   color: "#454a46",
                   fontWeight: "bold",
                 }}
@@ -300,7 +309,11 @@ const Careers = () => {
                 <Button
                   variant="contained"
                   color="success"
-                  sx={{ fontWeight: "bold" }}
+                  sx={{
+                    fontWeight: "bold",
+                    width: { xs: "5.5rem", sm: "6rem", md: "7rem" },
+                    fontSize: { xs: "0.6rem", sm: "0.7rem", md: "0.9rem" }
+                  }}
                   onClick={() => { navigate('/apply'); }}
                 >
                   Apply Now
@@ -321,7 +334,7 @@ const Careers = () => {
               <Typography
                 variant="p"
                 sx={{
-                  fontSize: "1.4rem",
+                  fontSize: { xs: "1rem", sm: "1.2rem", md: "1.4rem" },
                   color: "#454a46",
                   fontWeight: "bold",
                 }}
@@ -332,7 +345,11 @@ const Careers = () => {
                 <Button
                   variant="contained"
                   color="success"
-                  sx={{ fontWeight: "bold" }}
+                  sx={{
+                    fontWeight: "bold",
+                    width: { xs: "5.5rem", sm: "6rem", md: "7rem" },
+                    fontSize: { xs: "0.6rem", sm: "0.7rem", md: "0.9rem" }
+                  }}
                   onClick={() => { navigate('/apply'); }}
                 >
                   Apply Now
@@ -353,7 +370,7 @@ const Careers = () => {
               <Typography
                 variant="p"
                 sx={{
-                  fontSize: "1.4rem",
+                  fontSize: { xs: "1rem", sm: "1.2rem", md: "1.4rem" },
                   color: "#454a46",
                   fontWeight: "bold",
                 }}
@@ -364,7 +381,11 @@ const Careers = () => {
                 <Button
                   variant="contained"
                   color="success"
-                  sx={{ fontWeight: "bold" }}
+                  sx={{
+                    fontWeight: "bold",
+                    width: { xs: "5.5rem", sm: "6rem", md: "7rem" },
+                    fontSize: { xs: "0.6rem", sm: "0.7rem", md: "0.9rem" }
+                  }}
                   onClick={() => { navigate('/apply'); }}
                 >
                   Apply Now
@@ -385,7 +406,7 @@ const Careers = () => {
               <Typography
                 variant="p"
                 sx={{
-                  fontSize: "1.4rem",
+                  fontSize: { xs: "1rem", sm: "1.2rem", md: "1.4rem" },
                   color: "#454a46",
                   fontWeight: "bold",
                 }}
@@ -396,7 +417,11 @@ const Careers = () => {
                 <Button
                   variant="contained"
                   color="success"
-                  sx={{ fontWeight: "bold" }}
+                  sx={{
+                    fontWeight: "bold",
+                    width: { xs: "5.5rem", sm: "6rem", md: "7rem" },
+                    fontSize: { xs: "0.6rem", sm: "0.7rem", md: "0.9rem" }
+                  }}
                   onClick={() => { navigate('/apply'); }}
                 >
                   Apply Now
@@ -417,7 +442,7 @@ const Careers = () => {
               <Typography
                 variant="p"
                 sx={{
-                  fontSize: "1.4rem",
+                  fontSize: { xs: "1rem", sm: "1.2rem", md: "1.4rem" },
                   color: "#454a46",
                   fontWeight: "bold",
                 }}
@@ -428,7 +453,11 @@ const Careers = () => {
                 <Button
                   variant="contained"
                   color="success"
-                  sx={{ fontWeight: "bold" }}
+                  sx={{
+                    fontWeight: "bold",
+                    width: { xs: "5.5rem", sm: "6rem", md: "7rem" },
+                    fontSize: { xs: "0.6rem", sm: "0.7rem", md: "0.9rem" }
+                  }}
                   onClick={() => { navigate('/apply'); }}
                 >
                   Apply Now
@@ -449,7 +478,7 @@ const Careers = () => {
               <Typography
                 variant="p"
                 sx={{
-                  fontSize: "1.4rem",
+                  fontSize: { xs: "1rem", sm: "1.2rem", md: "1.4rem" },
                   color: "#454a46",
                   fontWeight: "bold",
                 }}
@@ -460,7 +489,11 @@ const Careers = () => {
                 <Button
                   variant="contained"
                   color="success"
-                  sx={{ fontWeight: "bold" }}
+                  sx={{
+                    fontWeight: "bold",
+                    width: { xs: "5.5rem", sm: "6rem", md: "7rem" },
+                    fontSize: { xs: "0.6rem", sm: "0.7rem", md: "0.9rem" }
+                  }}
                   onClick={() => { navigate('/apply'); }}
                 >
                   Apply Now
@@ -481,7 +514,7 @@ const Careers = () => {
               <Typography
                 variant="p"
                 sx={{
-                  fontSize: "1.4rem",
+                  fontSize: { xs: "1rem", sm: "1.2rem", md: "1.4rem" },
                   color: "#454a46",
                   fontWeight: "bold",
                 }}
@@ -492,7 +525,11 @@ const Careers = () => {
                 <Button
                   variant="contained"
                   color="success"
-                  sx={{ fontWeight: "bold" }}
+                  sx={{
+                    fontWeight: "bold",
+                    width: { xs: "5.5rem", sm: "6rem", md: "7rem" },
+                    fontSize: { xs: "0.6rem", sm: "0.7rem", md: "0.9rem" }
+                  }}
                   onClick={() => { navigate('/apply'); }}
                 >
                   Apply Now
@@ -513,7 +550,7 @@ const Careers = () => {
               <Typography
                 variant="p"
                 sx={{
-                  fontSize: "1.4rem",
+                  fontSize: { xs: "1rem", sm: "1.2rem", md: "1.4rem" },
                   color: "#454a46",
                   fontWeight: "bold",
                 }}
@@ -524,7 +561,11 @@ const Careers = () => {
                 <Button
                   variant="contained"
                   color="success"
-                  sx={{ fontWeight: "bold" }}
+                  sx={{
+                    fontWeight: "bold",
+                    width: { xs: "5.5rem", sm: "6rem", md: "7rem" },
+                    fontSize: { xs: "0.6rem", sm: "0.7rem", md: "0.9rem" }
+                  }}
                   onClick={() => { navigate('/apply'); }}
                 >
                   Apply Now
@@ -546,7 +587,7 @@ const Careers = () => {
               <Typography
                 variant="p"
                 sx={{
-                  fontSize: "1.4rem",
+                  fontSize: { xs: "1rem", sm: "1.2rem", md: "1.4rem" },
                   color: "#454a46",
                   fontWeight: "bold",
                 }}
@@ -557,7 +598,11 @@ const Careers = () => {
                 <Button
                   variant="contained"
                   color="success"
-                  sx={{ fontWeight: "bold" }}
+                  sx={{
+                    fontWeight: "bold",
+                    width: { xs: "5.5rem", sm: "6rem", md: "7rem" },
+                    fontSize: { xs: "0.6rem", sm: "0.7rem", md: "0.9rem" }
+                  }}
                   onClick={() => { navigate('/apply'); }}
                 >
                   Apply Now
@@ -578,7 +623,7 @@ const Careers = () => {
               <Typography
                 variant="p"
                 sx={{
-                  fontSize: "1.4rem",
+                  fontSize: { xs: "1rem", sm: "1.2rem", md: "1.4rem" },
                   color: "#454a46",
                   fontWeight: "bold",
                 }}
@@ -589,7 +634,11 @@ const Careers = () => {
                 <Button
                   variant="contained"
                   color="success"
-                  sx={{ fontWeight: "bold" }}
+                  sx={{
+                    fontWeight: "bold",
+                    width: { xs: "5.5rem", sm: "6rem", md: "7rem" },
+                    fontSize: { xs: "0.6rem", sm: "0.7rem", md: "0.9rem" }
+                  }}
                   onClick={() => { navigate('/apply'); }}
                 >
                   Apply Now
@@ -610,7 +659,7 @@ const Careers = () => {
               <Typography
                 variant="p"
                 sx={{
-                  fontSize: "1.4rem",
+                  fontSize: { xs: "1rem", sm: "1.2rem", md: "1.4rem" },
                   color: "#454a46",
                   fontWeight: "bold",
                 }}
@@ -621,7 +670,11 @@ const Careers = () => {
                 <Button
                   variant="contained"
                   color="success"
-                  sx={{ fontWeight: "bold" }}
+                  sx={{
+                    fontWeight: "bold",
+                    width: { xs: "5.5rem", sm: "6rem", md: "7rem" },
+                    fontSize: { xs: "0.6rem", sm: "0.7rem", md: "0.9rem" }
+                  }}
                   onClick={() => { navigate('/apply'); }}
                 >
                   Apply Now
@@ -642,7 +695,7 @@ const Careers = () => {
               <Typography
                 variant="p"
                 sx={{
-                  fontSize: "1.4rem",
+                  fontSize: { xs: "1rem", sm: "1.2rem", md: "1.4rem" },
                   color: "#454a46",
                   fontWeight: "bold",
                 }}
@@ -653,7 +706,11 @@ const Careers = () => {
                 <Button
                   variant="contained"
                   color="success"
-                  sx={{ fontWeight: "bold" }}
+                  sx={{
+                    fontWeight: "bold",
+                    width: { xs: "5.5rem", sm: "6rem", md: "7rem" },
+                    fontSize: { xs: "0.6rem", sm: "0.7rem", md: "0.9rem" }
+                  }}
                   onClick={() => { navigate('/apply'); }}
                 >
                   Apply Now
@@ -674,7 +731,7 @@ const Careers = () => {
               <Typography
                 variant="p"
                 sx={{
-                  fontSize: "1.4rem",
+                  fontSize: { xs: "1rem", sm: "1.2rem", md: "1.4rem" },
                   color: "#454a46",
                   fontWeight: "bold",
                 }}
@@ -685,7 +742,11 @@ const Careers = () => {
                 <Button
                   variant="contained"
                   color="success"
-                  sx={{ fontWeight: "bold" }}
+                  sx={{
+                    fontWeight: "bold",
+                    width: { xs: "5.5rem", sm: "6rem", md: "7rem" },
+                    fontSize: { xs: "0.6rem", sm: "0.7rem", md: "0.9rem" }
+                  }}
                   onClick={() => { navigate('/apply'); }}
                 >
                   Apply Now
@@ -706,7 +767,7 @@ const Careers = () => {
               <Typography
                 variant="p"
                 sx={{
-                  fontSize: "1.4rem",
+                  fontSize: { xs: "1rem", sm: "1.2rem", md: "1.4rem" },
                   color: "#454a46",
                   fontWeight: "bold",
                 }}
@@ -717,7 +778,11 @@ const Careers = () => {
                 <Button
                   variant="contained"
                   color="success"
-                  sx={{ fontWeight: "bold" }}
+                  sx={{
+                    fontWeight: "bold",
+                    width: { xs: "5.5rem", sm: "6rem", md: "7rem" },
+                    fontSize: { xs: "0.6rem", sm: "0.7rem", md: "0.9rem" }
+                  }}
                   onClick={() => { navigate('/apply'); }}
                 >
                   Apply Now

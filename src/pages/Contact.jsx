@@ -19,7 +19,7 @@ const Contact = () => {
             sx={{
               fontWeight: "800",
               color: "#363435",
-              fontSize: { xs: "60px", md: "120px" },
+              fontSize: { xs: "3rem", sm: "4.5rem", md: "6rem" },
               fontFamily: "Switzer-Variable",
             }}
           >
@@ -39,7 +39,7 @@ const Contact = () => {
               sx={{
                 color: "#363435",
                 fontWeight: "300",
-                fontSize: { xs: "1.5rem", md: "2rem" },
+                fontSize: { xs: "1.2rem", sm: "1.4rem", md: "1.8rem" },
               }}
             >
               For projects and collaboration
@@ -271,8 +271,7 @@ const Contact = () => {
                     color: "#363435",
                   }}
                 >
-                  The Galleria, 1st Floor DG 125B, Mayur Vihar DC Plot No.1B
-                  Phase 1 110091.
+                  The Galleria, 1st Floor DG 125B, Mayur Vihar, DC Plot No.1B, Phase 1, 110091
                 </Typography>
               </Box>
             </Box>
@@ -309,7 +308,7 @@ const Contact = () => {
                     color: "#363435",
                   }}
                 >
-                  91 A Jagdamba Nagar Ajmer Road, 302006, Rajasthan.
+                  91 A Jagdamba Nagar Ajmer Road, 302006, Rajasthan
                 </Typography>
               </Box>
 
@@ -375,7 +374,7 @@ const Contact = () => {
                   }}
                 >
                   MIG 73, 1st Floor, BDA Colony, Phase I, Pokhariput SBI ATM r
-                  -751030, Orissa.
+                  -751030, Orissa
                 </Typography>
               </Box>
 
@@ -393,7 +392,7 @@ const Contact = () => {
                     color: "#363435",
                   }}
                 >
-                  Shillong,
+                  Shillong
                 </Typography>
 
                 <Typography
@@ -403,7 +402,7 @@ const Contact = () => {
                     color: "#363435",
                   }}
                 >
-                  Qualapatty, East Khasi Hills Meghalaya
+                  Qualapatty, East Khasi Hills, 793001, Meghalaya
                 </Typography>
               </Box>
             </Box>

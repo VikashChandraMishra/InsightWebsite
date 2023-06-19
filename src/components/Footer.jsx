@@ -60,7 +60,7 @@ const Footer = () => {
               &copy; Copyright Insight Brandcom Pvt. Ltd.
             </Typography>
           </Box>
-          <Box sx={{ width: { xs: "100%", md: "40%" } }}>
+          {/* <Box sx={{ width: { xs: "100%", md: "40%" } }}>
             <Typography variant="p" sx={{ color: "white", fontSize: "13px" }}>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Mollitia, maxime! Praesentium dolore sequi perferendis culpa,
@@ -68,7 +68,7 @@ const Footer = () => {
               Sapiente perferendis natus ex possimus nisi quia reiciendis
               debitis commodi inventore itaque. Cumque, cupiditate tempore?
             </Typography>
-          </Box>
+          </Box> */}
         </Box>
       </Box>
     </div>

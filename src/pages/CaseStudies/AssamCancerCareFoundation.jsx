@@ -49,7 +49,7 @@ const CaseStudy1 = () => {
             variant="p"
             sx={{
               color: "#454a46",
-              fontSize: "0.7rem",
+              fontSize: { xs: '0.9rem', md: "0.8rem" },
             }}
           >
             The new centres are located at Dibrugarh, Barpeta, Jorhat,
@@ -61,7 +61,7 @@ const CaseStudy1 = () => {
             variant="p"
             sx={{
               color: "#454a46",
-              fontSize: "0.7rem",
+              fontSize: { xs: '0.9rem', md: "0.8rem" },
             }}
           >
             This launch was going to happen simultaneously at all the districts
@@ -82,7 +82,7 @@ const CaseStudy1 = () => {
             variant="p"
             sx={{
               color: "#454a46",
-              fontSize: "0.7rem",
+              fontSize: { xs: '0.9rem', md: "0.8rem" },
             }}
           >
             To combat our challenge of preparing an exhibit to announce and
@@ -94,7 +94,7 @@ const CaseStudy1 = () => {
             variant="p"
             sx={{
               color: "#454a46",
-              fontSize: "0.7rem",
+              fontSize: { xs: '0.9rem', md: "0.8rem" },
             }}
           >
             We created colourful standees that were informative and attractive.
@@ -105,7 +105,7 @@ const CaseStudy1 = () => {
             variant="p"
             sx={{
               color: "#454a46",
-              fontSize: "0.7rem",
+              fontSize: { xs: '0.9rem', md: "0.8rem" },
             }}
           >
             We planned and created an installation that showcased all the cancer
@@ -128,7 +128,7 @@ const CaseStudy1 = () => {
             variant="p"
             sx={{
               color: "#454a46",
-              fontSize: "0.7rem",
+              fontSize: { xs: '0.9rem', md: "0.8rem" },
             }}
           >
             We thank the Government of Assam and Assam Cancer Care Foundation
@@ -142,7 +142,7 @@ const CaseStudy1 = () => {
             variant="p"
             sx={{
               color: "#454a46",
-              fontSize: "0.7rem",
+              fontSize: { xs: '0.9rem', md: "0.8rem" },
             }}
           >
             A huge congratulations to the ACCF team for coordinating and pulling
@@ -153,12 +153,22 @@ const CaseStudy1 = () => {
 
       <Box
         sx={{
-          p: { xs: "10px", sm: "20px 150px" },
+          p: { xs: "0px", sm: "20px 150px" },
           width: { xs: "100%", sm: "450px", md: "950px" },
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          marginTop: "50px",
         }}
       >
         <Grid container spacing={3}>
-          <Grid item xs={12} sm={12} md={6}>
+          <Grid
+            item
+            xs={12}
+            sm={12}
+            md={6}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
                 width: { xs: "350px", sm: "450px", md: "480px" },
@@ -167,7 +177,13 @@ const CaseStudy1 = () => {
               <img src={img1} alt="" width="100%" height="100%" />
             </Box>
           </Grid>
-          <Grid item xs={12} sm={12} md={6}>
+          <Grid
+            item
+            xs={12}
+            sm={12}
+            md={6}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
                 width: { xs: "350px", sm: "450px", md: "480px" },
@@ -176,7 +192,13 @@ const CaseStudy1 = () => {
               <img src={img2} alt="" width="100%" height="100%" />
             </Box>
           </Grid>
-          <Grid item xs={12} sm={12} md={6}>
+          <Grid
+            item
+            xs={12}
+            sm={12}
+            md={6}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
                 width: { xs: "350px", sm: "450px", md: "480px" },
@@ -185,7 +207,13 @@ const CaseStudy1 = () => {
               <img src={img3} alt="" width="100%" height="100%" />
             </Box>
           </Grid>
-          <Grid item xs={12} sm={12} md={6}>
+          <Grid
+            item
+            xs={12}
+            sm={12}
+            md={6}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
                 width: { xs: "350px", sm: "450px", md: "480px" },

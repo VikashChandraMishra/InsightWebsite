@@ -65,7 +65,7 @@ const CaseStudy = ({ title, content, logo, link, logoH, logoW }) => {
                   variant="p"
                   sx={{
                     fontWeight: "bold",
-                    fontSize: "0.8rem",
+                    fontSize: { xs: '1rem', md: "0.8rem" },
                   }}
                 >
                   {title}
@@ -76,7 +76,7 @@ const CaseStudy = ({ title, content, logo, link, logoH, logoW }) => {
                 <Typography
                   variant="p"
                   sx={{
-                    fontSize: "0.75rem",
+                    fontSize: { xs: '0.9rem', md: "0.75rem" },
                   }}
                 >
                   {/* {limitedContent} */}

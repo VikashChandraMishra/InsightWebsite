@@ -32,6 +32,7 @@ import CareerApplication from "./pages/Forms/CareerApplication";
 
 import Awards from "./pages/Awards";
 import ClientsSpeak from "./pages/ClientsSpeak";
+import WhatWeDoDesc from "./pages/WhatWeDoDesc";
 
 const theme = createTheme({
   typography: {
@@ -51,6 +52,17 @@ function App() {
           <Route path="/" element={<Home1 />} />
 
           <Route path="/what-we-do" element={<WhatWeDo1 />} />
+          <Route path="/what-we-do-desc/1" element={<WhatWeDoDesc serviceNo={1} />} />
+          <Route path="/what-we-do-desc/2" element={<WhatWeDoDesc serviceNo={2} />} />
+          <Route path="/what-we-do-desc/3" element={<WhatWeDoDesc serviceNo={3} />} />
+          <Route path="/what-we-do-desc/4" element={<WhatWeDoDesc serviceNo={4} />} />
+          <Route path="/what-we-do-desc/5" element={<WhatWeDoDesc serviceNo={5} />} />
+          <Route path="/what-we-do-desc/6" element={<WhatWeDoDesc serviceNo={6} />} />
+          <Route path="/what-we-do-desc/7" element={<WhatWeDoDesc serviceNo={7} />} />
+          <Route path="/what-we-do-desc/8" element={<WhatWeDoDesc serviceNo={8} />} />
+          <Route path="/what-we-do-desc/9" element={<WhatWeDoDesc serviceNo={9} />} />
+          <Route path="/what-we-do-desc/10" element={<WhatWeDoDesc serviceNo={10} />} />
+
           <Route path="/who-we-are" element={<WhoWeAre1 />} />
 
           <Route path="/our-work" element={<OurWork />} />

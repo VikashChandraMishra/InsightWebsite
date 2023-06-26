@@ -38,7 +38,7 @@ const TheTeam = () => {
 
       <Box
         sx={{
-          paddingLeft: { xs: "7vw", md: "10vw" },
+          p: { xs: "10vh 10vw", md: "10vh 12vw" },
           marginTop: "120px",
         }}
       >
@@ -59,11 +59,11 @@ const TheTeam = () => {
 
           <Box display="flex" flexDirection="column">
 
-            <Typography variant="p" sx={{ color: "#363435", width: { xs: '90%', md: '50%' }, marginBottom: "20px", fontSize: '0.8rem' }}>
+            <Typography variant="p" sx={{ color: "#363435", width: { xs: '90%', md: '50%' }, marginBottom: "20px", fontSize: { xs: '1rem', md: '0.8rem' } }}>
               We are a dynamic and talented group of individuals dedicated to creating innovative and impactful advertising campaigns that drive results for our clients. With a diverse range of expertise and a passion for creativity, our team is here to help you elevate your brand and reach new heights. Our team of experts are the visionary creative directors, skilled copy writers, talented graphic designers ,dedicated account managers, Social & Digital Marketers and impeccable videographers and editors.
             </Typography>
 
-            <Typography variant="p" sx={{ color: "#363435", width: { xs: '90%', md: '50%' }, marginBottom: "20px", fontSize: '0.8rem' }}>
+            <Typography variant="p" sx={{ color: "#363435", width: { xs: '90%', md: '50%' }, marginBottom: "20px", fontSize: { xs: '1rem', md: '0.8rem' } }}>
               We have branched out to 7 cities in India, New Delhi, Kolkata, Jaipur, Bhubaneswar, Bhopal and Shillong.
               Collaboratively, our team strives to understand your unique brand identity, goals, and challenges to develop tailored advertising solutions that resonate with your audience. We are passionate about delivering exceptional results and are committed to exceeding your expectations.
             </Typography>
@@ -87,7 +87,7 @@ const TheTeam = () => {
         <Grid
           container
           spacing={3}
-          sx={{ marginTop: "20px", width: { xs: "100%", md: "62%" } }}
+          sx={{ marginTop: "20px", width: { xs: "100%", md: "62%" }}}
         >
 
           {data.map((item) => {
@@ -98,7 +98,7 @@ const TheTeam = () => {
 
                   <Box
                     sx={{
-                      width: { xs: "150px", sm: "180px", md: "230px" },
+                      width: { xs: "130px", sm: "150px", md: "180px" },
                       height: { xs: "200px", sm: "200px", md: "250px" },
                       margin: "auto",
                     }}
@@ -118,7 +118,7 @@ const TheTeam = () => {
                   <Box display="flex" flexDirection="column">
 
                     <Typography
-                      variant="h6"
+                      variant="p"
                       sx={{ fontWeight: "bold", textAlign: "center" }}
                     >
                       {item.name}

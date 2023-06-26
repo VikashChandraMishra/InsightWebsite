@@ -8,8 +8,9 @@ const CaseStudy6 = () => {
     <div>
       <Box
         sx={{
-          width: { xs: "100%", sm: "60%" },
-          p: { xs: "10px", sm: "20px 150px" },
+          width: { xs: "80vw", sm: "80vw" },
+          paddingLeft: { xs: "10vw", sm: "10vw", md: "12vw" },
+          paddingTop: { md: "3vh" },
           marginTop: "100px",
         }}
       >
@@ -57,7 +58,7 @@ const CaseStudy6 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem",
+              fontSize: { xs: "0.9rem", md: "0.8rem" },
             }}
           >
             Major challenge was in form of knowing which and how to monitor
@@ -79,7 +80,7 @@ const CaseStudy6 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem",
+              fontSize: { xs: "0.9rem", md: "0.8rem" },
             }}
           >
             Depending upon the North-eastern States, a set of Online Media
@@ -104,7 +105,7 @@ const CaseStudy6 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem",
+              fontSize: { xs: "0.9rem", md: "0.8rem" },
             }}
           >
             UNICEF leveraged Media Monitoring to strategically plan their
@@ -122,12 +123,22 @@ const CaseStudy6 = () => {
       </Box>
       <Box
         sx={{
-          p: { xs: "10px", sm: "20px 150px" },
+          p: { xs: "0px", sm: "20px 150px" },
           width: { xs: "100%", sm: "450px", md: "950px" },
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          marginTop: "50px",
         }}
       >
         <Grid container spacing={3}>
-          <Grid item xs={12} sm={12} md={6}>
+          <Grid
+            item
+            xs={12}
+            sm={12}
+            md={6}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
                 width: { xs: "350px", sm: "450px", md: "480px" },

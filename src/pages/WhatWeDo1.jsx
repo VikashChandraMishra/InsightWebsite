@@ -10,7 +10,7 @@ import icon7 from "../assets/icon7.png";
 import icon8 from "../assets/icon8.png";
 import icon9 from "../assets/icon9.png";
 import icon10 from "../assets/icon10.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Backdrop from "@mui/material/Backdrop";
 import Modal from "@mui/material/Modal";
 import Fade from "@mui/material/Fade";
@@ -68,15 +68,17 @@ const WhatWeDo = () => {
   const handleOpen9 = () => setOpen9(true);
   const handleClose9 = () => setOpen9(false);
 
+  const navigate = useNavigate(null);
+
   return (
     <>
       <Box
         display="flex"
         sx={{
-          p: { xs: 2, sm: "20px 150px" },
+          p: { xs: "0vh 12vw", sm: "0vh 12vw", md: "0vh 12vw" },
           display: "flex",
           flexDirection: { xs: "column", md: "row" },
-          marginTop: "100px",
+          marginTop: "20vh",
           alignItems: "center",
           gap: { xs: 5, sm: 10 },
         }}
@@ -88,7 +90,7 @@ const WhatWeDo = () => {
             fontFamily: "Switzer-Variable",
             color: "#363435",
             // color: "#454a46",
-            fontSize: { xs: "3rem", sm: "4rem", md: "7rem" },
+            fontSize: { xs: "3rem", sm: "4rem", md: "6.5rem" },
           }}
         >
           What We Do
@@ -97,7 +99,7 @@ const WhatWeDo = () => {
       <Grid
         container
         spacing={3}
-        sx={{ p: { xs: 2, sm: "20px 150px" }, width: { md: "70%" } }}
+        sx={{ p: { xs: 2, md: "5vh 12vw" }, width: { md: "70%" } }}
       >
         <Grid item md={2.4} sm={3} xs={4}>
           <Box
@@ -106,6 +108,12 @@ const WhatWeDo = () => {
             alignItems="center"
             flexDirection="column"
             gap={1}
+            sx={{
+              cursor: 'pointer'
+            }}
+            onClick={
+              () => navigate('/what-we-do-desc/1')
+            }
           >
             <Box
               sx={{
@@ -117,7 +125,7 @@ const WhatWeDo = () => {
                 justifyContent: "center",
                 alignItems: "center",
               }}
-              onClick={handleOpen}
+            // onClick={handleOpen}
             >
               <Box sx={{ height: { md: "40px" }, width: { md: "40px" } }}>
                 <img src={icon1} alt="" width="100%" height="100%" />
@@ -144,6 +152,12 @@ const WhatWeDo = () => {
             alignItems="center"
             flexDirection="column"
             gap={1}
+            sx={{
+              cursor: 'pointer'
+            }}
+            onClick={
+              () => navigate('/what-we-do-desc/2')
+            }
           >
             <Box
               sx={{
@@ -155,7 +169,7 @@ const WhatWeDo = () => {
                 justifyContent: "center",
                 alignItems: "center",
               }}
-              onClick={handleOpen1}
+            // onClick={handleOpen1}
             >
               <Box sx={{ height: { md: "40px" }, width: { md: "30px" } }}>
                 <img src={icon2} alt="" width="100%" height="100%" />
@@ -182,6 +196,12 @@ const WhatWeDo = () => {
             alignItems="center"
             flexDirection="column"
             gap={1}
+            sx={{
+              cursor: 'pointer'
+            }}
+            onClick={
+              () => navigate('/what-we-do-desc/3')
+            }
           >
             <Box
               sx={{
@@ -193,7 +213,7 @@ const WhatWeDo = () => {
                 justifyContent: "center",
                 alignItems: "center",
               }}
-              onClick={handleOpen2}
+            // onClick={handleOpen2}
             >
               <Box sx={{ height: { md: "50px" }, width: { md: "35px" } }}>
                 <img src={icon3} alt="" width="100%" height="100%" />
@@ -220,6 +240,12 @@ const WhatWeDo = () => {
             alignItems="center"
             flexDirection="column"
             gap={1}
+            sx={{
+              cursor: 'pointer'
+            }}
+            onClick={
+              () => navigate('/what-we-do-desc/4')
+            }
           >
             <Box
               sx={{
@@ -231,7 +257,7 @@ const WhatWeDo = () => {
                 justifyContent: "center",
                 alignItems: "center",
               }}
-              onClick={handleOpen3}
+            // onClick={handleOpen3}
             >
               <Box sx={{ height: { md: "25px" }, width: { md: "50px" } }}>
                 <img src={icon4} alt="" width="100%" height="100%" />
@@ -258,6 +284,12 @@ const WhatWeDo = () => {
             alignItems="center"
             flexDirection="column"
             gap={1}
+            sx={{
+              cursor: 'pointer'
+            }}
+            onClick={
+              () => navigate('/what-we-do-desc/5')
+            }
           >
             <Box
               sx={{
@@ -269,7 +301,7 @@ const WhatWeDo = () => {
                 justifyContent: "center",
                 alignItems: "center",
               }}
-              onClick={handleOpen4}
+            // onClick={handleOpen4}
             >
               <img src={icon5} alt="" width="40%" height="40%" />
             </Box>
@@ -294,6 +326,12 @@ const WhatWeDo = () => {
             alignItems="center"
             flexDirection="column"
             gap={1}
+            sx={{
+              cursor: 'pointer'
+            }}
+            onClick={
+              () => navigate('/what-we-do-desc/6')
+            }
           >
             <Box
               sx={{
@@ -305,7 +343,7 @@ const WhatWeDo = () => {
                 justifyContent: "center",
                 alignItems: "center",
               }}
-              onClick={handleOpen5}
+            // onClick={handleOpen5}
             >
               <Box sx={{ height: { md: "40px" }, width: { md: "30px" } }}>
                 <img src={icon6} alt="" width="100%" height="100%" />
@@ -332,6 +370,12 @@ const WhatWeDo = () => {
             alignItems="center"
             flexDirection="column"
             gap={1}
+            sx={{
+              cursor: 'pointer'
+            }}
+            onClick={
+              () => navigate('/what-we-do-desc/7')
+            }
           >
             <Box
               sx={{
@@ -343,7 +387,7 @@ const WhatWeDo = () => {
                 justifyContent: "center",
                 alignItems: "center",
               }}
-              onClick={handleOpen6}
+            // onClick={handleOpen6}
             >
               <img src={icon7} alt="" width="40%" height="40%" />
             </Box>
@@ -368,6 +412,12 @@ const WhatWeDo = () => {
             alignItems="center"
             flexDirection="column"
             gap={1}
+            sx={{
+              cursor: 'pointer'
+            }}
+            onClick={
+              () => navigate('/what-we-do-desc/8')
+            }
           >
             <Box
               sx={{
@@ -379,7 +429,7 @@ const WhatWeDo = () => {
                 justifyContent: "center",
                 alignItems: "center",
               }}
-              onClick={handleOpen7}
+            // onClick={handleOpen7}
             >
               <img src={icon8} alt="" width="40%" height="40%" />
             </Box>
@@ -404,6 +454,12 @@ const WhatWeDo = () => {
             alignItems="center"
             flexDirection="column"
             gap={1}
+            sx={{
+              cursor: 'pointer'
+            }}
+            onClick={
+              () => navigate('/what-we-do-desc/9')
+            }
           >
             <Box
               sx={{
@@ -415,7 +471,7 @@ const WhatWeDo = () => {
                 justifyContent: "center",
                 alignItems: "center",
               }}
-              onClick={handleOpen8}
+            // onClick={handleOpen8}
             >
               <img src={icon9} alt="" width="40%" height="40%" />
             </Box>
@@ -428,6 +484,7 @@ const WhatWeDo = () => {
             </Typography>
           </Box>
         </Grid>
+
         <Grid item md={2.4} sm={3} xs={4}>
           <Box
             display="flex"
@@ -435,6 +492,12 @@ const WhatWeDo = () => {
             alignItems="center"
             flexDirection="column"
             gap={1}
+            sx={{
+              cursor: 'pointer'
+            }}
+            onClick={
+              () => navigate('/what-we-do-desc/10')
+            }
           >
             <Box
               sx={{
@@ -446,7 +509,7 @@ const WhatWeDo = () => {
                 justifyContent: "center",
                 alignItems: "center",
               }}
-              onClick={handleOpen9}
+            // onClick={handleOpen9}
             >
               <img src={icon10} alt="" width="60%" height="60%" />
             </Box>
@@ -464,6 +527,7 @@ const WhatWeDo = () => {
           </Box>
         </Grid>
       </Grid>
+
       <Link to="/contact" style={{ textDecoration: "none" }}>
         <Box
           sx={{

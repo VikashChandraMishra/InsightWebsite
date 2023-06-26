@@ -1,4 +1,5 @@
 import { Box, Grid, Typography } from "@mui/material";
+import "../styles/css/contact.css";
 
 const Contact = () => {
   return (
@@ -46,16 +47,17 @@ const Contact = () => {
             </Typography>
 
             <Box
+              id="contact-details-container"
               display="flex"
               gap={9}
-              sx={{ flexDirection: { xs: "column", sm: "row", md: "row" } }}
+              sx={{ flexDirection: { xs: "column", sm: "column", md: "row" } }}
             >
               <Box display="flex" flexDirection="column" gap={1}>
                 <Typography
                   variant="p"
                   sx={{
                     color: "#363435",
-                    fontSize: "0.9rem",
+                    fontSize: "1rem",
                   }}
                 >
                   Email us at
@@ -73,7 +75,7 @@ const Contact = () => {
                     variant="p"
                     sx={{
                       color: "white",
-                      fontSize: "0.8rem",
+                      fontSize: "1rem",
                     }}
                   >
                     info@insightbrandcom.com
@@ -86,7 +88,7 @@ const Contact = () => {
                   variant="p"
                   sx={{
                     color: "#363435",
-                    fontSize: "0.9rem",
+                    fontSize: "1rem",
                   }}
                 >
                   Call us at
@@ -104,7 +106,7 @@ const Contact = () => {
                     variant="p"
                     sx={{
                       color: "white",
-                      fontSize: "0.8rem",
+                      fontSize: "1rem",
                     }}
                   >
                     +91 361 2522 444
@@ -117,7 +119,7 @@ const Contact = () => {
                   variant="p"
                   sx={{
                     color: "#363435",
-                    fontSize: "0.9rem",
+                    fontSize: "1rem",
                   }}
                 >
                   Or, call us at
@@ -135,7 +137,7 @@ const Contact = () => {
                     variant="p"
                     sx={{
                       color: "white",
-                      fontSize: "0.8rem",
+                      fontSize: "1rem",
                     }}
                   >
                     +91 9706089025
@@ -159,7 +161,7 @@ const Contact = () => {
                 sx={{
                   display: "flex",
                   justifyContent: "center",
-                  alignItems: "center",
+                  // alignItems: "center",
                   flexDirection: "column",
                 }}
               >
@@ -167,20 +169,21 @@ const Contact = () => {
                   variant="p"
                   sx={{
                     fontWeight: "bold",
-                    textAlign: "center",
-                    margin: "auto",
-                    fontSize: "0.8rem",
+                    // textAlign: "center",
+                    // margin: "auto",
+                    fontSize: "1rem",
                   }}
                 >
-                  Headquaters
+                  Headquarters
                 </Typography>
                 <Typography
                   variant="p"
                   sx={{
                     fontWeight: "bold",
-                    textAlign: "center",
-                    margin: "auto",
-                    fontSize: "0.8rem",
+                    // textAlign: "center",
+                    // margin: "auto",
+                    marginTop: "20px",
+                    fontSize: "1rem",
                   }}
                 >
                   Insight Brandcom Private Limited
@@ -188,9 +191,9 @@ const Contact = () => {
                 <Typography
                   variant="p"
                   sx={{
-                    textAlign: "center",
-                    margin: "auto",
-                    fontSize: "0.8rem",
+                    // textAlign: "center",
+                    // margin: "auto",
+                    fontSize: "1rem",
                   }}
                 >
                   4A, Royale Arcade, B.Baruah Road,
@@ -201,9 +204,9 @@ const Contact = () => {
                   variant="p"
                   sx={{
                     fontWeight: "bold",
-                    textAlign: "center",
+                    // textAlign: "center",
                     marginTop: "20px",
-                    fontSize: "0.8rem",
+                    fontSize: "1rem",
                   }}
                 >
                   Branch Locations
@@ -229,7 +232,7 @@ const Contact = () => {
                   variant="p"
                   sx={{
                     fontWeight: "bold",
-                    fontSize: "0.8rem",
+                    fontSize: "1rem",
                     color: "#363435",
                   }}
                 >
@@ -239,7 +242,7 @@ const Contact = () => {
                 <Typography
                   variant="p"
                   sx={{
-                    fontSize: "0.8rem",
+                    fontSize: "1rem",
                     color: "#363435",
                   }}
                 >
@@ -257,7 +260,7 @@ const Contact = () => {
                   variant="p"
                   sx={{
                     fontWeight: "bold",
-                    fontSize: "0.8rem",
+                    fontSize: "1rem",
                     color: "#363435",
                   }}
                 >
@@ -267,7 +270,7 @@ const Contact = () => {
                 <Typography
                   variant="p"
                   sx={{
-                    fontSize: "0.8rem",
+                    fontSize: "1rem",
                     color: "#363435",
                   }}
                 >
@@ -282,6 +285,7 @@ const Contact = () => {
                 flexDirection: { xs: "column", sm: "row", md: "row" },
                 gap: { xs: 2, sm: 5 },
                 height: { xs: "20vh", md: "10vh" },
+                marginTop: { xs: "0vh", sm: "5vh" }
               }}
             >
               <Box
@@ -294,7 +298,7 @@ const Contact = () => {
                   variant="p"
                   sx={{
                     fontWeight: "bold",
-                    fontSize: "0.8rem",
+                    fontSize: "1rem",
                     color: "#363435",
                   }}
                 >
@@ -304,7 +308,7 @@ const Contact = () => {
                 <Typography
                   variant="p"
                   sx={{
-                    fontSize: "0.8rem",
+                    fontSize: "1rem",
                     color: "#363435",
                   }}
                 >
@@ -322,7 +326,7 @@ const Contact = () => {
                   variant="p"
                   sx={{
                     fontWeight: "bold",
-                    fontSize: "0.8rem",
+                    fontSize: "1rem",
                     color: "#363435",
                   }}
                 >
@@ -332,7 +336,7 @@ const Contact = () => {
                 <Typography
                   variant="p"
                   sx={{
-                    fontSize: "0.8rem",
+                    fontSize: "1rem",
                     color: "#363435",
                   }}
                 >
@@ -347,6 +351,7 @@ const Contact = () => {
                 flexDirection: { xs: "column", sm: "row", md: "row" },
                 gap: { xs: 2, sm: 5 },
                 height: { xs: "20vh", md: "10vh" },
+                marginTop: { xs: "0vh", sm: "5vh" }
               }}
             >
               <Box
@@ -359,7 +364,7 @@ const Contact = () => {
                   variant="p"
                   sx={{
                     fontWeight: "bold",
-                    fontSize: "0.8rem",
+                    fontSize: "1rem",
                     color: "#363435",
                   }}
                 >
@@ -369,7 +374,7 @@ const Contact = () => {
                 <Typography
                   variant="p"
                   sx={{
-                    fontSize: "0.8rem",
+                    fontSize: "1rem",
                     color: "#363435",
                   }}
                 >
@@ -388,7 +393,7 @@ const Contact = () => {
                   variant="p"
                   sx={{
                     fontWeight: "bold",
-                    fontSize: "0.8rem",
+                    fontSize: "1rem",
                     color: "#363435",
                   }}
                 >
@@ -398,7 +403,7 @@ const Contact = () => {
                 <Typography
                   variant="p"
                   sx={{
-                    fontSize: "0.8rem",
+                    fontSize: "1rem",
                     color: "#363435",
                   }}
                 >

@@ -17,8 +17,9 @@ const Home = () => {
       <Box
         sx={{
           marginTop: "15vh",
-          marginLeft: "15vw",
-          marginRight: "15vw",
+          // marginLeft: "15vw",
+          // marginRight: "15vw",
+          p: { xs: "0vh 12vw", sm: "0vh 12vw", md: "0vh 12vw" },
           display: "flex",
           flexDirection: { xs: "column", md: "row" },
           alignItems: "center",
@@ -68,7 +69,7 @@ const Home = () => {
             sx={{
               // color: "#454a46",
               color: "#363435",
-              fontSize: "0.7rem",
+              fontSize: { xs: '0.9rem', md: "0.8rem" },
             }}
           >
             Connecting the dots is crucial in today's complex and rapidly
@@ -84,7 +85,7 @@ const Home = () => {
             sx={{
               // color: "#454a46",
               color: "#363435",
-              fontSize: "0.7rem",
+              fontSize: { xs: '0.9rem', md: "0.8rem" },
             }}
           >
             At Insight Brandcom, that's our philosophy. We work with brands on
@@ -127,7 +128,7 @@ const Home = () => {
           </Box>
         </Box>
       </Box>
-      <Box
+      {/* <Box
         display="flex"
         justifyContent="center"
         alignItems="center"
@@ -155,7 +156,7 @@ const Home = () => {
             style={{ borderRadius: "50px" }}
           />
         </Box>
-      </Box>
+      </Box> */}
     </div>
   );
 };

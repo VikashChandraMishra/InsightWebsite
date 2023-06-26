@@ -13,8 +13,9 @@ const CaseStudy3 = () => {
     <div>
       <Box
         sx={{
-          width: { xs: "100%", sm: "60%" },
-          p: { xs: "10px", sm: "20px 150px" },
+          width: { xs: "80vw", sm: "80vw" },
+          paddingLeft: { xs: "10vw", sm: "10vw", md: "12vw" },
+          paddingTop: { md: "3vh" },
           marginTop: "100px",
         }}
       >
@@ -52,7 +53,7 @@ const CaseStudy3 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem",
+              fontSize: { xs: "0.9rem", md: "0.8rem" },
             }}
           >
             In today's competitive market, it is crucial to maximize return on
@@ -80,7 +81,7 @@ const CaseStudy3 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem",
+              fontSize: { xs: "0.9rem", md: "0.8rem" },
             }}
           >
             To effectively market their latest vehicles and offers, a company
@@ -109,7 +110,7 @@ const CaseStudy3 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem",
+              fontSize: { xs: "0.9rem", md: "0.8rem" },
             }}
           >
             Over the course of a 15+ month campaign, a company was able to
@@ -125,12 +126,22 @@ const CaseStudy3 = () => {
       </Box>
       <Box
         sx={{
-          p: { xs: "10px", sm: "20px 150px" },
+          p: { xs: "0px", sm: "20px 150px" },
           width: { xs: "100%", sm: "450px", md: "950px" },
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          marginTop: "50px",
         }}
       >
         <Grid container spacing={3}>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
                 width: { xs: "200px", sm: "200px", md: "300px" },
@@ -139,7 +150,13 @@ const CaseStudy3 = () => {
               <img src={img1} alt="" width="100%" height="100%" />
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
                 width: { xs: "200px", sm: "200px", md: "300px" },
@@ -148,7 +165,13 @@ const CaseStudy3 = () => {
               <img src={img2} alt="" width="100%" height="100%" />
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
                 width: { xs: "200px", sm: "200px", md: "300px" },
@@ -157,7 +180,13 @@ const CaseStudy3 = () => {
               <img src={img3} alt="" width="100%" height="100%" />
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
                 width: { xs: "200px", sm: "200px", md: "300px" },
@@ -166,7 +195,13 @@ const CaseStudy3 = () => {
               <img src={img4} alt="" width="100%" height="100%" />
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
                 width: { xs: "200px", sm: "200px", md: "300px" },
@@ -175,7 +210,13 @@ const CaseStudy3 = () => {
               <img src={img5} alt="" width="100%" height="100%" />
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
                 width: { xs: "200px", sm: "200px", md: "300px" },

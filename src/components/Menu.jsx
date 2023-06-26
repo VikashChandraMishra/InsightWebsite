@@ -282,7 +282,7 @@ const Menu = ({ onClose }) => {
                 }}
                 onClick={onClose}
               >
-                CLIENTS SPEAK
+                OUR KEY CLIENTS
               </Typography>
             </RouterLink>
           </motion.div>

@@ -51,18 +51,19 @@ const OurWork = () => {
     <>
       <Box
         sx={{
-          padding: { xs: "20px", md: "20px 150px" },
-          marginTop: "100px",
+          padding: { xs: "5vh 8vw", md: "5vh 12vw" },
+          marginTop: "15vh",
         }}
       >
         <Typography
           variant="h1"
           sx={{
-            fontWeight: "bold",
+            fontWeight: 800,
             color: "#363435",
             // color: "#454a46",
-            fontSize: { xs: "3rem", sm: '4rem', md: "7rem" },
+            fontSize: { xs: "3rem", sm: '4rem', md: "6.75rem" },
             fontFamily: "Switzer-Variable",
+            marginBottom: "5vh"
           }}
         >
           Our Work{" "}
@@ -73,6 +74,8 @@ const OurWork = () => {
           sx={{
             fontSize: { xs: "1rem", sm: "1.2rem", md: "1.5rem" },
             color: "#363435",
+            fontFamily: "Switzer-Variable",
+            fontWeight: 300
             // color: "#454a46",
           }}
         >
@@ -85,10 +88,12 @@ const OurWork = () => {
               item
               md={3}
               sm={6}
-              xs={12}
+              xs={9}
               onClick={() => handleViewMore(item)}
               sx={{
-                cursor: "pointer"
+                cursor: "pointer",
+                // marginLeft: { xs: "10vw" }
+                margin: { xs: "auto", sm: 0 }
               }}
             >
               <Paper
@@ -114,12 +119,16 @@ const OurWork = () => {
                   alt={item.name}
                   width={item.logoW}
                   height={item.logoH}
+                  style={{
+                    marginBottom: item.mBtm,
+                    marginTop: item.mTop
+                  }}
                 />
 
                 <Typography
                   variant="p"
                   sx={{
-                    fontSize: "0.8rem",
+                    fontSize: { xs: '0.9rem', md: "0.8rem" },
                     // marginTop: `${item.labelMarginTop}`
                   }}
                 >

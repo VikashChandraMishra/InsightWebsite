@@ -10,7 +10,7 @@ const WhoWeAre = () => {
       <Box
         display="flex"
         sx={{
-          p: { xs: "30px 50px", md: "10vh 12vw" },
+          p: { xs: "10vh 12vw", sm: "10vh 12vw", md: "10vh 12vw" },
           display: "flex",
           flexDirection: { xs: "column", md: "row" },
           marginTop: "15vh",
@@ -27,7 +27,7 @@ const WhoWeAre = () => {
               fontWeight: "800",
               color: "#363435",
               // color: "#454a46",
-              fontSize: { xs: "2.5rem", sm: "3rem", md: "7rem" },
+              fontSize: { xs: "2.5rem", sm: "3rem", md: "5.75rem" },
               fontFamily: "Switzer-Variable"
             }}
           >
@@ -39,8 +39,10 @@ const WhoWeAre = () => {
             <Typography
               variant="p"
               sx={{
-                fontSize: { xs: '1.2rem', md:'1.5rem'},
+                fontSize: { xs: '1.2rem', md: '1.5rem' },
                 color: "#363435",
+                fontWeight: "Switzer-Variable",
+                fontWeight: 300
                 // color: "#454a46",
               }}
             >
@@ -51,7 +53,7 @@ const WhoWeAre = () => {
               variant="p"
               sx={{
                 width: { xs: "100%", sm: "100%", md: "50%" },
-                fontSize: '0.8rem',
+                fontSize: { xs: '0.9rem', md: '0.8rem' },
                 color: "#363435",
                 // color: "#454a46",
               }}
@@ -67,7 +69,7 @@ const WhoWeAre = () => {
               variant="p"
               sx={{
                 width: { xs: "100%", sm: "100%", md: "50%" },
-                fontSize: '0.8rem',
+                fontSize: { xs: '0.9rem', md: '0.8rem' },
                 // color: "#363435",
                 color: "#454a46",
 

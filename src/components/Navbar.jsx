@@ -45,7 +45,7 @@ const Navbar = () => {
         }}
       >
         <Box
-          sx={{ p: { xs: "20px 50px", md: "20px 150px" } }}
+          sx={{ p: { xs: "20px 50px", md: "5vh 12vw" } }}
           display="flex"
           justifyContent="space-between"
           alignItems="center"

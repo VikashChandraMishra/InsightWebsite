@@ -11,13 +11,14 @@ const Careers = () => {
   const handleOpen = () => {
     setOpen(!open);
   };
+
   return (
     <div>
       <Box
         sx={{
-          width: { xs: "90%", sm: "85%" },
-          // p: { xs: "10vw 15vw", sm: "3vw " },
-          marginLeft: { xs: "6vw", sm: "8vw", md: "12vw" },
+          // width: { xs: "90%", sm: "85%" },
+          p: { xs: "0vh 10vw", sm: "0vh 10vw", md: "0vw 12vw" },
+          // marginLeft: { xs: "6vw", sm: "8vw", md: "12vw" },
           marginTop: { xs: "20vh", md: "20vh" },
         }}
       >
@@ -54,7 +55,7 @@ const Careers = () => {
               // fontWeight: "600",
               // color: "#454a46",
               color: "#363435",
-              fontSize: "0.8rem",
+              fontSize: { xs: '0.9rem', md: "0.8rem" },
               width: { xs: "100%", md: "50%" },
             }}
           >
@@ -102,7 +103,7 @@ const Careers = () => {
           spacing={3}
           sx={{
             marginTop: "2px",
-            width: { xs: "95vw", sm: "87vw", md: "75vw" },
+            width: { xs: "85vw", sm: "85vw", md: "75vw" },
           }}
         >
           <Grid item xs={12} sm={12} md={12}>

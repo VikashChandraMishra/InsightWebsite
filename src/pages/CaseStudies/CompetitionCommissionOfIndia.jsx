@@ -13,8 +13,9 @@ const CaseStudy4 = () => {
     <div>
       <Box
         sx={{
-          width: { xs: "100%", sm: "60%" },
-          p: { xs: "10px", sm: "20px 150px" },
+          width: { xs: "80vw", sm: "80vw" },
+          paddingLeft: { xs: "10vw", sm: "10vw", md: "12vw" },
+          paddingTop: { md: "3vh" },
           marginTop: "100px",
         }}
       >
@@ -62,7 +63,7 @@ const CaseStudy4 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem",
+              fontSize: { xs: "0.9rem", md: "0.8rem" },
             }}
           >
             The social media presence of the entity was found to be lacking,
@@ -89,7 +90,7 @@ const CaseStudy4 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem",
+              fontSize: { xs: "0.9rem", md: "0.8rem" },
             }}
           >
             The responsibilities included the creation and maintenance of
@@ -117,7 +118,7 @@ const CaseStudy4 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem",
+              fontSize: { xs: "0.9rem", md: "0.8rem" },
             }}
           >
             Within a span of four months, we managed to achieve a reach of over
@@ -134,66 +135,100 @@ const CaseStudy4 = () => {
       </Box>
       <Box
         sx={{
-          p: { xs: "10px", sm: "20px 150px" },
+          p: { xs: "0px", sm: "20px 150px" },
           width: { xs: "100%", sm: "450px", md: "950px" },
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          marginTop: "50px",
         }}
       >
         <Grid container spacing={3}>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
-                width: { xs: "250px", sm: "300px", md: "300px" },
-                height: "500px",
+                width: { xs: "200px", sm: "200px", md: "300px" },
               }}
             >
               <img src={img1} alt="" width="100%" height="100%" />
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
-                width: { xs: "250px", sm: "300px", md: "300px" },
-                height: "500px",
+                width: { xs: "200px", sm: "200px", md: "300px" },
               }}
             >
               <img src={img2} alt="" width="100%" height="100%" />
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
-                width: { xs: "250px", sm: "300px", md: "320px" },
-                height: "500px",
+                width: { xs: "200px", sm: "200px", md: "300px" },
               }}
             >
               <img src={img3} alt="" width="100%" height="100%" />
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
-                width: { xs: "250px", sm: "300px", md: "300px" },
-                height: "500px",
+                width: { xs: "200px", sm: "200px", md: "300px" },
               }}
             >
               <img src={img4} alt="" width="100%" height="100%" />
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
-                width: { xs: "250px", sm: "300px", md: "300px" },
-                height: "500px",
+                width: { xs: "200px", sm: "200px", md: "300px" },
               }}
             >
               <img src={img5} alt="" width="100%" height="100%" />
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
-                width: { xs: "250px", sm: "300px", md: "300px" },
-                height: "500px",
+                width: { xs: "200px", sm: "200px", md: "300px" },
               }}
             >
               <img src={img6} alt="" width="100%" height="100%" />

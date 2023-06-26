@@ -12,8 +12,9 @@ const CaseStudy9 = () => {
     <div>
       <Box
         sx={{
-          width: { xs: "100%", sm: "60%" },
-          p: { xs: "10px", sm: "20px 150px" },
+          width: { xs: "80vw", sm: "80vw" },
+          paddingLeft: { xs: "10vw", sm: "10vw", md: "12vw" },
+          paddingTop: { md: "3vh" },
           marginTop: "100px",
         }}
       >
@@ -62,7 +63,7 @@ const CaseStudy9 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem",
+              fontSize: { xs: "0.9rem", md: "0.8rem" },
             }}
           >
             Our responsibilities involved promoting and selling the latest
@@ -91,7 +92,7 @@ const CaseStudy9 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem",
+              fontSize: { xs: "0.9rem", md: "0.8rem" },
             }}
           >
             We executed a weeklong Instagram-led campaign in collaboration with
@@ -124,7 +125,7 @@ const CaseStudy9 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem",
+              fontSize: { xs: "0.9rem", md: "0.8rem" },
             }}
           >
             We successfully reached out to over 40,00,000 new audience members,
@@ -173,7 +174,7 @@ const CaseStudy9 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem",
+              fontSize: { xs: "0.9rem", md: "0.8rem" },
             }}
           >
             We aimed to drive sales and promote the integration of the latest
@@ -202,7 +203,7 @@ const CaseStudy9 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem",
+              fontSize: { xs: "0.9rem", md: "0.8rem" },
             }}
           >
             Our marketing strategy involved a range of different tactics,
@@ -234,7 +235,7 @@ const CaseStudy9 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem",
+              fontSize: { xs: "0.9rem", md: "0.8rem" },
             }}
           >
             The influencer campaign successfully reached over 20,00,000 people,
@@ -251,12 +252,22 @@ const CaseStudy9 = () => {
       </Box>
       <Box
         sx={{
-          p: { xs: "10px", sm: "20px 150px" },
+          p: { xs: "0px", sm: "20px 150px" },
           width: { xs: "100%", sm: "450px", md: "950px" },
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          marginTop: "50px",
         }}
       >
         <Grid container spacing={3}>
-          <Grid item xs={12} sm={12} md={6}>
+          <Grid
+            item
+            xs={12}
+            sm={12}
+            md={6}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
                 width: { xs: "350px", sm: "450px", md: "480px" },
@@ -265,7 +276,13 @@ const CaseStudy9 = () => {
               <img src={img1} alt="" width="100%" height="100%" />
             </Box>
           </Grid>
-          <Grid item xs={12} sm={12} md={6}>
+          <Grid
+            item
+            xs={12}
+            sm={12}
+            md={6}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
                 width: { xs: "350px", sm: "450px", md: "480px" },
@@ -274,7 +291,13 @@ const CaseStudy9 = () => {
               <img src={img2} alt="" width="100%" height="100%" />
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
                 width: { xs: "200px", sm: "200px", md: "300px" },
@@ -283,7 +306,13 @@ const CaseStudy9 = () => {
               <img src={img3} alt="" width="100%" height="100%" />
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
                 width: { xs: "200px", sm: "200px", md: "300px" },
@@ -292,7 +321,13 @@ const CaseStudy9 = () => {
               <img src={img3} alt="" width="100%" height="100%" />
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
                 width: { xs: "200px", sm: "200px", md: "300px" },

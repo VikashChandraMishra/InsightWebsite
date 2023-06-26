@@ -11,8 +11,9 @@ const CaseStudy7 = () => {
     <div>
       <Box
         sx={{
-          width: { xs: "100%", sm: "60%" },
-          p: { xs: "10px", sm: "20px 150px" },
+          width: { xs: "80vw", sm: "80vw" },
+          paddingLeft: { xs: "10vw", sm: "10vw", md: "12vw" },
+          paddingTop: { md: "3vh" },
           marginTop: "100px",
         }}
       >
@@ -51,7 +52,7 @@ const CaseStudy7 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem",
+              fontSize: { xs: "0.9rem", md: "0.8rem" },
             }}
           >
             To get citizens of Assam to take note of the day, especially
@@ -71,7 +72,7 @@ const CaseStudy7 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem",
+              fontSize: { xs: "0.9rem", md: "0.8rem" },
             }}
           >
             The campaign started 7 days before the yoga day that is 21st June
@@ -87,7 +88,7 @@ const CaseStudy7 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem",
+              fontSize: { xs: "0.9rem", md: "0.8rem" },
             }}
           >
             A full-page ad was released on International Day of Yoga, the 21st
@@ -109,7 +110,7 @@ const CaseStudy7 = () => {
             variant="p"
             sx={{
               color: "#363435",
-              fontSize: "0.7rem",
+              fontSize: { xs: "0.9rem", md: "0.8rem" },
             }}
           >
             The campaign effectively reached out to many citizens across the
@@ -123,12 +124,22 @@ const CaseStudy7 = () => {
 
       <Box
         sx={{
-          p: { xs: "10px", sm: "20px 150px" },
+          p: { xs: "0px", sm: "20px 150px" },
           width: { xs: "100%", sm: "450px", md: "950px" },
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          marginTop: "50px",
         }}
       >
         <Grid container spacing={3}>
-          <Grid item xs={12} sm={6} md={3}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={3}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
                 width: "100%",
@@ -137,7 +148,13 @@ const CaseStudy7 = () => {
               <img src={img1} alt="" width="100%" height="100%" />
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={3}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
                 width: "100%",
@@ -146,7 +163,13 @@ const CaseStudy7 = () => {
               <img src={img2} alt="" width="100%" height="100%" />
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={3}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
                 width: "100%",
@@ -155,7 +178,13 @@ const CaseStudy7 = () => {
               <img src={img3} alt="" width="100%" height="100%" />
             </Box>
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={3}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box
               sx={{
                 width: "100%",
